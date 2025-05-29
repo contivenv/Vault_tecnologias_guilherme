@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "106c807837c78aa5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bf64ba04e2a955b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a4549731e64cb43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curso gratuito Git e GitHub/2. Conceitos básicos do git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Conceitos básicos do git"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd0bf67eb2932576",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "528cd16aa33f4a69",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "f30c3d5d3d58ac5c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "111dea030e40ca93",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "ecf498deca35c891",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "right": {
+    "id": "31d7ab192889c215",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "005e53b4d2112114",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "fc0e17a4d618975d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "abed5bccde42ff72",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1a4549731e64cb43",
+  "lastOpenFiles": [
+    "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+    "Curso gratuito Git e GitHub/2. Conceitos básicos do git.md",
+    "Conceitos rede/Servidor VPN.md",
+    "Conceitos rede/Submáscara de rede.md",
+    "Equipamentos de redes/Access Point - ponto de acesso sem fio.md",
+    "Formulário - Roque.md",
+    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
+    "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
+    "TCC/Configuração para acesso externo de um firewall.md",
+    "Firewall/Suricata/Configurações do Suricata/Suricata - CONFIGURAÇÕES.md",
+    "Firewall/Suricata/Configurações do Suricata/Suricata - AUTOMATIZAÇÃO.md",
+    "Firewall/Suricata/Software de monitoramento de pacotes.md",
+    "Firewall/Suricata/Linux Mint com Suricata rodando.md",
+    "Firewall/Suricata/Configurações do Suricata",
+    "Firewall/Responsabilidades de um firewall.md",
+    "Firewall/Wizerd inicial para o Pfsense.md",
+    "Firewall/Pré-requisitos para instalar o firewall Pfsense em um hardware.md",
+    "Firewall/Referências bibliográficas do meu TCC.md",
+    "Firewall/Pontos positivos e negativos do firewall PfSense.md",
+    "Firewall/Medidas de proteção contra intrusão.md",
+    "Firewall/História do PfSense.md",
+    "Firewall/Livro sobre redes de computadores - capítulo 8 de segurança (firewall).md",
+    "Firewall/Funcionalidades firewall PfSense.md",
+    "Firewall/Firewalls e conceitos relacionados a ele.md",
+    "Firewall/Firewall e WAF - Qual a diferença.md",
+    "Firewall/Firewall.md",
+    "Firewall/Firewall e proxy.md",
+    "Firewall/Suricata",
+    "Firewall",
+    "Anexos/PNG e JPG/Pasted image 20250123134047.png",
+    "Anexos/PNG e JPG/Pasted image 20250128132420 1.png",
+    "site.jpg",
+    "Sem título.canvas",
+    "Documentação para instalação e configuração do RustDesk no Ubuntu server.pdf",
+    "battery-report.html"
+  ]
+}

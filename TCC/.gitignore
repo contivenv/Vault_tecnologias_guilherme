@@ -1,0 +1,25 @@
+---
+tags:
+  - tcc
+  - firewall
+  - pfsense
+  - faculdade
+hora criação: 2025-01-27T11:20:00
+---
+##### Resumo da ópera até o momento
+No meu pré-tcc, eu disse que iria ter uma conversa com o proprietário da empresa ou com o gestor responsável pelo setor de TI para entender a necessidade dele de um firewall na empresa. Eu tinha planos de fazer isso na Roque, mas tudo mudou porque não vou conseguir colocar em um setor só ou na empresa inteira, preciso monitorar a rede durante uns 2 meses sem firewall e fazer isso aqui na Roque que é uma empresa grande/já sofreu um ataque, seria bem arriscado.
+
+Como alternativa, vou fazer esse processo que já estava em mente, só que na empresa do irmão do Murilo se tudo der certo. A ideia é conversar com ele de alguma maneira para entender o que:
+
+##### 1. O que acontece no TI dele (se ele tiver uma equipe)
+Aqui seria uma conversa com o gestor de TI para entender qual é o principal problema de desempenho que ocorre na rede deles: se existe lentidão entre os funcionários para acessos na internet; para acesso de arquivos em servidores na empresa. Realmente ter uma conversa.
+##### 2. Entender a infraestrutura de rede da empresa
+Preciso saber quantos terminais estão ativos na empresa; quantas pessoas trabalham no local; se existe alguém que fica remoto (já introduzimos o conceito de VPN se necessário); entender a infraestrutura de rede dele, exemplo: quantos servidores tem e se existe algum tipo de equipamento de rede ligados a eles (roteadores, APs, relógios ponto). Basicamente, mapear tudo o que a a empresa tem em domínio dela na rede.
+##### 3. Identificar se já tiveram algum ataque cibernético na rede
+ Ter uma conversa com o gestor da área de TI ou alguma pessoa responsável do TI deles para termos uma conclusão sobre.
+
+##### 4. Observações
+Eu **NÃO POSSO ESQUECER DE MANEIRA ALGUMA** de registrar isso. Preciso gravar toda a conversa que tiver com o irmão do Murilo sobre tudo que listei acima e incluindo os funcionários que vou falar também (de preferência os mais antigos que tem mais tempo de casa e sabem o que passa na rede de dificuldades lá dentro)
+
+
+Eu **NÃO POSSO ESQUECER DE MANEIRA ALGUMA** de registrar isso. Preciso gravar toda a conversa que tiver com o irmão do Murilo sobre tudo que listei acima e incluindo os funcionários que vou falar também (de preferência os mais antigos que tem mais tempo de casa e sabem o que passa na rede de dificuldades lá dentro)

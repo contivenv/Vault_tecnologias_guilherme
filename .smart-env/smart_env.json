@@ -1,0 +1,50 @@
+{
+  "is_obsidian_vault": true,
+  "smart_blocks": {
+    "embed_blocks": true
+  },
+  "smart_sources": {
+    "single_file_data_path": ".smart-env/smart_sources.json",
+    "embed_model": {
+      "adapter": "transformers",
+      "transformers": {
+        "legacy_transformers": false,
+        "model_key": "TaylorAI/bge-micro-v2"
+      },
+      "TaylorAI/bge-micro-v2": {}
+    }
+  },
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "smart-chats",
+  "smart_view_filter": {
+    "render_markdown": true,
+    "show_full_path": false
+  },
+  "smart_threads": {
+    "chat_model": {
+      "adapter": "openai",
+      "openai": {
+        "model_key": "",
+        "api_key": "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"
+      },
+      "groq": {
+        "model_key": "llama3-8b-8192"
+      },
+      "custom": {
+        "model_name": "llama-3.3-70b-versatile",
+        "protocol": "",
+        "hostname": "chat",
+        "path": "https://api.groq.com/openai/v1/chat/completions -s",
+        "max_input_tokens": 128,
+        "api_key": "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"
+      }
+    },
+    "embed_model": {
+      "model_key": "None"
+    },
+    "language": "pt-br",
+    "review_context": false,
+    "lookup_limit": 10,
+    "send_tool_output_in_user_message": false
+  }
+}

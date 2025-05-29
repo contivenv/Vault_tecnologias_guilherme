@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "f317740d54925df1",
+    "type": "split",
+    "children": [
+      {
+        "id": "deea10f510450766",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a301c1a3140efaef",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9dd2c431f18fedd",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b4d525ab26d4757",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "307090a09966e1f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "33a2ec6773c32fa1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "5b99a3e77b9dddc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1b6cb3981bfe54ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "f62a23613d7834d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32cada0b9a331eef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3-2-1-backup-rule.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 3-2-1-backup-rule"
+            }
+          },
+          {
+            "id": "520212d6aa56e25e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "932718c6079bfce3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1b6572b7135ecba4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "a301c1a3140efaef",
+  "lastOpenFiles": [
+    "Formulário - Roque.md",
+    "Anotações rápidas/Reunião de fim de mês - revisão de dados.md",
+    "Anotações rápidas/Formulário - Roque.md",
+    "Anotações rápidas",
+    "Sistemas operacionais/Linux/Samba/Configuração do Samba no Linux.md",
+    "TCC/Coleta de tráfego na rede e VPN.md",
+    "TCC/Configuração para acesso externo de um firewall.md",
+    "TCC/Conversa com irmão do Murilo sobre o firewall PfSense.md",
+    "TCC/Parâmetros para exportação de arquivos de log da rede com o Suricata.md",
+    "Sem título.canvas",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!/6. Modelo OSI.md",
+    "Protocolos de rede/MPLS (Multiprotocol Label Switching).md",
+    "Protocolos de rede/7. As camadas  do protocolo TCP-IP.md",
+    "Protocolos de rede/6. Modelo OSI.md",
+    "Protocolos de rede/5. Protocolo de rede e internet.md",
+    "Livro - Redes de Computadores 6ª Edição/5.1.2 Serviços oferecidos à camada de transporte.md",
+    "Infraestrutura de redes/Cabeamento estruturado.md",
+    "Infraestrutura de redes/Explicação da rede NAT no VirtualBox.md",
+    "Firewall/Wizerd inicial para o Pfsense.md",
+    "Firewall/Responsabilidades de um firewall.md",
+    "Firewall/Referências bibliográficas do meu TCC.md",
+    "Firewall/Pré-requisitos para instalar o firewall Pfsense em um hardware.md",
+    "Firewall/Pontos positivos e negativos do firewall PfSense.md",
+    "Firewall/Medidas de proteção contra intrusão.md",
+    "Firewall/Livro sobre redes de computadores - capítulo 8 de segurança (firewall).md",
+    "Firewall/História do PfSense.md",
+    "Firewall/Funcionalidades firewall PfSense.md",
+    "Firewall/Firewalls e conceitos relacionados a ele.md",
+    "CURSO - Arquitetura de Redes",
+    "Anexos/PDF_s/TCP-IP.pdf",
+    "Anexos/PNG e JPG/Pasted image 20250128151420.png",
+    "Anexos/PNG e JPG/Pasted image 20250128151420 1.png",
+    "Anexos/PNG e JPG/Screenshot_2.png",
+    "Anexos/PNG e JPG/Pasted image 20250128113837 1.png",
+    "Git",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!",
+    "Conceitos rede",
+    "Anexos/PNG e JPG/0.jpg",
+    "Anexos/PNG e JPG/Pasted image 20250321165434.png",
+    "Anexos/PNG e JPG/Pasted image 20250321165727.png",
+    "Anexos/PNG e JPG/Pasted image 20250321164549.png",
+    "Anexos/PNG e JPG/Pasted image 20250321164915.png",
+    "Anexos/PNG e JPG/Pasted image 20250321164857.png",
+    "Excalidraw",
+    "Meu TCC",
+    "Livro - Redes de Computadores 6ª Edição",
+    "CURSO - Ninja pfSense v2023",
+    "Sem título 1.canvas",
+    "Sem título 2.canvas"
+  ]
+}
