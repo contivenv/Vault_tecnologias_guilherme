@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+                "file": "CURSO - Ninja pfSense v2023/23. Administrando pelo console.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistema de arquivos Linux"
+              "title": "23. Administrando pelo console"
             }
           }
         ]
@@ -166,6 +166,13 @@
   },
   "active": "26988c8417f0fe79",
   "lastOpenFiles": [
+    "Firewall/Firewall e WAF - Qual a diferença.md",
+    "Firewall/Firewall e proxy.md",
+    "Firewall/Firewall.md",
+    "Firewall/Documentação firewall PfSense resumida.md",
+    "CURSO - Ninja pfSense v2023/Sem título.md",
+    "CURSO - Ninja pfSense v2023/23. Administrando pelo console.md",
+    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/Bash Shell.md",
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
     "TCC/Coleta de tráfego na rede e VPN.md",
@@ -191,19 +198,12 @@
     "Anexos/PNG e JPG/Pasted image 20250521162721.png",
     "Anexos/PNG e JPG/Pasted image 20250521164159.png",
     "Anexos/PNG e JPG/Pasted image 20250521164848.png",
-    "CURSO - Ninja pfSense v2023/23. Administrando pelo console.md",
     "Excalidraw/Drawing 2025-05-15 14.33.43.excalidraw.md",
     "Fundo-HelpDesk.jpg",
     "Excalidraw",
     "Curso gratuito Git e GitHub/8. Ignorando arquivos.md",
     "Anexos/PNG e JPG/Pasted image 20250515133731.png",
     "Anexos/PNG e JPG/Pasted image 20250513162805.png",
-    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
-    "Git/Guia de estudo Pro Git.md",
-    "Git/Git - da criação do repositório local.md",
-    "Git/Esquema repositórios compartilhados Git Roque.md",
-    "Git/Configuração e permissão repositório Git hefesto Roque.md",
-    "Git/Comandos Git.md",
     "Curso gratuito Git e GitHub",
     "Anotações rápidas",
     "Sem título.canvas",
