@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "f317740d54925df1",
+    "type": "split",
+    "children": [
+      {
+        "id": "deea10f510450766",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a301c1a3140efaef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. Desfazendo commit"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9dd2c431f18fedd",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b4d525ab26d4757",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "307090a09966e1f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "33a2ec6773c32fa1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "5b99a3e77b9dddc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "right": {
+    "id": "1b6cb3981bfe54ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "f62a23613d7834d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32cada0b9a331eef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3-2-1-backup-rule.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 3-2-1-backup-rule"
+            }
+          },
+          {
+            "id": "520212d6aa56e25e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "932718c6079bfce3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1b6572b7135ecba4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "a301c1a3140efaef",
+  "lastOpenFiles": [
+    "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
+    "Anexos/PNG e JPG/Pasted image 20250509112407.png",
+    "Anexos/PNG e JPG/Pasted image 20250321165727.png",
+    "Anexos/PNG e JPG/Pasted image 20250509114424.png",
+    "Anexos/PNG e JPG/Pasted image 20250509114648.png",
+    "Anexos/PNG e JPG/Pasted image 20250509115652.png",
+    "Anexos/PNG e JPG/Pasted image 20250509115809.png",
+    "Anexos/PNG e JPG/Pasted image 20250509115836.png",
+    "Anexos/PNG e JPG/Pasted image 20250509162729.png",
+    "Anexos/PNG e JPG/Pasted image 20250321165434.png",
+    "Anexos/PNG e JPG/Pasted image 20250509161816.png",
+    "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
+    "Git/Guia de estudo Pro Git.md",
+    "Git/Git - da criação do repositório local.md",
+    "Git/Esquema repositórios compartilhados Git Roque.md",
+    "Git/Configuração e permissão repositório Git hefesto Roque.md",
+    "Git/Comandos Git.md",
+    "Git/Repositório compartilhado no git Roque.md",
+    "Formulário - Roque.md",
+    "Curso gratuito Git e GitHub/5. Colocando arquivos no staging.md",
+    "Curso gratuito Git e GitHub/4. Criando repositórios.md",
+    "Curso gratuito Git e GitHub/3. Instalação e configuração.md",
+    "Curso gratuito Git e GitHub/2. Conceitos básicos do git.md",
+    "Curso gratuito Git e GitHub",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!/7. As camadas  do protocolo TCP-IP.md",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!/6. Modelo OSI.md",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!/5. Protocolo de rede e internet.md",
+    "Firewall/RustDesk .vbs.md",
+    "Configurações e implementações de sistemas/Instalação de softwares nas máquinas via GPO.md",
+    "Configurações e implementações de sistemas/Como configurar um servidor RustDesk no Linux e implementar o config.toml.md",
+    "Configurações e implementações de sistemas/Como configurar o Smart Connection no Obsidian.md",
+    "Conceitos rede/Submáscara de rede.md",
+    "Conceitos rede/Softwares de VPN.md",
+    "Conceitos rede/O que é VPN.md",
+    "Conceitos rede/O que é um gateway.md",
+    "Anotações rápidas",
+    "Sem título.canvas",
+    "CURSO - Arquitetura de Redes",
+    "Anexos/PDF_s/TCP-IP.pdf",
+    "Git",
+    "CURSO - Aprenda o Firewall pfSense v2025 do zero ao avançado!",
+    "Conceitos rede",
+    "Excalidraw",
+    "Meu TCC",
+    "Livro - Redes de Computadores 6ª Edição",
+    "Sem título 1.canvas",
+    "Sem título 2.canvas"
+  ]
+}

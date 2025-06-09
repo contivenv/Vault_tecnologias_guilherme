@@ -1,0 +1,53 @@
+{
+  "path": ".smart-env/smart_threads/Conversa de teste - 01.json",
+  "last_embed": {
+    "hash": null
+  },
+  "embeddings": {},
+  "last_read": {
+    "hash": null,
+    "mtime": 0
+  },
+  "created_at": 1735949058841,
+  "responses": {},
+  "messages": {
+    "user-1-1735949084020-1": 1
+  },
+  "branches": {},
+  "class_name": "ScThread",
+  "key": "Conversa de teste - 01",
+  "blocks": [
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Conversa de teste - 01",
+      "content": [
+        {
+          "type": "text",
+          "text": "Me dê a relações dessas notas que eu tenho"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1735949084020-1",
+      "context": {
+        "has_self_ref": true
+      },
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1735949084020-1",
+      "key": "Conversa de teste - 01#user-1-1735949084020-1"
+    }
+  ]
+}

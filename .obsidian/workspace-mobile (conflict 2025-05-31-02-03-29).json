@@ -11,10 +11,14 @@
             "id": "1a4549731e64cb43",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Curso gratuito Git e GitHub/10. Fundir branches.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. Fundir branches"
             }
           }
         ]
@@ -139,11 +143,13 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "1a4549731e64cb43",
   "lastOpenFiles": [
+    "Curso gratuito Git e GitHub/11. Resolvendo conflitos.md",
     "Conceitos rede/Servidor VPN.md",
     "Conceitos rede/Submáscara de rede.md",
     "Equipamentos de redes/Access Point - ponto de acesso sem fio.md",
@@ -174,7 +180,6 @@
     "Firewall",
     "Anexos/PNG e JPG/Pasted image 20250123134047.png",
     "Anexos/PNG e JPG/Pasted image 20250128132420 1.png",
-    "Cibersegurança/Backup 321.md",
     "site.jpg",
     "Sem título.canvas",
     "Documentação para instalação e configuração do RustDesk no Ubuntu server.pdf",

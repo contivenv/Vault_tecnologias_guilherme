@@ -14,7 +14,7 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "Graph view"
             }
           }
         ]
@@ -78,7 +78,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Explorador de arquivos"
+          "title": "Files"
         }
       }
     ],
@@ -134,21 +134,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "1a4549731e64cb43",
   "lastOpenFiles": [
-    "Conceitos rede/Servidor VPN.md",
-    "Conceitos rede/Submáscara de rede.md",
-    "Equipamentos de redes/Access Point - ponto de acesso sem fio.md",
     "Formulário - Roque.md",
-    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
     "TCC/Configuração para acesso externo de um firewall.md",
     "Firewall/Suricata/Configurações do Suricata/Suricata - CONFIGURAÇÕES.md",
@@ -175,6 +172,10 @@
     "Anexos/PNG e JPG/Pasted image 20250123134047.png",
     "Anexos/PNG e JPG/Pasted image 20250128132420 1.png",
     "Cibersegurança/Backup 321.md",
+    "Cibersegurança/Firewall PfSense/Suricata/Configurações do Suricata/Suricata - CONFIGURAÇÕES.md",
+    "Cibersegurança/Firewall PfSense/Suricata/Configurações do Suricata/Suricata - AUTOMATIZAÇÃO.md",
+    "Cibersegurança/Firewall PfSense/Suricata/Linux Mint com Suricata rodando.md",
+    "Protocolo NFC pra burlar a chamada.md",
     "site.jpg",
     "Sem título.canvas",
     "Documentação para instalação e configuração do RustDesk no Ubuntu server.pdf",
