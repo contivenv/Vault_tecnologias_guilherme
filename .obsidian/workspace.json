@@ -11,10 +11,14 @@
             "id": "8a7958044ef21d58",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Livros/Livro - Redes de Computadores 6ª Edição/5.1.2 Serviços oferecidos à camada de transporte.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.1.2 Serviços oferecidos à camada de transporte"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Livros/Livro - Redes de Computadores 6ª Edição/5.1.2 Serviços oferecidos à camada de transporte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para 5.1.2 Serviços oferecidos à camada de transporte"
             }
           },
           {
@@ -136,20 +141,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Livros/Livro - Redes de Computadores 6ª Edição/5.1.2 Serviços oferecidos à camada de transporte.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 5.1.2 Serviços oferecidos à camada de transporte"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,11 +164,23 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "d54032089870f73e",
   "lastOpenFiles": [
+    "Livros",
+    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+    "Sistemas operacionais/Fedora",
+    "Sistemas operacionais/Sem título.md",
+    "Sistemas operacionais/Linux/Bash Shell.md",
+    "Syncthing/2. Funcionamento de sincronização.md",
+    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
+    "Curso gratuito Git e GitHub/13. Chave SSH entre máquina e GitHub.md",
+    "Syncthing",
+    "Sem título.md",
+    "Syncthing",
     "Firewall/Pré-requisitos para instalar o firewall Pfsense em um hardware (conflict 2025-05-31-02-03-34).md",
     "Firewall/Livro sobre redes de computadores - capítulo 8 de segurança (firewall) (conflict 2025-05-31-02-03-34).md",
     "Firewall/Wizerd inicial para o Pfsense (conflict 2025-05-31-02-03-34).md"
