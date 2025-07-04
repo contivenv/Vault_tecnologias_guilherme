@@ -11,12 +11,14 @@
             "id": "8a7958044ef21d58",
             "type": "leaf",
             "state": {
-              "type": "epub",
+              "type": "markdown",
               "state": {
-                "file": "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub"
+                "file": "CURSO - Ninja pfSense v2023/27. Configurando Interface de Rede com IP Fixo.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "doc-epub",
-              "title": "Redes de Computadores 6a Edição - Andrew S Tanenbaum"
+              "icon": "lucide-file",
+              "title": "27. Configurando Interface de Rede com IP Fixo"
             }
           }
         ]
@@ -168,12 +170,28 @@
   },
   "active": "8a7958044ef21d58",
   "lastOpenFiles": [
-    "Livros/Redes/Redes de Computadores 6º - Andrew S. Tanenbaum.md",
+    "Anexos/Pdfs/NINJAPF_M06_A01 - Configurando Interface de Rede Com IP Estático.pdf",
+    "CURSO - Ninja pfSense v2023/26. Explorando os Menus da Interface Web.md",
+    "CURSO - Ninja pfSense v2023/27. Configurando Interface de Rede com IP Fixo.md",
+    "CURSO - Ninja pfSense v2023/24. Administrado pela Web.md",
+    "Curso gratuito Git e GitHub/12. Iniciando com Github.md",
+    "Curso gratuito Git e GitHub/11. Resolvendo conflitos.md",
+    "Curso gratuito Git e GitHub/10. Fundir branches.md",
+    "Curso gratuito Git e GitHub/9. Criando branches.md",
+    "Curso gratuito Git e GitHub/8. Ignorando arquivos.md",
+    "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
+    "Curso gratuito Git e GitHub/5. Colocando arquivos no staging.md",
+    "Curso gratuito Git e GitHub/4. Criando repositórios.md",
+    "Curso gratuito Git e GitHub/3. Instalação e configuração.md",
+    "Curso gratuito Git e GitHub/2. Conceitos básicos do git.md",
+    "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum/5.1.2 Serviços oferecidos à camada de transporte.md",
+    "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
+    "Livros/Redes/Redes de Computadores 6º - Andrew S. Tanenbaum.md",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum",
     "Livros/Redes/Anotações sobre os livros",
     "Anotações.md",
-    "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
     "Livros/Redes de Computadores 6º - Andrew S. Tanenbaum/Sem título.md",
     "Livros/Redes",
     "Equipamentos de redes/Hub e repetidor.md",
@@ -182,22 +200,9 @@
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
     "Sistemas operacionais/OpenSolaris/OpenSolaris.md",
     "Protocolos de rede/PDU e SAP.md",
-    "Protocolos de rede/NAT (Network Address Translation).md",
-    "Protocolos de rede/Modelo OSI.md",
-    "Protocolos de rede/7. As camadas  do protocolo TCP-IP.md",
-    "Protocolos de rede/6. Modelo OSI.md",
-    "Protocolos de rede/5. Protocolo de rede e internet.md",
     "Livros",
     "Sistemas operacionais/Fedora",
-    "Sistemas operacionais/Sem título.md",
-    "Sistemas operacionais/Linux/Bash Shell.md",
-    "Syncthing/2. Funcionamento de sincronização.md",
-    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Curso gratuito Git e GitHub/13. Chave SSH entre máquina e GitHub.md",
     "Syncthing",
-    "Syncthing",
-    "Firewall/Pré-requisitos para instalar o firewall Pfsense em um hardware (conflict 2025-05-31-02-03-34).md",
-    "Firewall/Livro sobre redes de computadores - capítulo 8 de segurança (firewall) (conflict 2025-05-31-02-03-34).md",
-    "Firewall/Wizerd inicial para o Pfsense (conflict 2025-05-31-02-03-34).md"
+    "Syncthing"
   ]
 }
