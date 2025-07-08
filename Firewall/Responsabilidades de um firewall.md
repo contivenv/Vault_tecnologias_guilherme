@@ -1,6 +1,5 @@
 ---
 tags:
-  - pfsense
   - responsabilidades
   - cibersegurança
   - firewall
