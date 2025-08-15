@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "f4c0d61c7fbe60f9",
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "674ce62fb3e65cfd",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6c5cf19ed3c9af66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tutorial de instalação da Steam no Ubuntu"
+              "title": "Nova aba"
             }
           }
         ]
@@ -166,24 +162,25 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "homepage:Open homepage": false
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Lock and Close all open encrypted notes": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt Selection": false,
+      "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6c5cf19ed3c9af66",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Games/Fedora/Pronton GE - Fedora.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
-    "Sistemas operacionais/Linux/Games/Fedora/Otimização para Fedora.md",
-    "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu",
-    "Sistemas operacionais/Linux/Games/Fedora",
-    "Sistemas operacionais/Linux/Games/Versões do Proton.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Otimização para Ubuntu.md",
+    "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
+    "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
     "Curso gratuito Git e GitHub/13. Chave SSH entre máquina e GitHub.md",
+    "ideias de projetos",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+    "Sistemas operacionais/Linux/Bash Shell.md",
+    "Syncthing/2. Funcionamento de sincronização.md",
+    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
     "Nextcloud/Tutorial de implementação.md",
-    "Sistemas operacionais/Linux/Games",
     "Configurações e implementações de sistemas/RustDesk .vbs.md",
     "Nextcloud",
     "RustDesk .vbs.md",
@@ -201,11 +198,14 @@
     "Livros/Redes/Anotações sobre os livros/Livro sobre redes de computadores - capítulo 8 de segurança (firewall).md",
     "Firewall/PfSense/História do PfSense.md",
     "Firewall/PfSense/Funcionalidades firewall PfSense.md",
+    "Firewall/PfSense/Documentação firewall PfSense resumida.md",
     "Firewall/PfSense",
+    "CURSO - Ninja pfSense v2023/27. Configurando Interface de Rede com IP Fixo.md",
     "Anexos/Pdfs/NINJAPF_M06_A01 - Configurando Interface de Rede Com IP Estático.pdf",
-    "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum",
     "Livros/Redes/Anotações sobre os livros",
-    "Livros/Redes"
+    "Livros/Redes",
+    "Livros",
+    "Sistemas operacionais/Fedora"
   ]
 }

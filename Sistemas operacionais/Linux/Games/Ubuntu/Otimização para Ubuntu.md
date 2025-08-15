@@ -3,6 +3,7 @@ tags:
   - games
   - linux
   - ubuntu
+  - validado
 ---
 Ótimo! Vamos otimizar seu sistema Ubuntu para obter o máximo desempenho da sua **GTX 1650** e **Ryzen 5 5600G** (mesmo sem usar o vídeo integrado).  
 
