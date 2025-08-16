@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
-                "mode": "preview",
+                "file": "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial de instalação da Steam no Ubuntu"
+              "title": "Proton GE - Ubuntu"
             }
           }
         ]
@@ -171,11 +171,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Games/Fedora/Pronton GE - Fedora.md",
+    "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
     "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
+    "Sistemas operacionais/Linux/Games/Fedora/Pronton GE - Fedora.md",
     "Sistemas operacionais/Linux/Games/Fedora/Otimização para Fedora.md",
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
     "Sistemas operacionais/Linux/Games/Ubuntu",
     "Sistemas operacionais/Linux/Games/Fedora",
     "Sistemas operacionais/Linux/Games/Versões do Proton.md",
