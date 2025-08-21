@@ -3,6 +3,7 @@ tags:
   - linux
   - ubuntu
   - games
+situação: validado
 ---
 Para instalar e configurar o **GE-Proton** (GloriousEggroll's Proton) na sua Steam no Ubuntu (usando a versão .deb da Steam), siga estes passos:
 
