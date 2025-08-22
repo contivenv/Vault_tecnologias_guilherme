@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sistemas operacionais/Linux/Distribuições Linux.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -177,9 +177,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+    "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
+    "Sistemas operacionais/Linux/Virtualização",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Sem título.md",
     "Sistemas operacionais/Linux/Bash Shell.md",
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
@@ -206,12 +207,10 @@
     "Firewall/Responsabilidades de um firewall.md",
     "Firewall/PfSense/Wizerd inicial para o Pfsense.md",
     "Firewall/Referências bibliográficas do meu TCC.md",
-    "Firewall/PfSense/Pré-requisitos para instalar o firewall Pfsense em um hardware.md",
     "Firewall/PfSense",
     "Anexos/Pdfs/NINJAPF_M06_A01 - Configurando Interface de Rede Com IP Estático.pdf",
     "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum",
-    "Livros/Redes/Anotações sobre os livros",
-    "Livros/Redes"
+    "Livros/Redes/Anotações sobre os livros"
   ]
 }
