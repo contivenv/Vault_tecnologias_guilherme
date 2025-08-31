@@ -11,10 +11,21 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+=======
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial de instalação da Steam no Ubuntu"
+>>>>>>> 31b65815c7cba64bce3dd707a5dc6565ac37e39e
             }
           }
         ]

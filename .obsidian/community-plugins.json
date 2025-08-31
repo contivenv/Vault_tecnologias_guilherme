@@ -1,5 +1,7 @@
 [
   "obsidian-admonition",
   "obsidian-epub-plugin",
-  "homepage"
+  "homepage",
+  "meld-encrypt",
+  "mousewheel-image-zoom"
 ]

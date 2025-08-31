@@ -3,10 +3,9 @@ tags:
   - linux
   - ubuntu
   - games
+situação: validado
 ---
 Para instalar e configurar o **GE-Proton** (GloriousEggroll's Proton) na sua Steam no Ubuntu (usando a versão .deb da Steam), siga estes passos:
-
----
 
 ### **1. Baixe o GE-Proton**
 Você já tem o arquivo `GE-Proton10-12.tar.gz`. Caso não tenha, baixe-o do [GitHub do GloriousEggroll](https://github.com/GloriousEggroll/proton-ge-custom/releases).
@@ -14,23 +13,32 @@ Você já tem o arquivo `GE-Proton10-12.tar.gz`. Caso não tenha, baixe-o do [Gi
 ---
 
 ### **2. Extraia o arquivo**
-Abra um terminal (`Ctrl + Alt + T`) e execute:
+
+1. Abra um terminal (`Ctrl + Alt + T`) e execute:
 ```bash
-tar -xzf GE-Proton10-12.tar.gz -C ~/.steam/root/compatibilitytools.d/
+tar -xzf GE-Proton10-12.tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 ```
+
 Isso extrairá o Proton para a pasta correta da Steam.
 
 - **Se a pasta `compatibilitytools.d` não existir**, crie-a:
-  ```bash
-  mkdir -p ~/.steam/root/compatibilitytools.d/
-  ```
+```bash
+mkdir -p ~/.steam/debian-installation/compatibilitytools.d/
+```
+
+2. **Verifique se a pasta foi criada corretamente**:  
+```bash
+ls ~/.steam/debian-installation/compatibilitytools.d/
+```
+Deve aparecer `GE-Proton10-12` na lista.
 
 ---
 
-### **3. Reinicie a Steam**
-Feche completamente a Steam (incluindo o processo em segundo plano) e reinicie:
+## 3. **Reinicie a Steam Forçadamente**  
+Feche a Steam completamente (incluindo processos em segundo plano) e reinicie:  
 ```bash
-steam
+killall -9 steam  
+steam  
 ```
 
 ---
@@ -44,28 +52,15 @@ steam
 
 ---
 
-### **5. (Opcional) Verifique se o Proton está instalado corretamente**
-- Verifique se a pasta `GE-Proton10-12` está em:
-  ```bash
-  ls ~/.steam/root/compatibilitytools.d/
-  ```
-- Se você estiver usando a versão **Flatpak** da Steam, o caminho seria:
-  ```bash
-  ~/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/
-  ```
-  (Mas como você está usando a versão `.deb`, isso não se aplica.)
-
----
-
-### **6. Problemas comuns**
+### **5. Problemas comuns**
 - **Steam não mostra o Proton**: Verifique se você extraiu o arquivo para a pasta correta e reiniciou a Steam.
 - **Erros de permissão**: Execute:
   ```bash
-  chmod -R 755 ~/.steam/root/compatibilitytools.d/GE-Proton10-12/
+  chmod -R 755 ~/.steam/debian-installation/compatibilitytools.d/
   ```
 - **Faltam dependências**: Instale os pacotes necessários para o Proton:
   ```bash
-  sudo apt install vulkan-utils libvulkan1 mesa-vulkan-drivers
+  sudo apt install vulkan-tools libvulkan1 mesa-vulkan-drivers
   ```
 
 ---

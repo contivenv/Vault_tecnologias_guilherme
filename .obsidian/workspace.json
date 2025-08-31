@@ -11,74 +11,27 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comandos básicos"
-            }
-          },
-          {
-            "id": "d031f001dcc3c287",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comandos básicos"
-            }
-          },
-          {
-            "id": "1f043b0bf6764b57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-06-01 14.14.57.excalidraw.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Drawing 2025-06-01 14.14.57.excalidraw"
-            }
-          },
-          {
-            "id": "9b4e296dd9635931",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comando intermediários"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b85f057136a1311e",
+    "id": "708e629f9ade7f71",
     "type": "split",
     "children": [
       {
-        "id": "4745e85a15b0e60a",
+        "id": "c48b8bf778f90430",
         "type": "tabs",
         "children": [
           {
-            "id": "d54032089870f73e",
+            "id": "12179b4eabccc517",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,7 +44,7 @@
             }
           },
           {
-            "id": "2447af9ccedaa020",
+            "id": "eddf30b3a876b402",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -108,7 +61,7 @@
             }
           },
           {
-            "id": "521f664c63b8390f",
+            "id": "6967cf07942e2d98",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 300
   },
   "right": {
-    "id": "83c7ef291a8a9ac7",
+    "id": "0915b26a9c6961fe",
     "type": "split",
     "children": [
       {
-        "id": "b533be657887af79",
+        "id": "b7f5bd06d4a5501f",
         "type": "tabs",
         "children": [
           {
-            "id": "496c386cc41dab38",
+            "id": "75e35bdb82155943",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livros/Livro - Redes de Computadores 6ª Edição/5.1.2 Serviços oferecidos à camada de transporte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 5.1.2 Serviços oferecidos à camada de transporte"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "46ba1cd1b49aff32",
+            "id": "2e2ee4af071fb36f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -164,7 +116,7 @@
             }
           },
           {
-            "id": "9124a3b7a0b7ba9a",
+            "id": "12193ba30b400777",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -179,77 +131,43 @@
             }
           },
           {
-            "id": "8e8c9a133702c2fa",
+            "id": "dca904058d865bb4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "biometria facial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de biometria facial"
+              "title": "Sumário"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "homepage:Open homepage": false
+      "bases:Criar nova base": false,
+      "homepage:Open homepage": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Lock and Close all open encrypted notes": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt Selection": false,
+      "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "9b4e296dd9635931",
-  "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
-    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-    "Sistemas operacionais/Linux/Samba/Samba.md",
-    "Sistemas operacionais/Linux/Samba/Configuração do Samba no Linux.md",
-    "Anexos/PNG e JPG/Pasted image 20250509161816.png",
-    "Excalidraw/Drawing 2025-06-01 14.14.57.excalidraw.md",
-    "Sistemas operacionais/Linux/Bash Shell.md",
-    "Sistemas operacionais/Linux/Bash",
-    "Firewall/PfSense/pfBlock-NG.md",
-    "Curso gratuito Git e GitHub/13. Chave SSH entre máquina e GitHub.md",
-    "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
-    "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
-    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Sistemas de Gestão de Negócios e Apoio a Decisão",
-    "biometria facial.md",
-    "AWS/IP elastico.md",
-    "AWS/AWS - hardwares.md",
-    "AWS/IAs AWS.md",
-    "AWS",
-    "Sistemas operacionais/Linux/Games/Fedora/Pronton GE - Fedora.md",
-    "Sistemas operacionais/Linux/Games/Fedora/Otimização para Fedora.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
-    "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu",
-    "Sistemas operacionais/Linux/Games/Fedora",
-    "Sistemas operacionais/Linux/Games/Versões do Proton.md",
-    "Sistemas operacionais/Linux/Games/Ubuntu/Otimização para Ubuntu.md",
-    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
-    "Nextcloud/Tutorial de implementação.md",
-    "Sistemas operacionais/Linux/Games",
-    "Configurações e implementações de sistemas/RustDesk .vbs.md",
-    "Nextcloud",
-    "RustDesk .vbs.md",
-    "Firewall/PfSense",
-    "Anexos/Pdfs/NINJAPF_M06_A01 - Configurando Interface de Rede Com IP Estático.pdf",
-    "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub"
-  ]
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": []
 }

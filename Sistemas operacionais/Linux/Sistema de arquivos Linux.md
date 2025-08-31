@@ -5,7 +5,7 @@ tags:
 data criação: 2025-02-03T14:14:00
 ---
 
-![[hierarquia_linux.png]]Descrição dos comandos que estão na imagem acima:
+![[hierarquia_linux.png|1125]]Descrição dos comandos que estão na imagem acima:
 
 - **/** (Root) – Diretório raiz, a primeira hierarquia do sistema de arquivos.
 - **/bin/** – Contém os binários principais dos usuários.
