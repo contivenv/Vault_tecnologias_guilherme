@@ -8,10 +8,12 @@ Esse script quando executado no via USB no celular Android com a porta aberta, e
 ### 🔹 Como usar
 
 1. Conecte o celular via USB (com depuração USB ativada).
-    
+2. Rode o comando:
 ```bash
 ./backup_whatsapp.sh ~/Backups/WhatsApp-$(date +%Y%m%d)
 ```
+- Isso vai salvar tudo no diretório `~/Backups/WhatsApp-20250902` (por exemplo).
+3. Depois, se precisar restaurar, use o seu script `restore_whatsapp.sh` apontando para essa pasta.
 
 ```bash
 #!/bin/bash
