@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "backup_whatsapp.sh"
             }
           }
         ]
@@ -179,8 +183,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "WhatsApp - backup local/restore_whatsapp.sh.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
+    "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+    "WhatsApp - backup local",
+    "Sem título.md",
     "Carros.md"
   ]
 }
