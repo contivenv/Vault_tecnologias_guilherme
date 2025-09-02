@@ -3,6 +3,16 @@ tags:
   - whatsapp
   - backup
 ---
+Esse script quando executado no via USB no celular Android com a porta aberta, ele realiza o backup de forma correta no dispositivo celular para a máquina do usuários.
+
+### 🔹 Como usar
+
+1. Conecte o celular via USB (com depuração USB ativada).
+    
+```bash
+./backup_whatsapp.sh ~/Backups/WhatsApp-$(date +%Y%m%d)
+```
+
 ```bash
 #!/bin/bash
 
