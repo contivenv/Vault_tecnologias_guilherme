@@ -143,13 +143,23 @@
               "icon": "lucide-list",
               "title": "Sumário"
             }
+          },
+          {
+            "id": "e943643cb583ac0f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,9 +175,14 @@
       "meld-encrypt:Lock and Close all open encrypted notes": false,
       "meld-encrypt:Convert to or from an Encrypted note": false,
       "meld-encrypt:Encrypt Selection": false,
-      "meld-encrypt:Decrypt at Cursor": false
+      "meld-encrypt:Decrypt at Cursor": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e7a7b303c61786dc",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Firewall/PfSense/Alteração e cronograma do firewall.md",
+    "Firewall/Suricata/Configurações do Suricata/Suricata - AUTOMATIZAÇÃO.md",
+    "CURSO - Ninja pfSense v2023/24. Administrado pela Web.md"
+  ]
 }
