@@ -145,7 +145,7 @@
             }
           },
           {
-            "id": "070d43ad0f61b9f7",
+            "id": "e943643cb583ac0f",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -179,13 +179,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e943643cb583ac0f",
   "lastOpenFiles": [
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
+    "conflict-files-obsidian-git.md",
+    "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
+    "Infraestrutura de redes/Ferramentas de exploração/nmap",
+    "Infraestrutura de redes/Ferramentas de exploração/Registro de informações do ChatGPT.md",
+    "Infraestrutura de redes/Ferramentas de exploração",
+    "Anexos/PNG e JPG/Pasted image 20250903193803.png",
+    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
+    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
+    "Firewall/PfSense/Funcionalidades firewall PfSense.md",
+    "Firewall/PfSense/História do PfSense.md",
+    "Firewall/PfSense/pfBlock-NG.md",
+    "Firewall/PfSense/Documentação firewall PfSense resumida.md",
+    "CURSO - Ninja pfSense v2023/6. Modelo OSI.md",
+    "IA/Assistente pessoal e API ChatGPT.md",
+    "Conhecimento geral",
+    "IA",
+    "teste.txt",
     "WhatsApp - backup local/restore_whatsapp.sh.md",
-    "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "WhatsApp - backup local",
-    "Sem título.md",
-    "Carros.md"
+    "Firewall/PfSense/Alteração e cronograma do firewall.md",
+    "Firewall/Suricata/Configurações do Suricata/Suricata - AUTOMATIZAÇÃO.md",
+    "CURSO - Ninja pfSense v2023/24. Administrado pela Web.md"
   ]
 }
