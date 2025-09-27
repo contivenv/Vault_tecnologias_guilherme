@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
+                "file": "Sistemas operacionais/Linux/Games/Ubuntu/Proton GE - Ubuntu.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GE Proton Fedora"
+              "title": "Proton GE - Ubuntu"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
     "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
+    "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
     "Sistemas operacionais/Linux/Bash Shell.md",
     "Sistemas operacionais/Linux/Impressoras",
     "Sistemas operacionais/Linux/Distribuições Linux.md",
