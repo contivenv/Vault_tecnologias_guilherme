@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Games/Versões do Proton.md",
-                "mode": "source",
+                "file": "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Versões do Proton"
+              "title": "Comando intermediários"
             }
           }
         ],
@@ -200,6 +200,13 @@
   },
   "active": "2eb214533cef08f8",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
+    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Bash Shell.md",
+    "Sistemas operacionais/Linux/Samba/Samba.md",
+    "Sistemas operacionais/Linux/Samba/Configuração do Samba no Linux.md",
+    "Sistemas operacionais/Linux/Games/Versões do Proton.md",
     "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
     "Sistemas operacionais/Linux/Games/Fedora/Otimização para Fedora.md",
     "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
@@ -211,9 +218,7 @@
     "Manuais e procedimentos/Como configurar o Smart Connection no Obsidian.md",
     "Manuais e procedimentos",
     "Coisa da Roque",
-    "Sistemas operacionais/Linux/Bash Shell.md",
     "Sistemas operacionais/Linux/Impressoras",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "IA/Assistente pessoal e API ChatGPT.md",
     "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
