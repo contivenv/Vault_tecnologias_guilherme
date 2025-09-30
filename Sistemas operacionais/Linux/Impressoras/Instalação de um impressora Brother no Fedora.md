@@ -4,8 +4,6 @@ tags:
   - linux
   - fedora
 ---
-Beleza, vamos direto ao ponto: no Fedora você precisa basicamente de três coisas para essa Brother DCP-8112DN funcionar na rede: **CUPS ativo, drivers corretos e configuração do IP da impressora**.
-
 ### 1. Certificar que o CUPS está instalado e rodando
 
 ```bash
@@ -19,11 +17,10 @@ Teste se o serviço está no ar:
 systemctl status cups
 ```
 
-E abra o painel web do CUPS para ver se aparece a impressora:  
+E abra o painel web do CUPS para ver se ele está funcionando:
 [http://localhost:631](http://localhost:631)
 
 ---
-
 ### 2. Instalar os drivers da Brother
 
 A Brother fornece pacotes RPM para Fedora/CentOS. Faça assim:
@@ -43,7 +40,6 @@ sudo dnf install -y glibc.i686
 ```
 
 ---
-
 ### 3. Adicionar a impressora pelo IP
 
 1. Descubra o IP da sua Brother (pelo painel dela ou pelo seu roteador).
@@ -62,7 +58,6 @@ sudo dnf install -y glibc.i686
     
 
 ---
-
 ### 4. Testar impressão
 
 Rode:
@@ -84,11 +79,6 @@ echo "Teste de Impressão Fedora" | lp -d Brother_DCP8112DN
 - Na hora de escolher driver, selecione **Generic → PCL 6/PCL XL Printer**.
     
 
----
-
-Quer que eu já monte um scriptzinho `.sh` que automatize a instalação do driver da Brother + configuração inicial no Fedora, assim você só edita o IP da impressora?
-
-
 Boa, isso já ajuda a diagnosticar. O `cupsd` está **rodando normal**, mas o erro que aparece é este:
 
 ```
@@ -97,13 +87,10 @@ Unable to connect to IMP-RS.local:443: Temporary failure in name resolution
 
 Ou seja:
 
-- O Fedora está tentando se conectar à impressora usando **mDNS/Bonjour** (`.local`) e não consegue resolver o nome.
-    
-- Isso é comum porque o suporte a mDNS vem do `avahi-daemon`. Se ele não estiver rodando, o Fedora não vai resolver nomes `.local`.
-    
+* O Fedora está tentando se conectar à impressora usando **mDNS/Bonjour** (`.local`) e não consegue resolver o nome.
+* Isso é comum porque o suporte a mDNS vem do `avahi-daemon`. Se ele não estiver rodando, o Fedora não vai resolver nomes `.local`.
 
 ---
-
 ### 1. Confirme se o Avahi está ativo
 
 ```bash
@@ -118,26 +105,22 @@ sudo systemctl enable --now avahi-daemon
 ```
 
 ---
-
 ### 2. Teste o ping por nome e por IP
 
-- Tente:
-    
-    ```bash
-    ping IMP-RS.local
-    ```
-    
-    Se não resolver, use o IP direto da impressora.
-    
-- Exemplo de configuração manual no CUPS:
-    
-    ```bash
-    lpadmin -p Brother_DCP_8112DN -E -v lpd://192.168.1.50/binary_p1 -m everywhere
-    ```
-    
+* Tente:
+
+  ```bash
+  ping IMP-RS.local
+  ```
+
+  Se não resolver, use o IP direto da impressora.
+* Exemplo de configuração manual no CUPS:
+
+  ```bash
+  lpadmin -p Brother_DCP_8112DN -E -v lpd://192.168.2.21/binary_p1 -m everywhere
+  ```
 
 ---
-
 ### 3. Verifique se o driver já está disponível
 
 Liste os PPDs que o CUPS tem:
@@ -149,22 +132,12 @@ lpinfo -m | grep -i brother
 Se não aparecer nada da DCP-8112DN, você realmente precisa instalar o driver Brother (aqueles `.rpm` que mencionei antes) ou então usar o **Generic PCL 6**.
 
 ---
-
 ### 4. Recomendo neste caso
 
-- **Não usar `.local`** → configure a impressora pelo **IP fixo** (muito mais confiável).
-    
-- Se a rede distribui IPs via DHCP, vá no painel da impressora e configure um **IP fixo ou reserva DHCP**.
-    
-- Depois, adicione no Fedora assim:
-    
-    ```bash
-    lpadmin -p Brother_DCP_8112DN -E -v ipp://192.168.1.50/ipp -m everywhere
-    ```
-    
-    (troque `192.168.1.50` pelo IP real).
-    
+* **Não usar `.local`** → configure a impressora pelo **IP fixo** (muito mais confiável).
+* Se a rede distribui IPs via DHCP, vá no painel da impressora e configure um **IP fixo ou reserva DHCP**.
+* Depois, adicione no Fedora assim:
 
----
-
-👉 Quer que eu já te monte o comando completo `lpadmin` pronto para você só trocar o IP da impressora, evitando a configuração gráfica?
+  ```bash
+  lpadmin -p Brother_DCP_8112DN -E -v ipp://192.168.2.21/ipp -m everywhere
+  ```
