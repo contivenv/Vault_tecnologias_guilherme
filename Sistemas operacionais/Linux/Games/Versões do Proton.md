@@ -53,6 +53,3 @@ Para a maioria dos jogos na Steam (incluindo *Death Stranding*), a melhor versã
   - Se preferir versões oficiais, use **Proton Experimental** ou **10.0-1**.  
   - Proton 9.0-4 é o "seguro" se as outras falharem.  
 
-Se o jogo ainda tiver problemas, compartilhe os logs (use `PROTON_LOG=1 %command%`).
-
----

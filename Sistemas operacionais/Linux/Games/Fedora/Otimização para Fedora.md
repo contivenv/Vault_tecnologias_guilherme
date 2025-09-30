@@ -115,12 +115,6 @@ protonup
 ```
 (Selecione a versão mais recente do Proton-GE).
 
-Espero que isso resolva seus problemas de FPS! Se precisar de mais ajuda, me avise. 🚀
-
----
-
-Entendido! Como você está usando **apenas a NVIDIA GTX 1650 (dedicada)** e não a GPU integrada do Ryzen 5 5600G, vamos focar em otimizar o driver da NVIDIA, o Proton e o sistema para melhorar o desempenho no *Death Stranding*.  
-
 ---
 
 ### **Passo a Passo Otimizado para NVIDIA GTX 1650 no Fedora**  
@@ -147,7 +141,7 @@ glxinfo | grep "OpenGL renderer"  # Deve mostrar "NVIDIA GeForce GTX 1650"
 
 ---
 
-#### **3. Otimize o Proton para o Death Stranding**  
+#### **3. Otimize o Proton para o Death Stranding**
 - **Use Proton Experimental ou Proton-GE** (recomendado):  
   ```bash
   sudo dnf install protonup-qt -y
