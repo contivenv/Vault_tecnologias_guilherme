@@ -3,6 +3,7 @@ tags:
   - impressoras
   - linux
   - fedora
+  - validado
 ---
 ### 1. Certificar que o CUPS está instalado e rodando
 

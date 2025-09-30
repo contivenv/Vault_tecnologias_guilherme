@@ -4,6 +4,7 @@ tags:
   - games
   - proton
   - otimização
+  - validado
 ---
 ## GE-Proton 10 no Fedora: Guia Completo de Instalação e Configuração para a Steam
 

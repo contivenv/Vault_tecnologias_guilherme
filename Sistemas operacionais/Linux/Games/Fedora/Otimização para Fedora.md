@@ -174,7 +174,7 @@ sudo dnf install gamemode -y
   sudo nano /etc/gamemode.ini
   ```
   Adicione/altere as linhas:  
-  ```ini
+ ```ini
   [gpu]
   ; Força performance máxima da NVIDIA
   nvidia_performance_mode=1
@@ -183,9 +183,6 @@ sudo dnf install gamemode -y
   start="killall -STOP gnome-shell"
   end="killall -CONT gnome-shell"
   ```
-
----
-
 #### **5. Configure o Xorg (melhor que Wayland para jogos)**  
 Se estiver usando **Wayland**, troque para **Xorg**:  
 1. Deslogue do Fedora.  
