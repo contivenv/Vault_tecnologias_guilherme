@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Syncthing/3. Funcionalidade do Syncthing na prática.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Funcionalidade do Syncthing na prática"
             }
           }
         ]
@@ -181,6 +185,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
+    "Syncthing/3. Funcionalidade do Syncthing na prática.md",
+    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
+    "Cabeamento de redes/Par trançado.md",
+    "Cabeamento de redes/Fibra óptica.md",
+    "Cabeamento de redes/Cabo coaxial.md",
     "Conceitos rede/O que é Clustering.md",
     "Conceitos rede/Criptografia VPN.md",
     "Configurações e implementações de sistemas/Como configurar um servidor RustDesk no Linux e implementar o config.toml.md",
@@ -192,7 +202,6 @@
     "Firewall/Firewall.md",
     "Manuais e procedimentos/Instalação e configuração do RustDesk no Ubuntu server.md",
     "CURSO - Ninja pfSense v2023/23. Administrando pelo console.md",
-    "Syncthing/2. Funcionamento de sincronização.md",
     "CURSO - Ninja pfSense v2023/24. Administrado pela Web.md",
     "CURSO - Ninja pfSense v2023/25. Acessando o Firewall pelo SSH.md",
     "Infraestrutura de redes/Ferramentas de exploração/Registro de informações do ChatGPT.md",
@@ -204,11 +213,6 @@
     "LDAP",
     "Protocolos de rede/Modelo OSI.md",
     "Nextcloud/Tutorial de implementação.md",
-    "WhatsApp - backup local/restore_whatsapp.sh.md",
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
-    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
     "Manuais e procedimentos",
     "Coisa da Roque",
     "Sistemas operacionais/Linux/Impressoras",
