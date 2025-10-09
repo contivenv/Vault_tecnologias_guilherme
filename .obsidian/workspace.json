@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
-                "mode": "source",
+                "file": "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Funcionalidades básicas do Syncthing na prática"
+              "title": "Personalização do terminal no Linux"
             }
           }
         ]
@@ -185,8 +185,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Syncthing/4. Personalização do Syncthing.md",
+    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
+    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
+    "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
+    "Syncthing/4. Personalização do Syncthing.md",
     "Captura de tela de 2025-10-09 16-39-31.png",
     "Pasted image 20251009170942.png",
     "Pasted image 20251009164038.png",
@@ -211,11 +214,8 @@
     "Infraestrutura de redes/Ferramentas de exploração/Registro de informações do ChatGPT.md",
     "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
     "Firewall/Suricata/Software de monitoramento de pacotes.md",
-    "LDAP/Implementação no firewall pfSense.md",
-    "LDAP/O que é ?.md",
     "Anexos/PNG e JPG/003.jpg",
     "LDAP",
-    "Protocolos de rede/Modelo OSI.md",
     "Manuais e procedimentos",
     "Coisa da Roque",
     "Sistemas operacionais/Linux/Impressoras",
