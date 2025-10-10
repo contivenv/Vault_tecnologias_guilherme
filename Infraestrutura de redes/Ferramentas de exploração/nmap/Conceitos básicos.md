@@ -5,6 +5,7 @@ tags:
   - cibersegurança
   - exploração_de_vulnerabilidades
   - escaneamento_de_rede
+  - firewall
 ---
 Existem alguns tipos de retorno de pacotes que recebemos quando fazemos o escaneamento comum na rede usando o nmap com comando nmap -a -T4 para obter informações.
 
