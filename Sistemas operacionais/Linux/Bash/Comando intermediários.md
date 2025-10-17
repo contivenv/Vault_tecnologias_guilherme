@@ -11,13 +11,12 @@ tags:
 ---
 ## grep
 
-O comando grep consegue fazer a exibição de linhas de arquivos, como por exemplo que é usado no comando de: 
+O comando grep consegue fazer a exibição de linhas de arquivos, como por exemplo, o que é usado no comando:
 
 ```bash
-grep root /etc/passwd 
-root:x:0:0:Super User:/root:/bin/bash
-operator:x:11:0:operator:/root:/usr/sbin/nologin
-
+grep root /etc/passwd # entrada do comando
+root:x:0:0:Super User:/root:/bin/bash # saída
+operator:x:11:0:operator:/root:/usr/sbin/nologin # saída
 ```
 
 Faz a exibição de nome além da linha correspondente do arquivo também. Assim como em outros comandos que já fizemos a listagem, ele tem variações importantes no seu uso, como por exemplo o uso da letra -i com ele, que ignora maiúsculas e minúsculas, procurando somente o nome, sem sensitive case. Temos também a consulta de grep com comando -v no final que seria ao contrario da busca original. Com -v seria as não correspondências a aquele certo tipo de arquivo. O comando grep é um comanda exencial para consulta de arquivos no geral. Eu vou referenciar o trecho do livro que fala somente dele e assim como os demais que vou citar aqui. Esse precisam de uma atenção em especial.
@@ -37,6 +36,39 @@ grep root /etc/*
 > ’
 > —Brian Ward, “Como o Linux funciona”
 
-## Less
+## less
 
-Basicamente pode servir para exibição de conteúdo em tela cheia quando se é muito extenso. Podendo listar o conteúdo de uma vez só. Podemos usar ele como um leitor de arquivo literal, onde os comandos da tecla barra avaçam no arquivo, q sai e b retorna para a tela cheia da listage.  
+Basicamente pode servir para exibição de conteúdo em tela cheia quando se é muito extenso. Podendo listar o conteúdo de uma vez só. Podemos usar ele como um leitor de arquivo literal, onde os comandos da tecla barra avaçam no arquivo, q sai e b retorna para a tela cheia da listage.
+
+## pwd
+
+Serve para localizar o diretório e o caminho que vocês está. Por mais que pense que esse comando pode ser bobo, ele não é. Na prática quando não se tem a exibição de diretórios ou de onde você está dentro do sistema, o `pwd` é um comando que pode te dar um norte. Na outra forma de ele ser útil é quando são usados links simbólicos, onde o conteúdo original do caminho é escondido. Nesse caso, ele vai te ajudar a se localizar.
+
+## diff
+
+Para comparação de dois arquivos, você pode usar:
+```bash
+diff arquivo1 arquivo2 # entrada do comando
+```
+Executando esse comando, vai conseguir ver o comparativo exato dos arquivos. Sua variação de comando pode ser usado como `diff -u` para visualizar os dados de uma forma mais detalhada.
+
+## file
+
+Faz com que o sistema adivinhe o conteúdo do arquivo. Esse comando pode te ajudar em muitas ocasiões onde você nem imagina (de verdade mesmo, experimente quando possível).
+
+```bash
+file Guilherme-Conti.png # entrada do comando
+Guilherme-Conti.png: PNG image data, 600 x 174, 8-bit/color RGB, non-interlaced # saída do comando
+```
+
+## find
+
+Serve para que você possa localizar um arquivo em um diretório que você sabe que está, mas não está achando. Podemos usar ele de diversas maneiras com parâmetros limitando para achar somente diretórios, somente arquivos, ignorar arquivos case sensitive, entre outros. Para o comando básico utilize:
+
+```bash
+find Documentos/ -name "Senhas.kdbx" -print # entranda do comando
+Documentos/Senhas.kdbx # saida do comando
+```
+
+> ‘O comando find aceita caracteres especiais para correspondência de padrões, como \*, porém você deve colocá-los entre aspas simples ('\*') para proteger os caracteres especiais do recurso de globbing do próprio shell.’
+> —Brian Ward, “Como o Linux funciona”
