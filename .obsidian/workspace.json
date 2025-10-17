@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "24e6548bc1ac34a9",
+        "id": "168c6b294f151756",
         "type": "tabs",
         "children": [
           {
-            "id": "c64db5f818b80195",
+            "id": "7a35ca587d304f00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nova aba"
             }
           }
         ]
