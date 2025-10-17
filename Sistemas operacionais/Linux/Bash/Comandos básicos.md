@@ -7,6 +7,7 @@ tags:
   - comandos
   - diretórios
   - arquivos
+  - livros
 ---
 Apresentação de comandos básicos para relembrar conceitos de navegação em diretórios dentro do Linux.
 ## cat

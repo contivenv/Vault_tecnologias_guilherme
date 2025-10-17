@@ -5,7 +5,7 @@ tags:
   - games
   - validado
 ---
-Para melhorar o desempenho no Fedora com sua **GTX 1650** e **Ryzen 5 5600G**, você pode atualizar os drivers e otimizar o sistema. Siga os passos abaixo:
+Para melhorar o desempenho no Fedora da **GTX 1650** e **Ryzen 5 5600G**, podemos atualizar os drivers e otimizar o sistema. Siga os passos abaixo:
 
 ---
 
@@ -115,12 +115,6 @@ protonup
 ```
 (Selecione a versão mais recente do Proton-GE).
 
-Espero que isso resolva seus problemas de FPS! Se precisar de mais ajuda, me avise. 🚀
-
----
-
-Entendido! Como você está usando **apenas a NVIDIA GTX 1650 (dedicada)** e não a GPU integrada do Ryzen 5 5600G, vamos focar em otimizar o driver da NVIDIA, o Proton e o sistema para melhorar o desempenho no *Death Stranding*.  
-
 ---
 
 ### **Passo a Passo Otimizado para NVIDIA GTX 1650 no Fedora**  
@@ -147,7 +141,7 @@ glxinfo | grep "OpenGL renderer"  # Deve mostrar "NVIDIA GeForce GTX 1650"
 
 ---
 
-#### **3. Otimize o Proton para o Death Stranding**  
+#### **3. Otimize o Proton para o Death Stranding**
 - **Use Proton Experimental ou Proton-GE** (recomendado):  
   ```bash
   sudo dnf install protonup-qt -y
@@ -174,7 +168,7 @@ sudo dnf install gamemode -y
   sudo nano /etc/gamemode.ini
   ```
   Adicione/altere as linhas:  
-  ```ini
+ ```bash
   [gpu]
   ; Força performance máxima da NVIDIA
   nvidia_performance_mode=1
@@ -183,14 +177,11 @@ sudo dnf install gamemode -y
   start="killall -STOP gnome-shell"
   end="killall -CONT gnome-shell"
   ```
-
----
-
 #### **5. Configure o Xorg (melhor que Wayland para jogos)**  
 Se estiver usando **Wayland**, troque para **Xorg**:  
-1. Deslogue do Fedora.  
-2. No menu de login, clique na engrenagem e selecione **"Fedora on Xorg"**.  
-3. Rode o jogo novamente e teste.  
+1. Deslogue do Fedora.
+2. No menu de login, clique na engrenagem e selecione **"Fedora on Xorg"**.
+3. Rode o jogo novamente e teste.
 
 ---
 
@@ -222,8 +213,6 @@ killall firefox gnome-shell  # Fecha apps (eles reiniciam automaticamente)
 - **Xorg**: Menos input lag e stuttering vs. Wayland.  
 - **NVIDIA Performance Mode**: Clock estável da GPU.  
 
-Se ainda houver quedas de FPS, compartilhe:  
+Se ainda houver quedas de FPS, compartilhe:
 1. Logs do jogo (use `PROTON_LOG=1 %command%` nos *Launch Options*).  
-2. Saída de `nvidia-smi` durante os FPS drops.  
-
-Espero que resolva! Se precisar de ajustes, é só chamar. 🚀
+2. Saída de `nvidia-smi` durante os FPS drops.

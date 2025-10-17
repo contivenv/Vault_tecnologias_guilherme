@@ -3,6 +3,7 @@ tags:
   - exploração_de_vulnerabilidades
   - redes
   - cibersegurança
+  - firewall
 ---
 Ótima pergunta, Guilherme 👌.  
 Você **não precisa escanear máquina por máquina manualmente**. O **Nmap** (e até o Nikto, em menor escala) tem suporte para **faixas de IPs, ranges e listas**, o que facilita muito no seu caso com **10 máquinas internas (rede 192.168.2.0/24)** atrás do firewall.

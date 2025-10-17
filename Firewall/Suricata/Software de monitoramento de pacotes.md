@@ -7,6 +7,7 @@ tags:
   - tcc
   - faculdade
   - responsabilidades
+  - firewall
 excalidraw-plugin: 2025-01-27T16:00:00
 ---
 ##### Descrição do problema

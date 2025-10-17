@@ -11,10 +11,14 @@
             "id": "c64db5f818b80195",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -179,15 +183,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c64db5f818b80195",
+  "active": "e943643cb583ac0f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Syncthing/4. Personalização do Syncthing.md",
+    "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
+    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
+    "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
+    "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
+    "Sistemas operacionais/Linux/Impressoras",
+    "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
+    "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
+    "Manuais e procedimentos/Servidor Debian - Samba.md",
+    "Manuais e procedimentos/Problemas do chamado sobre o Java.md",
+    "Manuais e procedimentos/Instalação e configuração do RustDesk no Ubuntu server.md",
+    "Manuais e procedimentos/Como instalar o Active Directory no Windows 11.md",
+    "Manuais e procedimentos/Como configurar o Smart Connection no Obsidian.md",
+    "Manuais e procedimentos",
+    "LDAP/O que é ?.md",
+    "LDAP/Implementação no firewall pfSense.md",
+    "LDAP",
+    "Anexos/PNG e JPG/Pasted image 20251009170942.png",
+    "Anexos/PNG e JPG/Pasted image 20251009164038.png",
+    "Anexos/PNG e JPG/Captura de tela de 2025-10-09 16-39-31.png",
+    "Anexos/PNG e JPG/003.jpg",
     "Infraestrutura de redes/Ferramentas de exploração/Registro de informações do ChatGPT.md",
     "Infraestrutura de redes/Topologia em estrela.md",
     "Sem título",
     "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
     "IA/Assistente pessoal e API ChatGPT.md",
     "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
-    "conflict-files-obsidian-git.md",
     "Infraestrutura de redes/Ferramentas de exploração/nmap",
     "Infraestrutura de redes/Ferramentas de exploração",
     "Anexos/PNG e JPG/Pasted image 20250903193803.png",
@@ -200,12 +225,6 @@
     "CURSO - Ninja pfSense v2023/6. Modelo OSI.md",
     "Conhecimento geral",
     "IA",
-    "teste.txt",
-    "WhatsApp - backup local/restore_whatsapp.sh.md",
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
-    "WhatsApp - backup local",
-    "Firewall/PfSense/Alteração e cronograma do firewall.md",
-    "Firewall/Suricata/Configurações do Suricata/Suricata - AUTOMATIZAÇÃO.md",
-    "CURSO - Ninja pfSense v2023/24. Administrado pela Web.md"
+    "teste.txt"
   ]
 }
