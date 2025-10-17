@@ -353,7 +353,39 @@ Perfeito, Guilherme 👌. Aqui está um **modelo de tabela comparativa em Markdo
 
 # 🔹 Modelo de Tabela Comparativa (Antes/Depois do Firewall)
 
-# Comparativo de Resultados de Auditoria de Firewall  ## Testes de Segurança  | Ferramenta   | Métrica                         | Antes do pfSense/pfBlockerNG | Depois do pfSense/pfBlockerNG | |--------------|---------------------------------|------------------------------|-------------------------------| | **Nmap**     | Portas abertas detectadas       | 12 (22, 80, 139, 445, 3306) | 1 (443)                      | |              | Sistema operacional identificado | Sim                          | Não                          | | **Ncat**     | Conexão em porta 22 (SSH)       | Conseguiu conectar           | Conexão recusada             | |              | Conexão em porta 80 (HTTP)      | Conseguiu conectar           | Bloqueado                    | |              | Conexão em porta 443 (HTTPS)    | Conseguiu conectar           | Conseguiu conectar           | | **Nikto**    | Vulnerabilidades encontradas    | 5 falhas em HTTP server      | Nenhuma vulnerabilidade      | | **Metasploit** | Exploit contra serviço SMB     | Execução bem-sucedida        | Bloqueado pelo firewall      | | **Wireshark** | Tráfego ICMP (ping)             | Visível e respondido         | Bloqueado                    | |              | Tráfego HTTP/FTP                | Visível                      | Bloqueado                    | |              | Tráfego HTTPS                   | Visível                      | Visível                      |  ---  ## Evidências  - **Relatórios Nmap**: armazenados em `nmap_*.txt`   - **Relatórios Ncat**: armazenados em `ncat_*.txt`   - **Relatórios Nikto**: armazenados em `nikto_*.txt`   - **Captura de tráfego (tcpdump/Wireshark)**: arquivo `captura.pcap`    ---  ## Conclusão  Após a ativação do **pfSense com pfBlockerNG**, observou-se:  - Redução significativa no número de portas abertas.   - Bloqueio de conexões diretas via Ncat.   - Ausência de vulnerabilidades detectadas pelo Nikto.   - Exploits do Metasploit não foram mais possíveis.   - Tráfego restrito apenas ao protocolo HTTPS, garantindo maior segurança.
+## Testes de Segurança  
+
+| Ferramenta     | Métrica                          | Antes do pfSense/pfBlockerNG | Depois do pfSense/pfBlockerNG |
+| -------------- | -------------------------------- | ---------------------------- | ----------------------------- |
+| **Nmap**       | Portas abertas detectadas        | 12 (22, 80, 139, 445, 3306)  | 1 (443)                       |
+| **Nmap**       | Sistema operacional identificado | Sim                          | Não                           |
+| **Ncat**       | Conexão em porta 22 (SSH)        | Conseguiu conectar           | Conexão recusada              |
+| **Ncat**       | Conexão em porta 80 (HTTP)       | Conseguiu conectar           | Bloqueado                     |
+| **Ncat**       | Conexão em porta 443 (HTTPS)     | Conseguiu conectar           | Conseguiu conectar            |
+| **Nikto**      | Vulnerabilidades encontradas     | 5 falhas em HTTP server      | Nenhuma vulnerabilidade       |
+| **Metasploit** | Exploit contra serviço SMB       | Execução bem-sucedida        | Bloqueado pelo firewall       |
+| **Wireshark**  | Tráfego ICMP (ping)              | Visível e respondido         | Bloqueado                     |
+| **Wireshark**  | Tráfego HTTP/FTP                 | Visível                      | Bloqueado                     |
+| **Wireshark**  | Tráfego HTTPS                    | Visível                      | Visível                       |
+
+---
+
+## Evidências  
+- **Relatórios Nmap**: armazenados em `nmap_*.txt`  
+- **Relatórios Ncat**: armazenados em `ncat_*.txt`  
+- **Relatórios Nikto**: armazenados em `nikto_*.txt`  
+- **Captura de tráfego (tcpdump/Wireshark)**: arquivo `captura.pcap`  
+
+---
+
+## Conclusão  
+Após a ativação do **pfSense com pfBlockerNG**, observou-se:  
+- Redução significativa no número de portas abertas.  
+- Bloqueio de conexões diretas via Ncat.  
+- Ausência de vulnerabilidades detectadas pelo Nikto.  
+- Exploits do Metasploit não foram mais possíveis.  
+- Tráfego restrito apenas ao protocolo HTTPS, garantindo maior segurança.  
+
 
 ---
 
@@ -371,9 +403,100 @@ Maravilha, Guilherme 👌. Aqui vai um **modelo de relatório em Markdown**, est
 
 ---
 
-# 🔹 Modelo de Relatório de Auditoria de Firewall (Markdown)
+# Relatório de Auditoria de Segurança de Rede
+## Anexo Técnico – Projeto de TCC
 
-``# Relatório de Auditoria de Segurança de Rede ## Anexo Técnico – Projeto de TCC  ---  ## 1. Introdução  Este relatório apresenta os testes de auditoria de segurança realizados na rede corporativa da empresa, com o objetivo de avaliar a eficácia do firewall **pfSense** em conjunto com o **pfBlockerNG**.    Os testes foram conduzidos em duas etapas distintas: - **Antes da configuração de segurança do firewall** (pfBlockerNG desativado). - **Após a configuração do firewall** (pfBlockerNG ativado).  ---  ## 2. Metodologia  As ferramentas utilizadas foram: - **Nmap** – varredura de portas e identificação de serviços. - **Ncat** – teste de conectividade com portas específicas. - **Nikto** – auditoria de servidores web. - **Metasploit** – simulação de exploração de vulnerabilidades. - **tcpdump/Wireshark** – captura e análise de pacotes.  Rede utilizada nos testes: - Endereço WAN público: `189.1.176.255` - Faixa interna auditada: `192.168.2.3 – 192.168.2.12` - Total de hosts testados: **10 máquinas**  Procedimento: 1. Execução de varredura inicial com pfBlockerNG desativado. 2. Coleta e registro dos resultados (Nmap, Ncat, Nikto, Metasploit, Wireshark). 3. Configuração e ativação do pfBlockerNG no pfSense. 4. Reexecução dos mesmos testes. 5. Comparação entre os dois cenários.  ---  ## 3. Resultados Obtidos  ### 3.1 Comparativo Geral  | Ferramenta   | Métrica                         | Antes do pfSense/pfBlockerNG | Depois do pfSense/pfBlockerNG | |--------------|---------------------------------|------------------------------|-------------------------------| | **Nmap**     | Portas abertas detectadas       | 12 (22, 80, 139, 445, 3306) | 1 (443)                      | |              | Sistema operacional identificado | Sim                          | Não                          | | **Ncat**     | Conexão em porta 22 (SSH)       | Conseguiu conectar           | Conexão recusada             | |              | Conexão em porta 80 (HTTP)      | Conseguiu conectar           | Bloqueado                    | |              | Conexão em porta 443 (HTTPS)    | Conseguiu conectar           | Conseguiu conectar           | | **Nikto**    | Vulnerabilidades encontradas    | 5 falhas em HTTP server      | Nenhuma vulnerabilidade      | | **Metasploit** | Exploit contra serviço SMB     | Execução bem-sucedida        | Bloqueado pelo firewall      | | **Wireshark** | Tráfego ICMP (ping)             | Visível e respondido         | Bloqueado                    | |              | Tráfego HTTP/FTP                | Visível                      | Bloqueado                    | |              | Tráfego HTTPS                   | Visível                      | Visível                      |  ---  ### 3.2 Evidências  - **Relatórios Nmap**: armazenados em `nmap_*.txt`   - **Relatórios Ncat**: armazenados em `ncat_*.txt`   - **Relatórios Nikto**: armazenados em `nikto_*.txt`   - **Exploração com Metasploit**: `metasploit_logs.txt`   - **Captura de pacotes (tcpdump/Wireshark)**: `captura.pcap`    > **Observação**: Os arquivos de evidências estão anexados digitalmente como parte deste trabalho.  ---  ## 4. Análise dos Resultados  A comparação entre os cenários demonstrou:  - **Redução drástica no número de portas abertas** após o uso do pfBlockerNG.   - **Serviços inseguros como SMB e FTP foram bloqueados**.   - **Tentativas de exploração** com Metasploit não foram mais possíveis.   - **O tráfego visível no Wireshark** restringiu-se apenas ao protocolo HTTPS (porta 443).   - Houve **eliminação de vulnerabilidades web** detectadas pelo Nikto.    ---  ## 5. Conclusão  Os testes confirmam que a implementação do **pfSense com pfBlockerNG** aumentou significativamente o nível de segurança da rede.    A comparação entre os cenários **antes e depois** evidencia: - Mitigação de riscos de invasão.   - Restrição de tráfego apenas a serviços autorizados.   - Redução de exposição a ataques externos.    Este relatório valida a eficácia do firewall como medida de segurança para pequenas e médias empresas, atendendo tanto requisitos técnicos quanto conformidade com a **LGPD**.  ---``
+---
+
+## 1. Introdução
+
+Este relatório apresenta os testes de auditoria de segurança realizados na rede corporativa da empresa, com o objetivo de avaliar a eficácia do firewall **pfSense** em conjunto com o **pfBlockerNG**.  
+
+Os testes foram conduzidos em duas etapas distintas:
+- **Antes da configuração de segurança do firewall** (pfBlockerNG desativado).
+- **Após a configuração do firewall** (pfBlockerNG ativado).
+
+---
+
+## 2. Metodologia
+
+As ferramentas utilizadas foram:
+- **Nmap** – varredura de portas e identificação de serviços.
+- **Ncat** – teste de conectividade com portas específicas.
+- **Nikto** – auditoria de servidores web.
+- **Metasploit** – simulação de exploração de vulnerabilidades.
+- **tcpdump/Wireshark** – captura e análise de pacotes.
+
+Rede utilizada nos testes:
+- Endereço WAN público: `189.1.176.255`
+- Faixa interna auditada: `192.168.2.3 – 192.168.2.12`
+- Total de hosts testados: **10 máquinas**
+
+Procedimento:
+1. Execução de varredura inicial com pfBlockerNG desativado.
+2. Coleta e registro dos resultados (Nmap, Ncat, Nikto, Metasploit, Wireshark).
+3. Configuração e ativação do pfBlockerNG no pfSense.
+4. Reexecução dos mesmos testes.
+5. Comparação entre os dois cenários.
+
+---
+
+## 3. Resultados Obtidos
+
+### 3.1 Comparativo Geral
+
+| Ferramenta   | Métrica                         | Antes do pfSense/pfBlockerNG | Depois do pfSense/pfBlockerNG |
+|--------------|---------------------------------|------------------------------|-------------------------------|
+| **Nmap**     | Portas abertas detectadas       | 12 (22, 80, 139, 445, 3306) | 1 (443)                      |
+|              | Sistema operacional identificado | Sim                          | Não                          |
+| **Ncat**     | Conexão em porta 22 (SSH)       | Conseguiu conectar           | Conexão recusada             |
+|              | Conexão em porta 80 (HTTP)      | Conseguiu conectar           | Bloqueado                    |
+|              | Conexão em porta 443 (HTTPS)    | Conseguiu conectar           | Conseguiu conectar           |
+| **Nikto**    | Vulnerabilidades encontradas    | 5 falhas em HTTP server      | Nenhuma vulnerabilidade      |
+| **Metasploit** | Exploit contra serviço SMB     | Execução bem-sucedida        | Bloqueado pelo firewall      |
+| **Wireshark** | Tráfego ICMP (ping)             | Visível e respondido         | Bloqueado                    |
+|              | Tráfego HTTP/FTP                | Visível                      | Bloqueado                    |
+|              | Tráfego HTTPS                   | Visível                      | Visível                      |
+
+---
+
+### 3.2 Evidências
+
+- **Relatórios Nmap**: armazenados em `nmap_*.txt`  
+- **Relatórios Ncat**: armazenados em `ncat_*.txt`  
+- **Relatórios Nikto**: armazenados em `nikto_*.txt`  
+- **Exploração com Metasploit**: `metasploit_logs.txt`  
+- **Captura de pacotes (tcpdump/Wireshark)**: `captura.pcap`  
+
+> **Observação**: Os arquivos de evidências estão anexados digitalmente como parte deste trabalho.
+
+---
+
+## 4. Análise dos Resultados
+
+A comparação entre os cenários demonstrou:
+
+- **Redução drástica no número de portas abertas** após o uso do pfBlockerNG.  
+- **Serviços inseguros como SMB e FTP foram bloqueados**.  
+- **Tentativas de exploração** com Metasploit não foram mais possíveis.  
+- **O tráfego visível no Wireshark** restringiu-se apenas ao protocolo HTTPS (porta 443).  
+- Houve **eliminação de vulnerabilidades web** detectadas pelo Nikto.  
+
+---
+
+## 5. Conclusão
+
+Os testes confirmam que a implementação do **pfSense com pfBlockerNG** aumentou significativamente o nível de segurança da rede.  
+
+A comparação entre os cenários **antes e depois** evidencia:
+- Mitigação de riscos de invasão.  
+- Restrição de tráfego apenas a serviços autorizados.  
+- Redução de exposição a ataques externos.  
+
+Este relatório valida a eficácia do firewall como medida de segurança para pequenas e médias empresas, atendendo tanto requisitos técnicos quanto conformidade com a **LGPD**.
+
+---
+
 
 ---
 
