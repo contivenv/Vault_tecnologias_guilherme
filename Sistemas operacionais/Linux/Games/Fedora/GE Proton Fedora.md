@@ -25,7 +25,7 @@ O ProtonUp-Qt está disponível no Flathub, o que torna sua instalação no Fedo
 1.  **Abra o Terminal** no seu Fedora.
 2.  **Execute o seguinte comando** para instalar o ProtonUp-Qt:
     ```bash
-    flatpak install flathub net.davidotek.pupgui2
+    sudo flatpak install flathub net.davidotek.pupgui2
     ```
 3.  Confirme a instalação pressionando `Y` (ou `S`) quando solicitado.
 
