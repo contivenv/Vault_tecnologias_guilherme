@@ -4,6 +4,7 @@ tags:
   - proxmox
   - linux
   - debian
+  - aprendizado
 ---
 Uma lição importante que nunca vou esquecer é sobre os sistemas de virtualização, especialmente o [Virtual Environment (VE)](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) e também outros softwares como, por exemplo, [VirtualBox](https://www.oracle.com/br/virtualization/virtualbox/) e [KVM](https://www.redhat.com/pt-br/topics/virtualization/what-is-KVM). Essa experiência fez com que eu entendesse melhor como esses sistemas funcionam e sua importância na virtualização.
 
