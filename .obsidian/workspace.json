@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NTP",
+                "query": "20251105092319",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 422.5
   },
   "right": {
     "id": "0915b26a9c6961fe",
@@ -185,38 +185,43 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Captura de tela de 2025-11-05 11-41-01.png",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
-    "Sistemas operacionais/Linux/Virtualização/Registro - 05-11-2025.md",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
     "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
+    "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
+    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
+    "Anexos/PNG e JPG/Pasted image 20251106162920.png",
+    "Anexos/PNG e JPG/Pasted image 20251009170942.png",
+    "Anexos/PNG e JPG/Pasted image 20251106164355.png",
+    "Anexos/PNG e JPG/Pasted image 20251106162940.png",
+    "Anexos/PNG e JPG/Pasted image 20251106162957.png",
+    "Anexos/PNG e JPG/Proxy-Server-Overview.png",
+    "Anexos/PNG e JPG/Modelo OSI - Ilustração.jpg",
+    "Anexos/PNG e JPG/Pasted image 20250110120509.png",
+    "Anexos/PNG e JPG/Pasted image 20250110121946.png",
+    "Anexos/PNG e JPG/Camadas do protocolo TCP_IP.png",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Bash Shell.md",
+    "Sistemas operacionais/Linux/Programas para Linux.md",
+    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+    "Sistemas operacionais/Linux/Virtualização/Registro - 05-11-2025.md",
     "conflict-files-obsidian-git.md",
     "Sistemas operacionais/Linux/Backups/Pika.md",
     "Sistemas operacionais/Linux/Backups",
     "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
     "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
     "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
-    "Sistemas operacionais/Linux/Bash Shell.md",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
     "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
-    "Sistemas operacionais/Linux/Programas para Linux.md",
     "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
     "Sistemas operacionais/Linux/Games/Fedora/Otimização para Fedora.md",
     "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos Windows para Ubuntu Server via PSFTP (PuTTY).md",
-    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
     "LDAP/Implementação no firewall pfSense.md",
     "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
     "Manuais e procedimentos/Como configurar o Smart Connection no Obsidian.md",
-    "Anexos/PNG e JPG/Captura de tela de 2025-10-09 16-39-31.png",
-    "Anexos/PNG e JPG/Pasted image 20251009164038.png",
-    "Anexos/PNG e JPG/Pasted image 20251009170942.png",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "Syncthing/4. Personalização do Syncthing.md",
     "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Anexos/PNG e JPG/003.jpg",
     "LDAP",
     "Manuais e procedimentos",
     "Coisa da Roque",
@@ -224,7 +229,6 @@
     "Infraestrutura de redes/Ferramentas de exploração/nmap",
     "Infraestrutura de redes/Ferramentas de exploração",
     "IA",
-    "Conhecimento geral",
-    "Anexos/PNG e JPG/Pasted image 20250903193803.png"
+    "Conhecimento geral"
   ]
 }

@@ -27,7 +27,7 @@ Organizei e coloquei as descrições desses adaptadores em nosso firewall para d
 
 Reiniciei o Proxmox via interface web agora para aplicar as alterações de rede. O `eno2` já estava setado, reiniciei apenas para aplica do adaptador de rede `eno1`.
 
-O servidor de virtualização Proxmox está UP de novo com os endereços de IP ajustados corretamente para as duas placas de rede agora com sucesso.![[Pasted image 20251105092319.png|725]]
+O servidor de virtualização Proxmox está UP de novo com os endereços de IP ajustados corretamente para as duas placas de rede agora com sucesso.![[Pasted image 20251105092319.png]]
 Somente a `eno2` está como UP pois deixamos uma só "ativa" para puxar a rede. Antes de realizarmos as configurações no firewall pfSense, o `eno1` não estava aparecendo.
 
 ##### 2. Proxmox como servidor NTP
