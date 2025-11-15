@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
+                "file": "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interfaces gráficas do Linux"
+              "title": "Relatos do dia 14-11-2025"
             }
           }
         ]
@@ -185,20 +185,26 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
+    "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
+    "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
+    "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
+    "Configurações e implementações de sistemas/RustDesk .vbs.md",
+    "Configurações e implementações de sistemas/Instalação de softwares nas máquinas via GPO.md",
+    "Configurações e implementações de sistemas/Como configurar um servidor RustDesk no Linux e implementar o config.toml.md",
+    "Configurações e implementações de sistemas/Como configurar o Smart Connection no Obsidian.md",
+    "Conhecimento geral/biometria facial.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Programas para Linux.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Anexos/Captura de tela de 2025-11-05 11-41-01.png",
     "conflict-files-obsidian-git.md",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
     "Anexos/PNG e JPG/Pasted image 20251106164355.png",
     "Anexos/PNG e JPG/Pasted image 20251106162957.png",
     "Anexos/PNG e JPG/Pasted image 20251106162940.png",
     "Anexos/PNG e JPG/Pasted image 20251106162920.png",
     "Sistemas operacionais/Linux/Games/Fedora/GE Proton Fedora.md",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
-    "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
     "Sistemas operacionais/Linux/Backups/Pika.md",
     "Sistemas operacionais/Linux/Backups",
     "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
@@ -215,11 +221,6 @@
     "Anexos/PNG e JPG/Captura de tela de 2025-10-09 16-39-31.png",
     "Anexos/PNG e JPG/Pasted image 20251009164038.png",
     "Anexos/PNG e JPG/Pasted image 20251009170942.png",
-    "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
-    "Syncthing/4. Personalização do Syncthing.md",
-    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
-    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Cabeamento de redes/Par trançado.md",
     "Anexos/PNG e JPG/003.jpg",
     "LDAP",
     "Manuais e procedimentos",
