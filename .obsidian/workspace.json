@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Sistemas operacionais/Linux/Linux Mint/Inicialização de programas.md",
-                "mode": "preview",
-                "source": false
+                "file": "Anexos/PNG e JPG/Pasted image 20251125095415.png"
               },
-              "icon": "lucide-file",
-              "title": "Inicialização de programas"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251125095415"
             }
           }
         ]
@@ -183,19 +181,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "12179b4eabccc517",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Samba/Configuração do Samba no Linux.md",
-    "Sistemas operacionais/Linux/Samba/Samba.md",
+    "Anexos/PNG e JPG/Pasted image 20251125092504.png",
+    "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
+    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
+    "Sistemas operacionais/OpenSolaris/OpenSolaris.md",
     "Sistemas operacionais/Linux/Samba/Procura de servidores com o GVFS e explicação de IP no smb.md",
     "Sistemas operacionais/Linux/Linux Mint/Inicialização de programas.md",
-    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
-    "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Samba/Configuração do Samba no Linux.md",
+    "Sistemas operacionais/Linux/Samba/Samba.md",
     "Sistemas operacionais/Linux/Bash/Bash Shell.md",
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
-    "Pasted image 20251125095415.png",
-    "Pasted image 20251125092504.png",
+    "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Sistemas operacionais/Linux/Linux Mint",
     "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
     "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
@@ -203,8 +203,6 @@
     "Sistemas operacionais/Versões do Proton.md",
     "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
     "Curso gratuito Git e GitHub/8. Ignorando arquivos.md",
-    "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
-    "Sistemas operacionais/OpenSolaris/OpenSolaris.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
     "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
     "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Proton GE - Ubuntu.md",
@@ -216,7 +214,6 @@
     "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
-    "Configurações e implementações de sistemas/RustDesk .vbs.md",
     "Anexos/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20251106164355.png",
     "Anexos/PNG e JPG/Pasted image 20251106162957.png",
