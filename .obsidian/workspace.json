@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Anexos/PNG e JPG/Pasted image 20251125095415.png"
+                "file": "Firewall/PfSense/Defesa do TCC sobre a implementação do firewall pfSense.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251125095415"
+              "icon": "lucide-file",
+              "title": "Defesa do TCC sobre a implementação do firewall pfSense"
             }
           }
         ]
@@ -181,8 +183,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Firewall/PfSense/Documentação firewall PfSense resumida.md",
+    "Firewall/PfSense/Defesa do TCC sobre a implementação do firewall pfSense.md",
+    "Sistemas operacionais/Versões do Proton.md",
+    "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
     "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
     "Sistemas operacionais/Linux/Distribuições Linux.md",
@@ -195,12 +201,10 @@
     "Sistemas operacionais/Linux/Samba/Samba.md",
     "Sistemas operacionais/Linux/Bash/Bash Shell.md",
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
-    "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Sistemas operacionais/Linux/Linux Mint",
     "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
     "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
     "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-    "Sistemas operacionais/Versões do Proton.md",
     "Curso gratuito Git e GitHub/7. Desfazendo commit.md",
     "Curso gratuito Git e GitHub/8. Ignorando arquivos.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
@@ -213,7 +217,6 @@
     "Sistemas operacionais/Linux/Fedora",
     "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
     "Anexos/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20251106164355.png",
     "Anexos/PNG e JPG/Pasted image 20251106162957.png",
