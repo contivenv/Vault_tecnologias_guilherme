@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WhatsApp - backup local/restore_whatsapp.sh.md",
+                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "restore_whatsapp.sh"
+              "title": "backup_whatsapp.sh"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WhatsApp - backup local/restore_whatsapp.sh.md",
+                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de restore_whatsapp.sh"
+              "title": "Sumário de backup_whatsapp.sh"
             }
           },
           {
@@ -186,8 +186,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "WhatsApp - backup local/restore_whatsapp.sh.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
     "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
