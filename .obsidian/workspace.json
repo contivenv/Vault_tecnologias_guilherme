@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
+                "file": "WhatsApp - backup local/restore_whatsapp.sh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Versões do Proton"
+              "title": "restore_whatsapp.sh"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
+                "file": "WhatsApp - backup local/restore_whatsapp.sh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Versões do Proton"
+              "title": "Sumário de restore_whatsapp.sh"
             }
           },
           {
@@ -184,14 +184,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
+    "WhatsApp - backup local/restore_whatsapp.sh.md",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
     "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
+    "Sistemas operacionais/Linux/Impressoras/Sem título.md",
+    "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/Montagem automática de discos.md",
-    "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
@@ -212,9 +215,6 @@
     "Firewall/PfSense/Documentação firewall PfSense resumida.md",
     "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
-    "Sistemas operacionais/OpenSolaris/OpenSolaris.md",
-    "Sistemas operacionais/Linux/Samba/Procura de servidores com o GVFS e explicação de IP no smb.md",
-    "Sistemas operacionais/Linux/Linux Mint/Inicialização de programas.md",
     "Sistemas operacionais/Linux/Linux Mint",
     "Sistemas operacionais/Linux/Linux Mint",
     "Sistemas operacionais/Linux/Ubuntu",
