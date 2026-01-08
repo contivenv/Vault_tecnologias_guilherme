@@ -72,3 +72,4 @@ Documentos/Senhas.kdbx # saida do comando
 
 > ‘O comando find aceita caracteres especiais para correspondência de padrões, como \*, porém você deve colocá-los entre aspas simples ('\*') para proteger os caracteres especiais do recurso de globbing do próprio shell.’
 > —Brian Ward, “Como o Linux funciona”
+

@@ -7,7 +7,6 @@ tags:
   - cmd
   - arquivos
 ---
-
 Para transferir um arquivo do seu PC com Windows para um servidor Ubuntu via PuTTY, você pode usar **PSCP** (PuTTY Secure Copy Protocol), que é uma ferramenta de linha de comando incluída com o PuTTY. Aqui está um passo a passo para realizar essa transferência:
 
 ### Passo a Passo:
