@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Fedora/Fedora/Versões do Proton.md",
+                "file": "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
                 "mode": "source",
                 "source": false
               },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas operacionais/Linux/Fedora/Fedora/Versões do Proton.md",
+                "file": "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,10 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "12179b4eabccc517",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Fedora/Fedora/Otimização para games no Fedora.md",
-    "Sistemas operacionais/Linux/Fedora/Fedora/Versões do Proton.md",
+    "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
+    "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/Montagem automática de discos.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
