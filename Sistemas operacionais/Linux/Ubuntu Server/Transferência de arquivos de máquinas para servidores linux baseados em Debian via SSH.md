@@ -69,7 +69,7 @@ No Ubuntu, você pode escolher diferentes diretórios para armazenar seus arquiv
 ```
 
 ---
-## OPÇÃO ATERMATIVAS — **scp (simples, rápido, padrão UNIX)**
+## OPÇÃO ALTERNATIVAS — **scp (simples, rápido, padrão UNIX)**
 
 Funciona se o **Linux já tem SSH ativo** (99% das vezes tem).
 

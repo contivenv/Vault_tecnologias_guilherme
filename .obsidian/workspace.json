@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de conflict-files-obsidian-git"
+              "title": "Sumário de Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH"
             }
           },
           {
@@ -184,10 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "070d43ad0f61b9f7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH.md",
     "conflict-files-obsidian-git.md",
+    "Sistemas operacionais/Linux/Ubuntu Server/Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH.md",
     "Sistemas operacionais/Linux/OpenSuse/Regata OS.md",
     "Sistemas operacionais/Linux/OpenSuse",
     "Sistemas operacionais/Linux/Montagem automática de discos.md",
