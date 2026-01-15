@@ -36,7 +36,7 @@ grep root /etc/*
 > ’
 > —Brian Ward, “Como o Linux funciona”
 
-Nessa parte do comando grep eu tive dificuldade para entender como o autor do livro descreve o que ele faz. Fui pedir uma explicação mais simples sobre o que era o comando no Gemini. Me foi passado por ele e pesquisado em outros lugares que, o comando seria uma forma de marcador de texto, onde ele encontra o que está escrito dentro de uma arquivo do diretório que você está procurando. O comando grep seria o "fofoqueiro" que abre suas cartas e lê elas, enquanto o comando find e locate seira somente o carteiro que entrega os arquivos. Mais detalhes em
+Nessa parte do comando grep eu tive dificuldade para entender como o autor do livro descreve o que ele faz. Fui pedir uma explicação mais simples sobre o que era o comando no Gemini. Me foi passado por ele e pesquisado em outros lugares que, o comando seria uma forma de marcador de texto, onde ele encontra o que está escrito dentro de uma arquivo do diretório que você está procurando. O comando grep seria o "fofoqueiro" que abre suas cartas e lê elas, enquanto o comando find e locate seira somente o carteiro que entrega os arquivos. Mais detalhes em [[Me explique o que o comando grep no Linux faz e suas variáveis, por exemplo -E. Eu estou lendo um livro sobre Linux e não estou entendendo o que o autor que dizer, mas pela explicação parece ser algo complexo e bem importante.]]
 ## less
 
 Basicamente pode servir para exibição de conteúdo em tela cheia quando se é muito extenso. Podendo listar o conteúdo de uma vez só. Podemos usar ele como um leitor de arquivo literal, onde os comandos da tecla barra avaçam no arquivo, q sai e b retorna para a tela cheia da listage.
