@@ -52,10 +52,7 @@ drwxr-xr-x. 1 guilhermect guilhermect   0 ago 25 17:11  Vídeos
 ```bash
 guilhermect@fedora:~$ ls -f
 
- .              .bash_profile   .cache              Público      Vídeos    .dotnet                  Livros
- ..             .bashrc        'Área de trabalho'   Documentos   .var      Senhas                   .bash_history
- .mozilla       .config         Downloads           Músicas      .vscode  'Anotações - Obsidian'    .gitconfig
- .bash_logout   .local          Modelos             Imagens      .pki     'Tecnologia - Obsidian'   .ssh
+. .bash_profile .cache PúblicoVídeos .dotnet Livros .. .bashrc 'Área de trabalho' Documentos .var Senhas .bash_history .mozilla .config Downloads Músicas .vscode 'Anotações - Obsidian' .gitconfig .bash_logout .local Modelos Imagens .pki 'Tecnologia - Obsidian' .ssh
 ```
 
 ## cp
