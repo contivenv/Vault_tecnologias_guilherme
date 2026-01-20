@@ -21,6 +21,8 @@ Além dessa santa trindade (ou triunvirato como o autor fala no livro, achei ess
 
 **Autenticação**: cuida do processo de determinar com quem você está se comunicando antes de revelar informações sigilosas ou entrar em uma transação comercial.
 
-**Não repúdio**: trata de assinaturas como seu ponto principal: como provar que seu cliente realmente fez um pedido eletrônico de dez milhões de unidades de um produto com preço unitário de 89 centavos quando mais tarde ele afirmar que o preço era 69 centavos? Ou talvez ele afirme que nunca efetuou nenhum pedido, depois de ver que uma empresa chinesa está inundando o mercado com esses mesmos produtos por 49 centavos.
+> **Não repúdio**: ‘o não repúdio trata de assinaturas: como provar que seu cliente realmente fez um pedido eletrônico de dez milhões de unidades de um produto com preço unitário de 89 centavos quando mais tarde ele afirmar que o preço era 69 centavos? Ou talvez ele afirme que nunca efetuou nenhum pedido, depois de ver que uma empresa chinesa está inundando o mercado com esses mesmos produtos por 49 centavos.’
+> —Andrew Tanenbaum, Nick Feamster e David Wetherall, “Redes de Computadores 6ª Edição”
+ 
+Esses fatos que acompanhamos hoje pode ser facilmente adotados em outros sistemas foras da computação também. Tenebaum dá um exemplo de desconto de cheques. Pediu para nos compara com um desconto de cheque original na segunda-feira e uma fotocópia de um na terça-feira. Um modelo interessante de que a segurança não depende somente de coisas que estão rodando dentro e por fora nas redes, e sim na pecinha que fica atrás da máquina, que geralmente é a que dá mais problema: os usuários, pessoas, seres humanos.
 
-Esses fatos que acompanhamos hoje pode ser facilmente adotados em outros sistemas foras da computação também. Tenebaum dá um exemplo de desconto de cheques. Pediu para nos compara com um desconto de cheque original na segunda-feira e uma fotocópia de um na terça-feira.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cibersegurança/Fundamentos da segurança de rede.md",
+                "file": "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentos da segurança de rede"
+              "title": "Estudo de caso de melhoria em empresa fictícia"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Cibersegurança/Fundamentos da segurança de rede.md",
+    "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.md",
+    "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
     "Cibersegurança",
@@ -213,7 +214,6 @@
     "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/Montagem automática de discos.md",
-    "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
     "Sistemas operacionais/Linux/OpenSuse",
     "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
