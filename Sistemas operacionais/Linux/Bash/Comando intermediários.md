@@ -39,8 +39,16 @@ grep root /etc/*
 Nessa parte do comando `grep` eu tive dificuldade para entender como o autor do livro descreve o que ele faz. Fui pedir uma explicação mais simples sobre o que era o comando no Gemini. Me foi passado por ele e pesquisado em outros lugares que, o comando seria uma forma de marcador de texto, onde ele encontra o que está escrito dentro de uma arquivo do diretório que você está procurando. O comando `grep` seria o "fofoqueiro" que abre suas cartas e lê elas, enquanto o comando `find` e `locate` seria somente o carteiro que entrega os arquivos. Mais detalhes em [[Me explique o que o comando grep no Linux faz e suas variáveis, por exemplo -E. Eu estou lendo um livro sobre Linux e não estou entendendo o que o autor que dizer, mas pela explicação parece ser algo complexo e bem importante.]]
 ## less
 
-Basicamente pode servir para exibição de conteúdo em tela cheia quando se é muito extenso. Podendo listar o conteúdo de uma vez só. Podemos usar ele como um leitor de arquivo literal, onde os comandos da tecla barra avançam no arquivo, (`q`) sai e (`b`) retorna para a tela cheia da listagem.
+Basicamente pode servir para exibição de conteúdo em tela cheia quando se é muito extenso. Podendo listar o conteúdo de uma vez só. Podemos usar ele como um leitor de arquivo literal, onde os comandos da tecla barra avançam no arquivo, (`q`) sai e (`b`) retorna para a tela cheia da listagem. Eu salvei um trecho de um livro de redes de computadores do Tenabaum com o título do arquivo de `trecho_livro` no caminho `/home/guilherme.teixeira/Documentos`. Um exemplo de exibição do comando:
+```bash
+~$ cd Documentos/
+Documentos$ pwd
+/home/guilherme.teixeira/Documentos
+Documentos$ 
+Documentos$ less trecho_livro
+```
 
+![[Pasted image 20260121110705.png]]
 ## pwd
 
 Serve para localizar o diretório e o caminho que vocês está. Por mais que pense que esse comando pode ser bobo, ele não é. Na prática quando não se tem a exibição de diretórios ou de onde você está dentro do sistema, o `pwd` é um comando que pode te dar um norte. Na outra forma de ele ser útil é quando são usados links simbólicos, onde o conteúdo original do caminho é escondido. Nesse caso, ele vai te ajudar a se localizar.
@@ -51,7 +59,7 @@ Para comparação de dois arquivos, você pode usar:
 ```bash
 diff arquivo1 arquivo2 # entrada do comando
 ```
-Executando esse comando, vai conseguir ver o comparativo exato dos arquivos. Sua variação de comando pode ser usado como `diff -u` para visualizar os dados de uma forma mais detalhada.
+Executando esse comando, vai conseguir ver o comparativo exato dos arquivos. Sua variação de comando pode ser usado como `diff -u` para visualizar os dados de uma forma mais detalhada. Ele é praticamente um software que se chama [Meld](https://flathub.org/pt-BR/apps/org.gnome.meld) para comparação de arquivos, só que o Meld faz isso de forma mais visual.
 
 ## file
 
@@ -73,4 +81,5 @@ Documentos/Senhas.kdbx # saida do comando
 > ‘O comando find aceita caracteres especiais para correspondência de padrões, como \*, porém você deve colocá-los entre aspas simples ('\*') para proteger os caracteres especiais do recurso de globbing do próprio shell.’
 > —Brian Ward, “Como o Linux funciona”
 
+## 
 
