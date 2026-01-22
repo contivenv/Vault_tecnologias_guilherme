@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cibersegurança/Princípios da básicos de segurança.md",
+                "file": "Nextcloud/Tutorial de implementação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Princípios da básicos de segurança"
+              "title": "Tutorial de implementação"
+            }
+          },
+          {
+            "id": "c27932095e96b46c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,10 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c27932095e96b46c",
   "lastOpenFiles": [
-    "Cibersegurança/Fundamentos da segurança de rede.md",
+    "Pasted image 20251105093556.png.md",
+    "Nextcloud/Tutorial de implementação.md",
     "Cibersegurança/Princípios da básicos de segurança.md",
+    "Cibersegurança/Fundamentos da segurança de rede.md",
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.md",
     "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
     "Pasted image 20260121110705.png",
@@ -213,8 +226,6 @@
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
     "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
     "Sistemas operacionais/Linux/Impressoras/Sem título.md",
-    "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
-    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/OpenSuse",
     "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
