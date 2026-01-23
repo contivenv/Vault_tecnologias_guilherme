@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/1.1.4 - Controle de acesso.md",
+                "file": "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.4 - Controle de acesso"
+              "title": "1.1.2 - Estrutura de cibersegurança"
             }
           }
         ]
@@ -186,14 +186,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "frameworks de cibersegurança (CSF)..md",
     "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
-    "gerenciamento de identidades e acessos.md",
+    "National Institute of Standards and Technology (NIST).md",
+    "CompTIA Security+/1.1.3 - Análise de lacunas.md",
     "CompTIA Security+/1.1.4 - Controle de acesso.md",
+    "gerenciamento de identidades e acessos.md",
     "Autorização.md",
     "CompTIA Security+/Termos/Identificação.md",
     "CompTIA Security+/Termos/Autenticação.md",
     "CompTIA Security+/Termos",
-    "CompTIA Security+/1.1.3 - Análise de lacunas.md",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum/5.1.2 Serviços oferecidos à camada de transporte.md",
     "CompTIA Security+",
     "Livros/Redes/Redes de Computadores 6º - Andrew S. Tanenbaum.md",
@@ -214,8 +216,6 @@
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.md",
     "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
     "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
-    "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
-    "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
     "Cibersegurança",
     "Sistemas operacionais/Linux/Bash/Consultas de dúvidas com IA",
     "Sistemas operacionais/Linux/OpenSuse",
