@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
-                "mode": "preview",
+                "file": "CompTIA Security+/1.1.3 - Análise de lacunas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.2 - Estrutura de cibersegurança"
+              "title": "1.1.3 - Análise de lacunas"
             }
           }
         ]
@@ -186,11 +186,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "frameworks de cibersegurança (CSF)..md",
-    "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
-    "National Institute of Standards and Technology (NIST).md",
-    "CompTIA Security+/1.1.3 - Análise de lacunas.md",
     "CompTIA Security+/1.1.4 - Controle de acesso.md",
+    "CompTIA Security+/1.1.3 - Análise de lacunas.md",
+    "análise de lacunas.md",
+    "controles de segurança.md",
+    "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
+    "frameworks de cibersegurança (CSF)..md",
+    "National Institute of Standards and Technology (NIST).md",
     "gerenciamento de identidades e acessos.md",
     "Autorização.md",
     "CompTIA Security+/Termos/Identificação.md",
@@ -214,8 +216,6 @@
     "Cibersegurança/Princípios da básicos de segurança.md",
     "Cibersegurança/Fundamentos da segurança de rede.md",
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.md",
-    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
     "Cibersegurança",
     "Sistemas operacionais/Linux/Bash/Consultas de dúvidas com IA",
     "Sistemas operacionais/Linux/OpenSuse",
