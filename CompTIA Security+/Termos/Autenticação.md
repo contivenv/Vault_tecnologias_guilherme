@@ -1,0 +1,1 @@
+Método para validar as credenciais exclusivas de uma entidade ou indivíduo em particular.

@@ -1,0 +1,1 @@
+processo de segurança que fornece mecanismos de identificação, autenticação e autorização para usuários, computadores e outras entidades trabalharem com ativos organizacionais, como redes, sistemas operacionais e aplicativos. Também conhecido como gerenciamento de identidade (IdM) e gerenciamento de acesso.
