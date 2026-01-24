@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/Termos/tríade CIA.md",
-                "mode": "source",
+                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tríade CIA"
+              "title": "1.1.4 Controle de acesso"
             }
           }
         ]
@@ -197,11 +197,19 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CompTIA Security+/Termos/Não repúdio.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 Análise de lacunas.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.3 Resumo.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.5 Unidades de negócios de segurança da informação.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.2 Estrutura de cibersegurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.1 Categorias de controle de segurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.3 Funções e responsabilidades da segurança da informação.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.4 Competências de segurança da informação.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.2 Tipos funcionais de controle de segurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2 Controles de segurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
+    "CompTIA Security+/1.2",
     "CompTIA Security+/Termos/tríade CIA.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 - Controle de acesso.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 - Análise de lacunas.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.2 - Estrutura de cibersegurança.md",
+    "CompTIA Security+/Termos/Não repúdio.md",
     "CompTIA Security+/Dúvidas/Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?.md",
     "CompTIA Security+/Termos/National Institute of Standards and Technology (NIST).md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.1 Segurança da informação.md",
@@ -220,19 +228,12 @@
     "CompTIA Security+/Materiais de Apoio/O CSF 1.1 Cinco Funções.md",
     "CompTIA Security+/Materiais de Apoio",
     "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
-    "CompTIA Security+/Termos/Autorização.md",
-    "CompTIA Security+/Termos/análise de lacunas.md",
-    "CompTIA Security+/Termos/controles de segurança.md",
-    "CompTIA Security+/Termos/frameworks de cibersegurança (CSF)..md",
-    "CompTIA Security+/Termos/gerenciamento de identidades e acessos.md",
-    "CompTIA Security+/Termos/Identificação.md",
     "CompTIA Security+/Termos",
     "CompTIA Security+",
     "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Cibersegurança",
     "Sistemas operacionais/Linux/Bash/Consultas de dúvidas com IA",
-    "Sistemas operacionais/Linux/OpenSuse",
     "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
