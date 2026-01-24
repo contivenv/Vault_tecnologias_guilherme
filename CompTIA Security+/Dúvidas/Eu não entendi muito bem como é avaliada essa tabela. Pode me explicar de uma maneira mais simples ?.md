@@ -49,3 +49,136 @@ A coluna "Níveis de risco" mostra o tamanho do problema se essa área falhar. E
 **Resumo da Ópera:**
 
 A tabela está dizendo: _"Na parte de **Identificar** problemas, estamos medianos (amarelo) e vamos melhorar até o fim do ano. Mas na parte de **Proteger** os dados, estamos muito fracos (vermelho), o risco é altíssimo (9) e precisamos resolver isso urgente agora no começo do ano."_
+
+# Certo, eu entendi mais ou manos tudo agora, ainda só não entendi como funciona a classificação de numeração na tríade CIA. As letras e logo depois delas, números.
+
+Ótima pergunta. Essa é a parte que transforma a tabela de uma simples lista de tarefas em uma **matriz de risco**.
+
+Para entender essa numeração, imagine que ela é uma **Nota de Gravidade** (ou Impacto), geralmente em uma escala de **0 a 10**.
+
+Ela responde à pergunta: **"Se essa proteção falhar, qual o tamanho do estrago para a empresa?"**
+
+Aqui está como ler cada linha:
+
+### 1. A Escala (O "Termômetro")
+
+- **Notas Baixas (1 a 3):** Se der problema, é chato, mas a empresa continua funcionando. Ninguém vai ser demitido ou processado.
+    
+- **Notas Médias (4 a 6):** O problema é sério. Pode causar prejuízo financeiro ou parar um departamento.
+    
+- **Notas Altas (7 a 10):** Catástrofe. A empresa pode falir, levar multas milionárias (LGPD) ou perder a reputação no mercado.
+    
+
+### 2. Decifrando o exemplo da tabela
+
+Vamos pegar a linha vermelha de **"Segurança de dados"**, que é a mais crítica. Lá está escrito:
+
+> **C: 9 | I: 9 | A: 4**
+
+Veja a tradução disso para o mundo real:
+
+- **C: 9 (Confidencialidade - Risco Altíssimo):**
+    
+    - _Significado:_ Se a segurança de dados falhar, o sigilo será quebrado.
+        
+    - _Cenário:_ Vazamento de senhas de clientes ou segredos industriais na internet. Como é nota **9**, o impacto é devastador.
+        
+- **I: 9 (Integridade - Risco Altíssimo):**
+    
+    - _Significado:_ Se falhar, os dados podem ser alterados indevidamente.
+        
+    - _Cenário:_ Um hacker entra e muda o saldo bancário das contas ou apaga registros de vendas. Você não pode mais confiar nos dados. Nota **9** é gravíssimo.
+        
+- **A: 4 (Disponibilidade - Risco Médio/Baixo):**
+    
+    - _Significado:_ Se falhar, o sistema sai do ar.
+        
+    - _Cenário:_ O sistema fica lento ou cai por algumas horas. É ruim (nota **4**), mas é **menos grave** do que os dados vazarem (nota 9). A empresa prefere o sistema fora do ar do que os dados roubados.
+        
+
+### Por que isso é importante?
+
+Essa numeração explica **por que** a "Remediação" dessa linha está marcada para o **1º Trimestre**.
+
+O gestor olhou e pensou: _"Tenho um risco nota 9 aqui. Tenho que resolver isso em Janeiro. Aquele risco nota 6 lá de cima (Governança) eu posso deixar para o 3º Trimestre."_
+
+Em resumo: O número diz o **tamanho da dor de cabeça** se aquela área específica da segurança falhar.
+
+# E como essa nota é classificada de 0 a 10 ? O time de TI senta e conversa sobre ou existe algum padrão para seguir e dar essas numerações ?
+
+A resposta curta é: **as duas coisas acontecem.**
+
+Existe um "padrão técnico" (uma régua oficial) para garantir que o número não seja inventado, mas existe também a "conversa do time" (contexto do negócio) para ajustar essa nota à realidade da empresa.
+
+Aqui está como essa "mágica" do 0 a 10 geralmente acontece:
+
+### 1. A Régua Técnica (O Padrão Ouro: CVSS)
+
+No mundo da cibersegurança, existe um sistema padronizado mundialmente chamado **CVSS** (_Common Vulnerability Scoring System_). Ele é uma calculadora que gera essa nota de 0 a 10 baseada em fatos técnicos, sem "achismo".
+
+Geralmente, o analista responde a perguntas objetivas em uma calculadora de CVSS:
+
+- **O ataque pode ser feito pela internet?** (Sim = nota sobe)
+    
+- **Precisa de senha para atacar?** (Não = nota sobe)
+    
+- **O atacante precisa ser um gênio ou qualquer um consegue?** (Qualquer um = nota sobe)
+    
+- **Se der certo, para tudo ou só uma parte?** (Tudo = nota sobe)
+    
+
+O resultado sai classificado assim:
+
+- **0.1 – 3.9:** Baixo (Low)
+    
+- **4.0 – 6.9:** Médio (Medium)
+    
+- **7.0 – 8.9:** Alto (High)
+    
+- **9.0 – 10.0:** Crítico (Critical)
+    
+
+### 2. A "Conversa do Time" (Contextualização)
+
+É aqui que o time de TI senta com a diretoria. Porque uma falha técnica nota 10 (Crítica) no papel pode não ser tão grave se aquele servidor não tiver nada importante.
+
+Eles usam uma **Matriz de Risco** para ajustar a nota. A fórmula básica que eles discutem é:
+
+$$Risco = Probabilidade \times Impacto$$
+
+![Imagem de risk assessment matrix cybersecurity](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR__bcvNp_IjVgrvq5glwCYsHCtSCfSoMUM-JUsTxhIJYZSvjF8r_Lyo2AxtJPNbG2AUd_e0TWxhjIcTR8nfRlMgiLQTFpCzUwb5Cim5jyPXP6yNbw)
+
+Shutterstock
+
+Explorar
+
+A discussão na mesa seria algo assim:
+
+> **Analista Técnico:** "Temos uma falha no sistema de login. Pelo padrão CVSS, é nota 9."
+> 
+> **Diretor:** "Ok, mas esse sistema de login é do que?"
+> 
+> **Analista:** "É do sistema que controla a temperatura do ar condicionado."
+> 
+> **Diretor:** "Ah, então baixa essa nota. Se invadirem, a gente passa calor, mas a empresa não para. Vamos classificar o risco de negócio como **4**."
+
+**OU O CONTRÁRIO:**
+
+> **Analista:** "Temos uma falha simples, nota 4, no banco de dados."
+> 
+> **Diretor:** "Que banco de dados?"
+> 
+> **Analista:** "O que guarda os cartões de crédito dos clientes."
+> 
+> **Diretor:** "Então sobe isso para **10** agora! Se vazar um cartão, tomamos uma multa milionária e perdemos a reputação."
+
+### 3. Resumindo a sua tabela
+
+Naquela tabela da imagem que você mandou, os números **9** na tríade (C e I) provavelmente nasceram dessa combinação:
+
+1. **Fator Técnico:** A falta de "Gerenciamento de Identidade" permite que qualquer pessoa acesse o sistema (facilidade técnica alta).
+    
+2. **Fator de Negócio:** Se alguém acessar, rouba dados vitais da empresa (impacto no negócio altíssimo).
+    
+
+Portanto, **Impacto Máximo + Facilidade de Ataque = Nota 9 ou 10.**
