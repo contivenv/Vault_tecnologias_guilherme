@@ -1,0 +1,1 @@
+Monitora o uso autorizado de um recurso ou o uso de direitos por uma entidade e alerta quando é detectado ou tentado o uso não autorizado.

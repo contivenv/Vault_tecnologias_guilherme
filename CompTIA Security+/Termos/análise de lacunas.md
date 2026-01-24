@@ -1,0 +1,1 @@
+Uma análise que mede a diferença entre os estados atual e desejado, a fim de ajudar a avaliar o escopo do trabalho incluído em um projeto.
