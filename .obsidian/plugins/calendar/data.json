@@ -1,14 +1,8 @@
 {
   "shouldConfirmBeforeCreate": true,
-<<<<<<< HEAD
-  "weekStart": "sunday",
-  "wordsPerDot": 250,
-  "showWeeklyNote": true,
-=======
   "weekStart": "locale",
   "wordsPerDot": 250,
   "showWeeklyNote": false,
->>>>>>> origin/master
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "",
   "weeklyNoteFolder": "",

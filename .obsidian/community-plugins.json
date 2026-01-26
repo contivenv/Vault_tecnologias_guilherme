@@ -1,15 +1,11 @@
 [
-  "obsidian-admonition",
+  "obsidian-git",
   "obsidian-epub-plugin",
+  "editing-toolbar",
+  "calendar",
+  "obsidian-admonition",
+  "obsidian-icon-folder",
   "homepage",
   "meld-encrypt",
-  "mousewheel-image-zoom",
-  "obsidian-git",
-<<<<<<< HEAD
-  "calendar",
-  "obsidian-icon-folder",
-  "editing-toolbar"
-=======
-  "calendar"
->>>>>>> origin/master
+  "mousewheel-image-zoom"
 ]
