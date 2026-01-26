@@ -1,0 +1,1 @@
+A meta fundamental da segurança, de manter as informações e comunicações privadas e protegê-las contra acesso não autorizado.

@@ -5,7 +5,11 @@
   "meld-encrypt",
   "mousewheel-image-zoom",
   "obsidian-git",
+<<<<<<< HEAD
   "calendar",
   "obsidian-icon-folder",
   "editing-toolbar"
+=======
+  "calendar"
+>>>>>>> origin/master
 ]
