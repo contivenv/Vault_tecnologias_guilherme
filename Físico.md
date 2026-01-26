@@ -1,0 +1,1 @@
+Categoria de controle de segurança que atua contra tentativas de intrusão presencial.

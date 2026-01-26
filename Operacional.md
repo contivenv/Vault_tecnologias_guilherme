@@ -1,0 +1,1 @@
+Categoria de controle de segurança que é implementado por pessoas.
