@@ -182,3 +182,68 @@ Naquela tabela da imagem que você mandou, os números **9** na tríade (C e I) 
     
 
 Portanto, **Impacto Máximo + Facilidade de Ataque = Nota 9 ou 10.**
+
+# Agora me fale quais são os requisitos para serem seguidos e onde eles são baseados. Por exemplo 4/8. Tem 4 sendo cumpridos, mas e os outros 4. De onde tira esses "8" requisitos ?
+
+Essa é a pergunta de "um milhão de dólares": quem define as regras do jogo?
+
+Esses requisitos não saem da cabeça do chefe de TI. Eles vêm de documentos oficiais chamados **Frameworks de Cibersegurança** (ou Estruturas de Segurança). Eles funcionam como uma "Bíblia" ou um "Código de Obras" para a área de tecnologia.
+
+Olhando para a sua imagem, pelos termos usados ("Identificar", "Proteger", "Gerenciamento de Ativos"), é quase certeza que essa tabela está baseada no **NIST CSF** (_NIST Cybersecurity Framework_), que é o padrão mais famoso do mundo.
+
+Aqui está de onde saem esses números (como o "8"):
+
+### 1. O Livro de Regras (O Framework)
+
+Imagine que o **NIST** é um livro de receitas enorme.
+
+- Ele tem um capítulo chamado **"Proteger"**.
+    
+- Dentro desse capítulo, tem uma seção chamada **"Segurança de Dados"**.
+    
+- Nessa seção, o NIST lista, por exemplo, **8 ingredientes obrigatórios** para você dizer que seus dados estão seguros.
+    
+
+Esses "8" são os **Controles de Segurança** (as regras).
+
+### 2. O que seriam esses "8" requisitos?
+
+Para você visualizar, se o requisito total é 8, a lista oficial (baseada no NIST) seria algo parecido com isso:
+
+1. ❌ **Criptografia em repouso** (Dados salvos no HD estão embaralhados?) -> _Falta fazer._
+    
+2. ✅ **Criptografia em trânsito** (Dados via internet estão protegidos?) -> _Feito._
+    
+3. ❌ **Prevenção contra vazamento (DLP)** (O sistema bloqueia envio de arquivos confidenciais?) -> _Falta fazer._
+    
+4. ✅ **Destruição segura** (Quando joga um HD fora, destrói os dados?) -> _Feito._
+    
+5. ✅ **Capacidade de Proteção** (Tem backup?) -> _Feito._
+    
+6. ❌ **Ambientes de Teste** (Os testes usam dados falsos ou reais?) -> _Falta fazer._
+    
+7. ❌ **Verificação de Integridade** (Tem software que avisa se mudaram um arquivo?) -> _Falta fazer._
+    
+8. ❌ **Logs de Acesso** (Sabemos quem leu o arquivo?) -> _Falta fazer._
+    
+
+**Resultado:** A empresa cumpriu 3, mas o livro de regras exigia 8. Por isso a nota é **3/8**.
+
+### 3. Outros "Livros de Regras" Comuns
+
+Embora sua imagem pareça usar o NIST, existem outros padrões que as empresas usam para tirar esses requisitos:
+
+- **ISO 27001:** Um padrão internacional super rígido. Se a empresa quer certificação, ela tem que cumprir exatamente o que está escrito na norma (são mais de 100 requisitos no total).
+    
+- **CIS Controls:** Uma lista mais direta, tipo "Top 18 coisas para não ser hackeado".
+    
+- **LGPD (Lei Geral de Proteção de Dados):** A lei brasileira também cria requisitos legais que viram itens nessa lista.
+    
+
+### Resumo
+
+O número de baixo (**8**) vem de uma **Norma Internacional** (provavelmente o NIST CSF no seu caso).
+
+O número de cima (**3**) é a realidade da empresa após uma **Auditoria**.
+
+O auditor pega a norma, vai na empresa e marca um "X" no que existe e no que falta. O que falta vira a "lacuna" (o _gap_) que precisa ser preenchida.

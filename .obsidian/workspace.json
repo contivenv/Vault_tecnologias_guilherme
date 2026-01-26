@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
+                "file": "CompTIA Security+/Dúvidas/Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.4 Controle de acesso"
+              "title": "Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
+                "file": "CompTIA Security+/Dúvidas/Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 1.1.4 Controle de acesso"
+              "title": "Links inversos para Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
+                "file": "CompTIA Security+/Dúvidas/Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1.1.4 Controle de acesso"
+              "title": "Sumário de Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?"
             }
           },
           {
@@ -196,11 +196,14 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "75e35bdb82155943",
+  "active": "1509c1ef0324057c",
   "lastOpenFiles": [
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 Análise de lacunas.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.4 Controle de acesso.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2 Controles de segurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.3 Funções e responsabilidades da segurança da informação.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.1 Categorias de controle de segurança.md",
+    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.2 Estrutura de cibersegurança.md",
     "Físico.md",
     "Técnico.md",
     "Operacional.md",
@@ -222,9 +225,6 @@
     "CompTIA Security+/Dúvidas",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.3 Resumo.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.4 Competências de segurança da informação.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.3 Funções e responsabilidades da segurança da informação.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 Análise de lacunas.md",
-    "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.2 Estrutura de cibersegurança.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.1 Segurança da informação.md",
     "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança",
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.mdenc",
