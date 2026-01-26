@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
-                "mode": "preview",
+                "file": "CompTIA Security+/1.1.4 - Controle de acesso.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.2 - Estrutura de cibersegurança"
+              "title": "1.1.4 - Controle de acesso"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
+                "file": "Manuais e procedimentos/Servidor Debian - Samba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 1.1.2 - Estrutura de cibersegurança"
+              "title": "Links de saída para Servidor Debian - Samba"
             }
           },
           {
@@ -159,6 +159,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d2a658b6ac840d8c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 4
@@ -188,35 +198,35 @@
   "active": "070d43ad0f61b9f7",
   "lastOpenFiles": [
     "CompTIA Security+/1.1.3 - Análise de lacunas.md",
-    "CompTIA Security+/1.1.4 - Controle de acesso.md",
     "CompTIA Security+/1.1.2 - Estrutura de cibersegurança.md",
-    "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
-    "CompTIA Security+/Termos/National Institute of Standards and Technology (NIST).md",
-    "CompTIA Security+/Termos/Autorização.md",
-    "CompTIA Security+/Termos/análise de lacunas.md",
-    "CompTIA Security+/Termos/controles de segurança.md",
-    "CompTIA Security+/Termos/frameworks de cibersegurança (CSF)..md",
-    "CompTIA Security+/Termos/gerenciamento de identidades e acessos.md",
-    "CompTIA Security+/Termos/Identificação.md",
-    "CompTIA Security+/Termos/Autenticação.md",
-    "CompTIA Security+/Termos",
+    "Manuais e procedimentos/Servidor Debian - Samba.md",
+    "Manuais e procedimentos/Problemas do chamado sobre o Java.md",
+    "Manuais e procedimentos/Instalação e configuração do RustDesk no Ubuntu server.md",
+    "Manuais e procedimentos/Como instalar o Active Directory no Windows 11.md",
+    "Manuais e procedimentos/Como configurar o Smart Connection no Obsidian.md",
     "Livros/Redes/Anotações sobre os livros/Redes de Computadores 6º - Andrew S. Tanenbaum/5.1.2 Serviços oferecidos à camada de transporte.md",
-    "CompTIA Security+",
-    "Livros/Redes/Redes de Computadores 6º - Andrew S. Tanenbaum.md",
+    "Livros/Redes/Anotações sobre os livros/Livro sobre redes de computadores - capítulo 8 de segurança (firewall).md",
     "Livros/Redes/Redes de Computadores 6a Edição - Andrew S Tanenbaum.epub",
-    "LDAP/O que é ?.md",
-    "LDAP/Implementação no firewall pfSense.md",
-    "CURSO - Ninja pfSense v2023/27. Configurando Interface de Rede com IP Fixo.md",
-    "CURSO - Ninja pfSense v2023/26. Explorando os Menus da Interface Web.md",
-    "CURSO - Ninja pfSense v2023/25. Acessando o Firewall pelo SSH.md",
-    "CURSO - Ninja pfSense v2023/23. Administrando pelo console.md",
-    "CURSO - Ninja pfSense v2023/7. As camadas  do protocolo TCP-IP.md",
-    "CURSO - Ninja pfSense v2023/6. Modelo OSI.md",
+    "Livros/Redes/Redes de Computadores 6º - Andrew S. Tanenbaum.md",
+    "Curso gratuito Git e GitHub/1. Introdução - O que é git.md",
+    "Curso gratuito Git e GitHub/3. Instalação e configuração.md",
+    "Curso gratuito Git e GitHub/4. Criando repositórios.md",
+    "Curso gratuito Git e GitHub/5. Colocando arquivos no staging.md",
+    "Curso gratuito Git e GitHub/6. Fazendo commits.md",
+    "Curso gratuito Git e GitHub/10. Fundir branches.md",
+    "Curso gratuito Git e GitHub/13. Chave SSH entre máquina e GitHub.md",
+    "Curso gratuito Git e GitHub/12. Iniciando com Github.md",
+    "Curso gratuito Git e GitHub/11. Resolvendo conflitos.md",
+    "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
+    "Infraestrutura de redes/Topologia Totalemente Conectada (modelo teórico).md",
+    "Infraestrutura de redes/Topologia em malha (modelo teórico).md",
+    "Infraestrutura de redes/Topologia em estrela.md",
+    "Infraestrutura de redes/Topologia em barramento ou linear.md",
+    "Infraestrutura de redes/Topologia em anel.md",
+    "Infraestrutura de redes/Sinal analógico e digital.md",
+    "CompTIA Security+/Termos",
+    "CompTIA Security+",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
-    "Anexos/PNG e JPG/Pasted image 20251105093556.png.md",
-    "Nextcloud/Tutorial de implementação.md",
-    "Cibersegurança/Princípios da básicos de segurança.md",
-    "Cibersegurança/Fundamentos da segurança de rede.md",
     "Cibersegurança",
     "Sistemas operacionais/Linux/Bash/Consultas de dúvidas com IA",
     "Sistemas operacionais/Linux/OpenSuse",
