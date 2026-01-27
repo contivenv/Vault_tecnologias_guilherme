@@ -1,0 +1,1 @@
+Combinação de desenvolvimento de software e operações de sistemas. Refere-se à prática de integrar uma disciplina à outra.

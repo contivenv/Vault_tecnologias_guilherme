@@ -1,0 +1,1 @@
+O local em que profissionais de segurança monitoram e protegem ativos de informações críticas em uma organização.

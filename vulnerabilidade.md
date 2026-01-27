@@ -1,0 +1,1 @@
+Um ponto fraco que pode ser desencadeado acidentalmente ou explorado de maneira intencional para causar uma violação de segurança.

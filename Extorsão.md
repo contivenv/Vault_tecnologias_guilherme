@@ -1,0 +1,1 @@
+Exigir pagamento para prevenir ou interromper algum tipo de ataque.

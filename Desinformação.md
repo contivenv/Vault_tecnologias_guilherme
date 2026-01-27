@@ -1,0 +1,1 @@
+Tipo de ataque que falsifica um recurso de informação em que outros normalmente confiam.
