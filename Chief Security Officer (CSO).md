@@ -1,0 +1,1 @@
+Normalmente, o cargo da pessoa com responsabilidade geral pela garantia de informações e segurança dos sistemas.

@@ -1,0 +1,1 @@
+Classificação formal dos recursos e conhecimentos disponíveis a um autor de ameaças.

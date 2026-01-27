@@ -1,0 +1,1 @@
+Possibilidade de uma entidade se aproveitar de uma vulnerabilidade (ou seja, violar a segurança).

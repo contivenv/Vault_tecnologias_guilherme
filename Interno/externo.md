@@ -1,0 +1,1 @@
+O grau de acesso que um ator de ameaça possui antes de iniciar um ataque. Um autor de ameaça externo não possui privilégios permanentes, enquanto um ator interno possui algumas permissões de acesso.

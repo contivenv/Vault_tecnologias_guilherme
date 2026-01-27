@@ -1,0 +1,1 @@
+Uma combinação de desenvolvimento de software, operações de segurança e operações de sistemas, e refere-se à prática de integrar cada disciplina com as outras.
