@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "CompTIA Security+/Termos/Ameaça.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ameaça"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 406.5
   },
   "right": {
     "id": "0915b26a9c6961fe",
@@ -192,36 +196,36 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "1509c1ef0324057c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CompTIA Security+/Termos/análise de lacunas.md",
+    "CompTIA Security+/Termos/Ameaça.md",
+    "CompTIA Security+/Dúvidas/Eu não entendi muito bem como é avaliada essa tabela. Pode me explicar de uma maneira mais simples ?.md",
     "conflict-files-obsidian-git.md",
-    "vulnerabilidade.md",
-    "resposta a incidentes computacionais (CIRT).md",
-    "recursos e financiamento.md",
-    "não intencional.md",
-    "intencional.md",
-    "centro de operações de segurança (SOC).md",
-    "ator de ameaça.md",
-    "Risco.md",
-    "Preventivo.md",
+    "CompTIA Security+/Termos/vulnerabilidade.md",
+    "CompTIA Security+/Termos/resposta a incidentes computacionais (CIRT).md",
+    "CompTIA Security+/Termos/recursos e financiamento.md",
+    "CompTIA Security+/Termos/não intencional.md",
+    "CompTIA Security+/Termos/intencional.md",
+    "CompTIA Security+/Termos/centro de operações de segurança (SOC).md",
+    "CompTIA Security+/Termos/ator de ameaça.md",
+    "CompTIA Security+/Termos/Risco.md",
+    "CompTIA Security+/Termos/Preventivo.md",
     "Nível de sofisticação/capacidade.md",
     "Nível de sofisticação",
-    "Interrupção de serviço.md",
+    "CompTIA Security+/Termos/Interrupção de serviço.md",
     "Interno/externo.md",
     "Interno",
-    "Interno - externo.md",
-    "Information Systems Security Officer (ISSO).md",
-    "Fraude.md",
-    "Extorsão.md",
-    "Exfiltração de dados.md",
-    "Dissuasório.md",
-    "Diretivo.md",
-    "DevSecOps.md",
-    "Detectivo.md",
-    "Desinformação.md",
-    "Desenvolvimento e operações (DevOps).md",
-    "Corretivo.md",
-    "Compensação.md",
+    "CompTIA Security+/Termos/Interno - externo.md",
+    "CompTIA Security+/Termos/Information Systems Security Officer (ISSO).md",
+    "CompTIA Security+/Termos/Fraude.md",
+    "CompTIA Security+/Termos/Extorsão.md",
+    "CompTIA Security+/Termos/Exfiltração de dados.md",
+    "CompTIA Security+/Termos/Dissuasório.md",
+    "CompTIA Security+/Termos/Diretivo.md",
+    "CompTIA Security+/Termos/DevSecOps.md",
+    "CompTIA Security+/Termos/Detectivo.md",
+    "CompTIA Security+/Termos/Desinformação.md",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Roteiro de estudos/Laboratório de estudos.mdenc",
     "CompTIA Security+/Roteiro de estudos",
