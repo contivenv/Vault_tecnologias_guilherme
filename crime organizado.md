@@ -1,0 +1,1 @@
+Um tipo de ator de ameaça que usa hacking e fraude de computador para ganho comercial.
