@@ -16,8 +16,23 @@
               "icon": "lucide-git-fork",
               "title": "Visualização em gráfico"
             }
+          },
+          {
+            "id": "ef304db6a5554d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,35 +205,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "ef304db6a5554d1d",
   "lastOpenFiles": [
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.7 Autores de ameaças internos.md",
-    "ameaça interna não intencional ou inadvertida.md",
-    "ameaça interna.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.6 Crime organizado e concorrentes.md",
-    "crime organizado.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.5 Agentes de estados-nação.md",
-    "Atores de nação-estado.md",
-    "ameaça persistente avançada (APT).md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.4 Hackers e hacktivistas.md",
-    "Hacktivistas.md",
-    "atacante sem habilidades.md",
-    "autorizado.md",
-    "não autorizado.md",
-    "Hacker.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.3 Motivações dos autores de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.0 Comparar tipos de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1 Autores de ameaças.md",
+    "conflict-files-obsidian-git.md",
+    "Nível de sofisticação - capacidade.md",
+    "CompTIA Security+/Termos/vulnerabilidade.md",
+    "CompTIA Security+/Termos/resposta a incidentes computacionais (CIRT).md",
+    "CompTIA Security+/Termos/recursos e financiamento.md",
+    "CompTIA Security+/Termos/não intencional.md",
+    "CompTIA Security+/Termos/intencional.md",
+    "CompTIA Security+/Termos/controle de segurança.md",
+    "CompTIA Security+/Termos/centro de operações de segurança (SOC).md",
+    "CompTIA Security+/Termos/ator de ameaça.md",
+    "CompTIA Security+/Termos/Técnico.md",
+    "CompTIA Security+/Termos/Risco.md",
+    "CompTIA Security+/Termos/Preventivo.md",
+    "CompTIA Security+/Termos/Operacional.md",
+    "CompTIA Security+/Termos/Interrupção de serviço.md",
+    "CompTIA Security+/Termos/Interno - externo.md",
+    "CompTIA Security+/Termos/Information Systems Security Officer (ISSO).md",
+    "CompTIA Security+/Termos/Gerencial.md",
+    "CompTIA Security+/Termos/Físico.md",
+    "CompTIA Security+/Termos/Fraude.md",
+    "CompTIA Security+/Termos/Extorsão.md",
+    "CompTIA Security+/Termos/Exfiltração de dados.md",
+    "CompTIA Security+/Termos/Dissuasório.md",
+    "CompTIA Security+/Termos/Diretivo.md",
+    "CompTIA Security+/Termos/DevSecOps.md",
+    "CompTIA Security+/Termos/Detectivo.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
-    "Fraude.md",
-    "Extorsão.md",
-    "Desinformação.md",
-    "Exfiltração de dados.md",
-    "Interrupção de serviço.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.2 Atributos de agentes de ameaças.md",
-    "recursos e financiamento.md",
-    "Interno - externo.md",
-    "Nível de sofisticação/capacidade.md",
     "Nível de sofisticação",
     "Interno",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
