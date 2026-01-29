@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 406.5
   },
   "right": {
     "id": "0915b26a9c6961fe",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 Análise de lacunas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para 1.1.3 Análise de lacunas"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Manuais e procedimentos/Servidor Debian - Samba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Servidor Debian - Samba"
             }
           },
           {
@@ -136,27 +138,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
+                "file": "CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.1.3 Análise de lacunas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de backup_whatsapp.sh"
+              "title": "Sumário de 1.1.3 Análise de lacunas"
             }
           },
           {
-            "id": "070d43ad0f61b9f7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "8195b88638aa116f",
+            "id": "bda5d93e6dcbcc18",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -164,9 +156,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "1509c1ef0324057c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -181,62 +183,62 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "meld-encrypt:New encrypted note": false,
       "meld-encrypt:Lock and Close all open encrypted notes": false,
       "meld-encrypt:Convert to or from an Encrypted note": false,
       "meld-encrypt:Encrypt Selection": false,
-      "meld-encrypt:Decrypt at Cursor": false,
-      "obsidian-git:Open Git source control": false
+      "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "070d43ad0f61b9f7",
+  "active": "1509c1ef0324057c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Nível de sofisticação - capacidade.md",
-    "CompTIA Security+/Termos/vulnerabilidade.md",
-    "CompTIA Security+/Termos/resposta a incidentes computacionais (CIRT).md",
-    "CompTIA Security+/Termos/recursos e financiamento.md",
-    "CompTIA Security+/Termos/não intencional.md",
-    "CompTIA Security+/Termos/intencional.md",
-    "CompTIA Security+/Termos/controle de segurança.md",
-    "CompTIA Security+/Termos/centro de operações de segurança (SOC).md",
-    "CompTIA Security+/Termos/ator de ameaça.md",
-    "CompTIA Security+/Termos/Técnico.md",
-    "CompTIA Security+/Termos/Risco.md",
-    "CompTIA Security+/Termos/Preventivo.md",
-    "CompTIA Security+/Termos/Operacional.md",
-    "CompTIA Security+/Termos/Interrupção de serviço.md",
-    "CompTIA Security+/Termos/Interno - externo.md",
-    "CompTIA Security+/Termos/Information Systems Security Officer (ISSO).md",
-    "CompTIA Security+/Termos/Gerencial.md",
-    "CompTIA Security+/Termos/Físico.md",
-    "CompTIA Security+/Termos/Fraude.md",
-    "CompTIA Security+/Termos/Extorsão.md",
-    "CompTIA Security+/Termos/Exfiltração de dados.md",
-    "CompTIA Security+/Termos/Dissuasório.md",
-    "CompTIA Security+/Termos/Diretivo.md",
-    "CompTIA Security+/Termos/DevSecOps.md",
-    "CompTIA Security+/Termos/Detectivo.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
+    "não autorizado.md",
+    "crime organizado.md",
+    "autorizado.md",
+    "atacante sem habilidades.md",
+    "ameaça persistente avançada (APT).md",
+    "ameaça interna.md",
+    "ameaça interna não intencional ou inadvertida.md",
+    "Hacktivistas.md",
+    "Hacker.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.7 Autores de ameaças internos.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.6 Crime organizado e concorrentes.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.5 Agentes de estados-nação.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.4 Hackers e hacktivistas.md",
+    "Atores de nação-estado.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.3 Motivações dos autores de ameaças.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.2 Atributos de agentes de ameaças.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.1 Vulnerabilidade, ameaça e risco.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1 Autores de ameaças.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.0 Comparar tipos de ameaças.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2 Controles de segurança.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.1 Categorias de controle de segurança.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.2 Tipos funcionais de controle de segurança.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.3 Funções e responsabilidades da segurança da informação.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.4 Competências de segurança da informação.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.2.5 Unidades de negócios de segurança da informação.md",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/1.3 Resumo.md",
     "Nível de sofisticação",
     "Interno",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Roteiro de estudos/Laboratório de estudos.mdenc",
-    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/Untitled 20260126 093554.mdenc",
-    "CompTIA Security+/Roteiro de estudos/Sem título",
     "CompTIA Security+/Roteiro de estudos",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança",
     "CompTIA Security+/E-book CompTIA Security+",
-    "CompTIA Security+/Termos",
+    "CompTIA Security+/Materiais de Apoio",
+    "CompTIA Security+/Dúvidas",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
-    "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
-    "Anexos/PNG e JPG/Pasted image 20250321164055.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162957.png",
     "Anexos/PNG e JPG/Pasted image 20251125095415.png",
     "Anexos/PNG e JPG/Pasted image 20251125092504.png",
-    "Anexos/Captura de tela de 2025-11-05 11-41-01.png",
+    "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20251106164355.png",
+    "Anexos/PNG e JPG/Pasted image 20251106162957.png",
     "Anexos/PNG e JPG/Pasted image 20251106162940.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162920.png"
+    "Anexos/PNG e JPG/Pasted image 20251106162920.png",
+    "Anexos/PNG e JPG/Captura de tela de 2025-10-09 16-39-31.png",
+    "Anexos/PNG e JPG/Pasted image 20251009164038.png"
   ]
 }
