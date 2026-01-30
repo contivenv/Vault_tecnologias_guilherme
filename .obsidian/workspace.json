@@ -11,17 +11,28 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "8f0cded385b461d8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comando intermediários"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,36 +205,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "070d43ad0f61b9f7",
+  "active": "8f0cded385b461d8",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Bash/Bash Shell.md",
-    "ameaça interna.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.7 Autores de ameaças internos.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.6 Crime organizado e concorrentes.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.5 Agentes de estados-nação.md",
-    "ameaça persistente avançada (APT).md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.4 Hackers e hacktivistas.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.3 Motivações dos autores de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.2 Atributos de agentes de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.1 Vulnerabilidade, ameaça e risco.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1 Autores de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.0 Comparar tipos de ameaças.md",
     "conflict-files-obsidian-git.md",
-    "não autorizado.md",
-    "crime organizado.md",
-    "autorizado.md",
-    "atacante sem habilidades.md",
-    "ameaça interna não intencional ou inadvertida.md",
-    "Nível de sofisticação/capacidade.md",
+    "software vulnerável.md",
+    "pretexting.md",
+    "pharming.md",
+    "personificação.md",
+    "comprometimento de e-mail corporativo.md",
+    "cadeia de suprimentos.md",
+    "ataque de watering hole.md",
+    "algo.md",
+    "Vishing.md",
+    "Typosquatting.md",
+    "Sistemas e aplicativos.md",
+    "SMiShing.md",
+    "Phishing.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.5 Business Email Compromise.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.4 Typosquatting.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.3 Phishing e Pharming.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.2 Falsificação de identidade e pretexto.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.1 Vetores humanos.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3 Engenharia social.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.6 Superfície de ataque da cadeia de suprimentos.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.5 Vetores baseados em mensagens.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.4 Vetores baseados em iscas.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.3 Vetores de rede.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.2 Vetores vulneráveis de software.md",
     "Nível de sofisticação",
-    "Nível de sofisticação - capacidade.md",
-    "Interno/externo.md",
     "Interno",
-    "Hacktivistas.md",
-    "Hacker.md",
-    "CompTIA Security+/Termos/vulnerabilidade.md",
-    "CompTIA Security+/Termos/resposta a incidentes computacionais (CIRT).md",
-    "CompTIA Security+/Termos/recursos e financiamento.md",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Roteiro de estudos/Laboratório de estudos.mdenc",
     "CompTIA Security+/Roteiro de estudos",

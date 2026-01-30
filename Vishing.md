@@ -1,0 +1,1 @@
+Ataque de engenharia social em que o ator de ameaça extrai informações durante uma conversa telefônica ou utilizando serviços de mensagem de voz baseados em IP (VoIP).
