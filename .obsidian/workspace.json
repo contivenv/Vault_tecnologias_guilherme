@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.1 Superfícies de ataque e vetores de ameaça.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.2.1 Superfícies de ataque e vetores de ameaça"
             }
           }
         ]
@@ -190,8 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "070d43ad0f61b9f7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2 Superfícies de ataque.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.1 Vetores humanos.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.2 Falsificação de identidade e pretexto.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.5 Business Email Compromise.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.4 Typosquatting.md",
     "conflict-files-obsidian-git.md",
     "software vulnerável.md",
     "pretexting.md",
@@ -206,18 +216,12 @@
     "Sistemas e aplicativos.md",
     "SMiShing.md",
     "Phishing.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.5 Business Email Compromise.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.4 Typosquatting.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.3 Phishing e Pharming.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.2 Falsificação de identidade e pretexto.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.1 Vetores humanos.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3 Engenharia social.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.6 Superfície de ataque da cadeia de suprimentos.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.5 Vetores baseados em mensagens.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.4 Vetores baseados em iscas.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.3 Vetores de rede.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.2 Vetores vulneráveis de software.md",
     "Nível de sofisticação",
     "Interno",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
