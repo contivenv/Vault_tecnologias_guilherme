@@ -1,0 +1,1 @@
+Um ator de ameaças motivado por uma questão social ou causa política.

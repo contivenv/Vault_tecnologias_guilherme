@@ -1,0 +1,1 @@
+Função organizacional com responsabilidades técnicas pela implementação de políticas, estruturas e controles de segurança.

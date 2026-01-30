@@ -1,0 +1,1 @@
+Um invasor inexperiente e não qualificado que normalmente usa ferramentas ou scripts criados por outras pessoas.

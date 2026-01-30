@@ -1,0 +1,1 @@
+Capacidade dos autores de ameaças de obter por meio de financiamento ferramentas e pessoal e desenvolver novos tipos de ataque.

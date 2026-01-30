@@ -1,0 +1,1 @@
+Tipo de autor de ameaça que recebe privilégios no sistema que causam um incidente intencional ou não.

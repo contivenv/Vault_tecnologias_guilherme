@@ -1,0 +1,1 @@
+Um diretor da empresa com o papel principal de fazer uso efetivo de plataformas e inovações de computação novas e emergentes.

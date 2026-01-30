@@ -1,0 +1,1 @@
+O processo em que um invasor pega os dados armazenados dentro de uma rede privada e os move para uma rede externa.

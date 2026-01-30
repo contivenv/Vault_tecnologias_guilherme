@@ -1,0 +1,1 @@
+Um hacker envolvido em testes de penetração autorizados ou outra consultoria de segurança.

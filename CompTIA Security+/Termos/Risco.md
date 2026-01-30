@@ -1,0 +1,1 @@
+Probabilidade e impacto (ou consequência) de um ator de ameaça explorar uma vulnerabilidade.
