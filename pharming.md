@@ -1,0 +1,1 @@
+Ataque de personificação em que a solicitação de acesso a um site, normalmente um site de comércio eletrônico, é redirecionada a um site de aparência semelhante mas falso.

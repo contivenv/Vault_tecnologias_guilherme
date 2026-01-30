@@ -1,0 +1,1 @@
+Ataque de personificação no qual o invasor assume o controle da conta de um funcionário e a usa para convencer outros funcionários a realizar ações fraudulentas.

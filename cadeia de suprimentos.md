@@ -1,0 +1,1 @@
+Um ataque que tem como alvo o processo de ponta a ponta de fabricação, distribuição e manuseio de bens e serviços.
