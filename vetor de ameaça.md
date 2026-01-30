@@ -1,0 +1,1 @@
+Caminho específico pelo qual um autor de ameaças obtém acesso não autorizado a um sistema.

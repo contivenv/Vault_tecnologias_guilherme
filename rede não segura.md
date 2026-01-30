@@ -1,0 +1,1 @@
+Configuração que expõe uma grande superfície de ataque: por exemplo, por meio de portas de serviço abertas desnecessariamente, autenticação fraca ou inexistente, uso de credenciais padrão ou falta de comunicações/criptografia seguras.
