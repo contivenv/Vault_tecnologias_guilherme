@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
+                "file": "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Instalação simples via terminal do Proton-GE.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.4 Resumo"
+              "title": "Instalação simples via terminal do Proton-GE"
             }
           }
         ]
@@ -196,6 +196,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Otimização para Ubuntu.md",
+    "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Instalação simples via terminal do Proton-GE.md",
+    "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Tutorial de instalação da Steam no Ubuntu.md",
+    "Sistemas operacionais/Linux/Ubuntu/Games/Ubuntu/Proton GE - Ubuntu.md",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.5 Business Email Compromise.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.4 Typosquatting.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.3.3 Phishing e Pharming.md",
@@ -212,17 +217,12 @@
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.4 Hackers e hacktivistas.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.1.2 Atributos de agentes de ameaças.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.4 Resumo.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.6 Superfície de ataque da cadeia de suprimentos.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.5 Vetores baseados em mensagens.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.4 Vetores baseados em iscas.md",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças/2.2.2 Vetores vulneráveis de software.md",
     "conflict-files-obsidian-git.md",
     "vetor de ameaça.md",
-    "rede não segura.md",
-    "software vulnerável.md",
-    "pretexting.md",
-    "pharming.md",
     "Nível de sofisticação",
     "Interno",
     "CompTIA Security+/Roteiro de estudos/Laboratório de estudos.mdenc",
