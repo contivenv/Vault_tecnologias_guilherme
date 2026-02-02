@@ -1,0 +1,1 @@
+Um resumo de mensagem criptografado usando a chave privada do remetente que é anexada a uma mensagem para autenticar o remetente e provar a integridade da mensagem.

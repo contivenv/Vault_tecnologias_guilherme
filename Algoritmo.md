@@ -1,0 +1,1 @@
+Operações que transformam um texto simples em um texto cifrado com propriedades criptográficas, também chamadas de cifra. Existem cifras simétricas, assimétricas e hash.

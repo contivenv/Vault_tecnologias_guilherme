@@ -1,0 +1,1 @@
+Durante a criptografia assimétrica, essa chave é distribuída livremente e é usada para criptografar dados, que só podem ser descriptografados pela chave privada vinculada no par.

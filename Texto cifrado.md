@@ -1,0 +1,1 @@
+Dados que foram cifrados e não podem ser lidos sem a chave de cifra.
