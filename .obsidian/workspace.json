@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CompTIA Security+/Materiais de Apoio/O que é criptografia ?.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "O que é criptografia ?"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -196,8 +192,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.6 Assinaturas digitais.md",
     "CompTIA Security+/Materiais de Apoio/O que é criptografia ?.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.6 Assinaturas digitais.md",
     "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.5 Hashing.md",
     "Message Digest Algorithm 5 (MD5).md",
     "Message Digest Algorithm 1.md",
