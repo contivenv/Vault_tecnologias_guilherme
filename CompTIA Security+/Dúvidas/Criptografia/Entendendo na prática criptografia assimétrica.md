@@ -251,9 +251,8 @@ Se fosse **simétrica**, o comando seria bem mais simples (como o `gpg -c`). Na 
 
 Tente criptografar de forma **simétrica** agora para comparar. É bem mais rápido:
 
-Bash
 
-```
+```bash
 gpg -c segredo_simetrico.txt
 ```
 
