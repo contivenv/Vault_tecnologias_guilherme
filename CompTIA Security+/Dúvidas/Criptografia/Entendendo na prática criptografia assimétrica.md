@@ -240,7 +240,7 @@ Se fosse **simétrica**, o comando seria bem mais simples (como o `gpg -c`). Na 
 |**Assimétrica** (O que fizemos)|`--recipient` (O seu e-mail/chave pública)|Sua **Chave Privada** + sua senha|
 |**Simétrica**|Apenas uma senha (password)|A **mesma senha**|
 
-### Um cenário para a Pulsare TI:
+### Um cenário para uma empresa de TI
 
 - **Simétrica:** Você quer mandar um arquivo para sua namorada. Você coloca uma senha "Pulsare2026", manda o arquivo e depois tem que dar um jeito de contar a senha para ela (por telefone, pessoalmente, etc).
     
