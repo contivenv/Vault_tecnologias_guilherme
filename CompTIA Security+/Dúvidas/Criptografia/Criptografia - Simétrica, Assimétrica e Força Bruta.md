@@ -235,19 +235,19 @@ Pense no seu trabalho. Se você precisar que um cliente te envie uma senha de se
 
 ---
 
-### Um "Bônus" Curioso: E se eu fizer o contrário?
+### <mark style="background:#fff88f">Um "Bônus" Curioso: E se eu fizer o contrário?</mark>
 
-Se você usar a sua **Chave Privada** para "trancar" algo, qualquer pessoa com a sua **Chave Pública** conseguirá abrir.
+<mark style="background:#fff88f">Se você usar a sua **Chave Privada** para "trancar" algo, qualquer pessoa com a sua **Chave Pública** conseguirá abrir.</mark>
 
-_"Mas Guilherme, qual a vantagem disso se todo mundo pode abrir?"_ A vantagem é a **Autenticidade**. Se a sua Chave Pública abriu aquele arquivo, isso prova matematicamente que foi **você** (o dono da Chave Privada) quem o fechou. Isso é a base da **Assinatura Digital**.
+<mark style="background:#fff88f">_"Mas Guilherme, qual a vantagem disso se todo mundo pode abrir?"_ A vantagem é a **Autenticidade**. Se a sua Chave Pública abriu aquele arquivo, isso prova matematicamente que foi **você** (o dono da Chave Privada) quem o fechou. Isso é a base da **Assinatura Digital**.</mark>
 
-Ficou claro agora por que o seu notebook usa isso para quase tudo na internet? Quer que eu te mostre como gerar esse par de chaves no seu Xubuntu para você testar na prática?
+<mark style="background:#fff88f">Ficou claro agora por que o seu notebook usa isso para quase tudo na internet? Quer que eu te mostre como gerar esse par de chaves no seu Xubuntu para você testar na prática?</mark>
 
-Quase ... a ideia ainda está se formando na minha cabeça, essa está difícil ! Vamos lá: todo mundo tem uma cópia da minha chave para apenas fechar a mensagem, e então, só eu posso destrancar essa mensagem para ler ela de forma segura ?
+<mark style="background:#fff88f">Quase ... a ideia ainda está se formando na minha cabeça, essa está difícil ! Vamos lá: todo mundo tem uma cópia da minha chave para apenas fechar a mensagem, e então, só eu posso destrancar essa mensagem para ler ela de forma segura ?</mark>
 
-Exatamente isso! Você matou a charada. É um conceito que parece estranho porque desafia a lógica do mundo físico, onde a mesma chave que tranca é a que abre.
+<mark style="background:#fff88f">Exatamente isso! Você matou a charada. É um conceito que parece estranho porque desafia a lógica do mundo físico, onde a mesma chave que tranca é a que abre.</mark>
 
-Para consolidar de vez essa ideia na sua cabeça, pense na **Chave Pública** não como uma chave comum, mas como um **Cadeado Aberto**.
+<mark style="background:#fff88f">Para consolidar de vez essa ideia na sua cabeça, pense na **Chave Pública** não como uma chave comum, mas como um **Cadeado Aberto**.</mark>
 
 ### O Cenário Final:
 
