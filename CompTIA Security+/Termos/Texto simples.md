@@ -1,0 +1,1 @@
+Dados não criptografados que devem ser criptografados antes de serem transmitidos ou o resultado da descriptografia de dados criptografados.

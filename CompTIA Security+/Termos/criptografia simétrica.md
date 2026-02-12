@@ -1,0 +1,1 @@
+Esquema de criptografia bidirecional no qual a criptografia e a descriptografia são executadas pela mesma chave. Também conhecido como criptografia de chave compartilhada.

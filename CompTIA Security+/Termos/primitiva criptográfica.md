@@ -1,0 +1,1 @@
+Uma única função hash, cifra simétrica ou cifra assimétrica.

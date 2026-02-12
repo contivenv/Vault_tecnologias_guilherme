@@ -53,6 +53,12 @@ Documentos$ less trecho_livro
 
 Serve para localizar o diretório e o caminho que vocês está. Por mais que pense que esse comando pode ser bobo, ele não é. Na prática quando não se tem a exibição de diretórios ou de onde você está dentro do sistema, o `pwd` é um comando que pode te dar um norte. Na outra forma de ele ser útil é quando são usados links simbólicos, onde o conteúdo original do caminho é escondido. Nesse caso, ele vai te ajudar a se localizar.
 
+```bash
+pwd
+/home/guilherme
+
+```
+
 ## diff
 
 Para comparação de dois arquivos, você pode usar:
@@ -81,5 +87,24 @@ Documentos/Senhas.kdbx # saida do comando
 > ‘O comando find aceita caracteres especiais para correspondência de padrões, como \*, porém você deve colocá-los entre aspas simples ('\*') para proteger os caracteres especiais do recurso de globbing do próprio shell.’
 > —Brian Ward, “Como o Linux funciona”
 
-## 
+## head e tail
+
+São comandos  de visualização de arquivos bem basicamente explicando. É bem simples: head lembra de **cabeça**, que fica em cima pressa ao pescoço, logo ela exibe as dez primeiras linhas de um arquivo. E o comando tail, que seria a **calda**, fica abaixo do corpo. Tente escrever alguma coisa cumprida ou inspecionar um arquivo que seja um livro, faça um teste. Exemplo básico:
+
+```bash
+head /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+
+```
+
+
 

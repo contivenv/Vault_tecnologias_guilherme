@@ -1,0 +1,1 @@
+Fase do ciclo de vida do produto na qual o suporte do fornecedor principal não está mais disponível.

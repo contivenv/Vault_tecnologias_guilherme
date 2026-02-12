@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "CompTIA Security+/Dúvidas/Criptografia/Criptografia - Simétrica, Assimétrica e Força Bruta.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Criptografia - Simétrica, Assimétrica e Força Bruta"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
+                "file": "CompTIA Security+/Dúvidas/Criptografia/Criptografia - Simétrica, Assimétrica e Força Bruta.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de backup_whatsapp.sh"
+              "title": "Sumário de Criptografia - Simétrica, Assimétrica e Força Bruta"
             }
           },
           {
@@ -156,7 +160,7 @@
             }
           },
           {
-            "id": "8195b88638aa116f",
+            "id": "7cbc24a8e4a145df",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -170,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,42 +196,42 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Nível de sofisticação - capacidade.md",
-    "CompTIA Security+/Termos/vulnerabilidade.md",
-    "CompTIA Security+/Termos/resposta a incidentes computacionais (CIRT).md",
-    "CompTIA Security+/Termos/recursos e financiamento.md",
-    "CompTIA Security+/Termos/não intencional.md",
-    "CompTIA Security+/Termos/intencional.md",
-    "CompTIA Security+/Termos/controle de segurança.md",
-    "CompTIA Security+/Termos/centro de operações de segurança (SOC).md",
-    "CompTIA Security+/Termos/ator de ameaça.md",
-    "CompTIA Security+/Termos/Técnico.md",
-    "CompTIA Security+/Termos/Risco.md",
-    "CompTIA Security+/Termos/Preventivo.md",
-    "CompTIA Security+/Termos/Operacional.md",
-    "CompTIA Security+/Termos/Interrupção de serviço.md",
-    "CompTIA Security+/Termos/Interno - externo.md",
-    "CompTIA Security+/Termos/Information Systems Security Officer (ISSO).md",
-    "CompTIA Security+/Termos/Gerencial.md",
-    "CompTIA Security+/Termos/Físico.md",
-    "CompTIA Security+/Termos/Fraude.md",
-    "CompTIA Security+/Termos/Extorsão.md",
-    "CompTIA Security+/Termos/Exfiltração de dados.md",
-    "CompTIA Security+/Termos/Dissuasório.md",
-    "CompTIA Security+/Termos/Diretivo.md",
-    "CompTIA Security+/Termos/DevSecOps.md",
-    "CompTIA Security+/Termos/Detectivo.md",
-    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
+    "CompTIA Security+/Dúvidas/Criptografia/Entendendo na prática criptografia assimétrica.md",
+    "CompTIA Security+/Dúvidas/Criptografia/Criptografia - Simétrica, Assimétrica e Força Bruta.md",
+    "CompTIA Security+/Dúvidas/Criptografia",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.4 Criptografia assimétrica.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.3 Tamanho da chave.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.2 Criptografia simétrica.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.1 Conceitos criptográficos.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.0 Introdução.md",
+    "CompTIA Security+/Termos/Vishing.md",
+    "CompTIA Security+/Materiais de Apoio/O que é criptografia ?.md",
+    "CompTIA Security+/Materiais de Apoio/O CSF 1.1 Cinco Funções.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.6 Assinaturas digitais.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/3.1.5 Hashing.md",
+    "CompTIA Security+/Termos/Message Digest Algorithm 5 (MD5).md",
+    "CompTIA Security+/Termos/Message Digest Algorithm 1.md",
+    "CompTIA Security+/Termos/Criptografia.md",
+    "CompTIA Security+/Termos/Texto cifrado.md",
+    "CompTIA Security+/Termos/criptografia simétrica.md",
+    "CompTIA Security+/Termos/algoritmo de criptografia.md",
+    "CompTIA Security+/Termos/assinatura digital.md",
+    "CompTIA Security+/Termos/primitiva criptográfica.md",
+    "CompTIA Security+/Termos/Message Digest Algorithm.md",
+    "CompTIA Security+/Termos/Secure Hash Algorithm (SHA).md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/258.md",
+    "CompTIA Security+/Termos/pública.md",
+    "CompTIA Security+/Termos/chaves privada.md",
+    "CompTIA Security+/Termos/algoritmo assimétrico.md",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia/Sem título",
+    "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia",
+    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "Nível de sofisticação",
     "Interno",
-    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Roteiro de estudos/Laboratório de estudos.mdenc",
-    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança/Untitled 20260126 093554.mdenc",
-    "CompTIA Security+/Roteiro de estudos/Sem título",
     "CompTIA Security+/Roteiro de estudos",
-    "CompTIA Security+/E-book CompTIA Security+",
-    "CompTIA Security+/Termos",
+    "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
+    "CompTIA Security+/E-book CompTIA Security+/1.0 Síntese de conceitos fundamentais de segurança",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",

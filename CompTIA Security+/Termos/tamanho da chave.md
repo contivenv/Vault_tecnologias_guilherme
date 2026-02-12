@@ -1,0 +1,1 @@
+Tamanho de uma chave criptográfica em bits. As chaves mais longas geralmente oferecem mais segurança, mas os tamanhos de chaves encontrados em cifras diferentes não podem ser diretamente comparados entre si.

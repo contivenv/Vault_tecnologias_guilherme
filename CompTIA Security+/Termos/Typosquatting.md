@@ -1,0 +1,1 @@
+Um ataque em que um invasor registra um nome de domínio com um erro de ortografia comum de um domínio existente, de modo que um usuário que digite incorretamente uma URL no navegador seja levado ao site do invasor.

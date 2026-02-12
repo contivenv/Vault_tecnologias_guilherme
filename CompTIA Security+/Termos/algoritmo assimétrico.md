@@ -1,0 +1,1 @@
+Cifra que usa chaves públicas e privadas. As chaves são vinculadas matematicamente usando o algoritmo Rivest–Shamir–Adleman (RSA) ou criptografia de curva elíptica (ECC), mas a chave privada não é derivável da pública. Uma chave assimétrica não pode reverter a operação que executa, de modo que a chave pública não pode descriptografar o que criptografou, por exemplo.

@@ -1,0 +1,1 @@
+Ataque de engenharia social baseado em e-mail no qual o invasor envia e-mail de uma fonte supostamente credível, como um banco, para tentar obter informações privadas da vítima.
