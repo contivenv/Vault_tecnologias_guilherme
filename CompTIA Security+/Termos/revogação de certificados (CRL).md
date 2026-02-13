@@ -1,0 +1,1 @@
+Lista de certificados que foram revogados antes da data de expiração.

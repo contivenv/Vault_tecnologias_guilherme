@@ -1,0 +1,1 @@
+Em uma PKI, refere-se a uma autoridade de certificação pública que emite certificados para múltiplos domínios e é amplamente aceita como autoridade credível por sistemas operacionais e navegadores.

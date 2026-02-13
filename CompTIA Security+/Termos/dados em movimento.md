@@ -1,0 +1,1 @@
+Informações transmitidas entre dois hosts por uma rede privada ou pela Internet, por exemplo.

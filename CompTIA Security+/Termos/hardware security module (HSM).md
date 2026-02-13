@@ -1,0 +1,1 @@
+Dispositivo para gerar e armazenar chaves criptográficas. Este tipo de solução pode ser menos suscetível a adulterações e ameaças internas do que o armazenamento baseado em software.

@@ -1,0 +1,1 @@
+Informações que são armazenadas primordialmente em mídias específicas, em vez de serem movidas de uma mídia para outra.

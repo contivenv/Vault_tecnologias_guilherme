@@ -1,0 +1,1 @@
+Esquema de criptografia aplicado a dados em movimento, como WPA, IPsec ou TLS.

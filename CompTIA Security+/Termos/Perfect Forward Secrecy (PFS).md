@@ -1,0 +1,1 @@
+Característica da criptografia de transporte que garante que, se uma chave for comprometida, isso afetará apenas uma única sessão e não facilitará a recuperação de dados de texto simples de outras sessões.

@@ -1,0 +1,1 @@
+Conceito segundo o qual uma crescente lista de registros transacionais registrados em um livro-razão público é protegida usando criptografia.

@@ -1,0 +1,1 @@
+Um método para gerar valores aleatórios a partir da amostragem de fenômenos físicos que têm uma alta taxa de entropia.

@@ -1,0 +1,1 @@
+Técnica para ocultar a existência de uma mensagem, geralmente incorporando informações em um arquivo ou outra entidade.

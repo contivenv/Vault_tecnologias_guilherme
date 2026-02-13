@@ -1,0 +1,1 @@
+Informações de identificação e autenticação apresentadas no formato X.509 e emitidas por uma autoridade de certificação (CA) como garantia de que um par de chaves (conforme identificado pela chave pública incorporada no certificado) é válido para uma entidade específica (usuário ou host).

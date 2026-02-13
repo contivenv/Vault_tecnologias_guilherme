@@ -1,0 +1,1 @@
+Estrutura de autoridades de certificação, certificados digitais, software, serviços e outros componentes criptográficos implantados com a finalidade de validar a identidade dos requerentes.

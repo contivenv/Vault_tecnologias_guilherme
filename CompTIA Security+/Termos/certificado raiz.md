@@ -1,0 +1,1 @@
+Em PKI, uma CA que emite certificados para CAs intermediárias em uma estrutura hierárquica.

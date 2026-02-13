@@ -1,0 +1,1 @@
+Regras que controlam a escolha e manutenção seguras dos segredos de autenticação do fator de conhecimento, como tamanho, complexidade, idade e reutilização.

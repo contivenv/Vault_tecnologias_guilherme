@@ -1,0 +1,1 @@
+Um método de desidentificação em que rótulos genéricos ou temporários são substituídos por dados reais, preservando a estrutura ou o formato dos dados originais. Também conhecido como ofuscação de dados.

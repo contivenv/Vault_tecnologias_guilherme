@@ -1,0 +1,1 @@
+Em PKI, procedimentos e ferramentas que centralizam a geração e o armazenamento de chaves criptográficas.

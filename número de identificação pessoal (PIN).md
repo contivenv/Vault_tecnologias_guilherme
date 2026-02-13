@@ -1,0 +1,1 @@
+Um número usado em conjunto com dispositivos de autenticação, como cartões inteligentes; como o PIN deve ser conhecido apenas pelo usuário, a perda do cartão inteligente não deve representar um risco à segurança.

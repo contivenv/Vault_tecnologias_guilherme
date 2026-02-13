@@ -1,0 +1,1 @@
+Um método de desidentificação no qual um token exclusivo é substituído por dados reais.

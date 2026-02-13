@@ -1,0 +1,1 @@
+Informações presentes na memória volátil de um host, como memória ou cache do sistema.

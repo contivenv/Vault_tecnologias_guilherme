@@ -1,0 +1,1 @@
+Especificação para armazenamento seguro baseado em hardware de chaves de criptografia, senhas com hash e outras informações de identificação do usuário e da plataforma.

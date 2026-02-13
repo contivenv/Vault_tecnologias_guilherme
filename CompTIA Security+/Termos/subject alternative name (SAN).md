@@ -1,0 +1,1 @@
+Campo em um certificado digital que permite identificar um host por vários nomes/subdomínios de host.

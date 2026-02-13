@@ -1,0 +1,1 @@
+Atributo x500 que expressa um host ou nome de usuário, também usado como identificador de assunto para um certificado digital.

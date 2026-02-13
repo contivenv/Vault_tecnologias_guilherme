@@ -1,0 +1,1 @@
+Método para validar um certificado rastreando cada CA que o assina, acompanhando a hierarquia até chegar à autoridade de certificação root. Também chamado de cadeia de confiança.

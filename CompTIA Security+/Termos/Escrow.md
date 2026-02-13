@@ -1,0 +1,1 @@
+No gerenciamento de chaves, o armazenamento de uma chave de backup com um terceiro.

@@ -1,0 +1,1 @@
+Extensões de CPU que protegem os dados armazenados na memória do sistema para que um processo não confiável não possa lê-los.

@@ -1,0 +1,1 @@
+Métodos expostos por um script ou programa que permitem que outros scripts ou programas o usem. Por exemplo, uma API permite que os desenvolvedores de software acessem funções da pilha de protocolos TCP/IP em um sistema operacional (SO) específico.

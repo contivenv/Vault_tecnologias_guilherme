@@ -1,0 +1,1 @@
+Um certificado digital que foi assinado pela entidade que o emitiu, e não por uma CA.

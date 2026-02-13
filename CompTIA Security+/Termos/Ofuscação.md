@@ -1,0 +1,1 @@
+Técnica que essencialmente “oculta” ou “camufla” códigos ou outras informações para dificultar mais sua leitura por usuários não autorizados.
