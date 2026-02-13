@@ -1,0 +1,1 @@
+Dispositivo de segurança semelhante a um cartão de crédito que pode armazenar informações de autenticação, como a chave privada de um usuário, em um criptoprocessador incorporado.

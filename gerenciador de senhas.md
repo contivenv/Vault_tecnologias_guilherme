@@ -1,0 +1,1 @@
+Software que pode sugerir e armazenar senhas de sites e aplicativos para reduzir os riscos de más escolhas e comportamentos do usuário. A maioria dos navegadores possui um gerenciador de senhas integrado.

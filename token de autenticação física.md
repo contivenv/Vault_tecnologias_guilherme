@@ -1,0 +1,1 @@
+Token de autenticação gerado por um criptoprocessador em um dispositivo de hardware dedicado. Como o token nunca é transmitido diretamente, isso cria um fator de propriedade dentro de um esquema de autenticação multifator.

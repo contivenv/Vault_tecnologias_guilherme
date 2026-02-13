@@ -1,0 +1,1 @@
+OTP enviada para um número registrado ou conta de e-mail ou gerada por um aplicativo autenticador como um meio de verificação em duas etapas ao validar o acesso à conta.

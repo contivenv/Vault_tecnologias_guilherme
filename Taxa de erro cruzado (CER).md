@@ -1,0 +1,1 @@
+Um fator de avaliação de biometria que expressa o ponto em que FAR e FRR se encontram, com um valor baixo indicando melhor desempenho.

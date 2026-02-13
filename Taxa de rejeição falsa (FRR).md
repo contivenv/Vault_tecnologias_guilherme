@@ -1,0 +1,1 @@
+Uma métrica de avaliação biométrica que mede o número de indivíduos válidos a quem o acesso é negado.

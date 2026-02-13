@@ -1,0 +1,1 @@
+HSM portátil com uma interface de computador, como USB ou NFC, usado para autenticação multifator.
