@@ -1,0 +1,1 @@
+Técnica de controle de acesso que avalia um conjunto dos atributos de cada sujeito para determinar se o acesso deve lhe ser concedido.

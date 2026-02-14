@@ -1,0 +1,1 @@
+Processo de remoção de uma conta, host ou aplicativo do ambiente de produção. Isso requer a revogação de qualquer acesso privilegiado que tenha sido atribuído ao objeto.

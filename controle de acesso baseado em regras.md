@@ -1,0 +1,1 @@
+Técnica de controle de acesso não discricionário baseada em um conjunto de regras ou restrições operacionais para impor uma política de permissões de privilégios mínimos.

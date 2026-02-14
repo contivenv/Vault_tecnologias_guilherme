@@ -1,0 +1,1 @@
+Modelo de controle de acesso em que cada recurso é protegido por uma lista de controle de acesso (ACL) gerenciada pelo proprietário (ou proprietários) do recurso.

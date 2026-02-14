@@ -1,0 +1,1 @@
+Modelo de controle de acesso em que os recursos são protegidos por ACLs gerenciadas por administradores e fornecem permissões de usuário com base em funções de trabalho.

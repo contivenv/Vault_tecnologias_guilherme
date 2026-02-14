@@ -11,14 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "meld-encrypted-view",
+              "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
+                "file": "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.5 Provisionamento de contas de usuário.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roteiro principal com data das semanas e módulos de estudo"
+              "title": "4.2.5 Provisionamento de contas de usuário"
             }
           }
         ]
@@ -165,8 +165,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -185,17 +185,32 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "meld-encrypt:New encrypted note": false,
       "meld-encrypt:Lock and Close all open encrypted notes": false,
       "meld-encrypt:Convert to or from an Encrypted note": false,
       "meld-encrypt:Encrypt Selection": false,
-      "meld-encrypt:Decrypt at Cursor": false,
-      "obsidian-git:Open Git source control": false
+      "meld-encrypt:Decrypt at Cursor": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "desprovisionamento.md",
+    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.5 Provisionamento de contas de usuário.md",
+    "Provisionamento.md",
+    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.4 Atribuições de permissão de privilégio mínimo.md",
+    "Privilégio mínimo.md",
+    "controle de acesso baseado em regras.md",
+    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.3 Controle de acesso baseado em regras.md",
+    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.2 Controle de acesso baseado em função e atributos.md",
+    "controle de acesso baseado em atributos (ABAC).md",
+    "group contribui.md",
+    "controle de acesso baseado em função (RBAC).md",
+    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.2.1 Controle de acesso discricionário e obrigatório.md",
+    "controle de acesso obrigatório (MAC).md",
+    "controle de acesso discricionário (DAC).md",
+    "permissões.md",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.8 Autenticação sem senha.md",
     "Atestação.md",
     "Passwordless.md",
@@ -207,21 +222,6 @@
     "Smart cards.md",
     "token de autenticação física.md",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.5 autenticação biométrica.md",
-    "autenticação biométrica.md",
-    "Taxa de erro cruzado (CER).md",
-    "Taxa de rejeição falsa (FRR) 2.md",
-    "Taxa de rejeição falsa (FRR).md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.4 Autenticação multifator.md",
-    "tecnologia de autenticação multifator (MFA).md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.3 Gerenciadores de senhas.md",
-    "gerenciador de senhas.md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.2 Conceitos de senha.md",
-    "política de boas práticas.md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1.1 Design de autenticação.md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.0 Implementar o gerenciamento de identidade e acesso.md",
-    "políticas de contas.md",
-    "fatores.md",
-    "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/4.1 Autenticação.md",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso",
     "criptografia de transporte*",
     "criptografia de transporte",

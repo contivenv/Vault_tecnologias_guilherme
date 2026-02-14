@@ -1,0 +1,1 @@
+Coleção de contas de usuários que pode ser útil ao estabelecer permissões de arquivos e direitos de usuários, porque quando muitos indivíduos precisam do mesmo nível de acesso, permite estabelecer um grupo contendo todos os usuários relevantes.
