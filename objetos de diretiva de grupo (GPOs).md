@@ -1,0 +1,1 @@
+Em um domínio do Windows, uma maneira de implantar configurações por usuário e por computador, como política de senha, restrições de conta, status de firewall e assim por diante.

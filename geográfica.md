@@ -1,0 +1,1 @@
+Identificação ou estimativa da localização física de um objeto, como uma fonte de radar, telefone celular ou dispositivo de computação conectado à Internet.

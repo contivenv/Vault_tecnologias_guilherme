@@ -1,0 +1,1 @@
+Um meio de limitar o acesso a chaves de criptografia essenciais, como a chave privada de uma CA raiz. Pelo menos M do número total (N) de indivíduos autorizados deve estar presente para acessar a chave.

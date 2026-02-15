@@ -1,0 +1,1 @@
+Políticas, procedures (procedimentos) e software de suporte para gerenciar contas e credenciais com permissions (permissões) administrativas.
