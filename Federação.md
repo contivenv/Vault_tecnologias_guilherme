@@ -1,0 +1,1 @@
+Processo que fornece a funcionalidade de login compartilhado em vários sistemas e empresas. De maneira geral, interconecta os serviços de gerenciamento de identidade de vários sistemas.

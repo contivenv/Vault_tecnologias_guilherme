@@ -1,0 +1,1 @@
+Um serviço de rede que armazena informações de identidade sobre todos os objetos em uma rede específica, incluindo usuários, grupos, servidores, computadores clientes e impressoras.

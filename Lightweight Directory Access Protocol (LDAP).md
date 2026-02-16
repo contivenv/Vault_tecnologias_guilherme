@@ -1,0 +1,1 @@
+Protocolo usado para acessar bancos de dados de diretório de rede, que armazenam informações sobre usuários autorizados e seus privilégios, bem como outras informações organizacionais.

@@ -1,0 +1,1 @@
+Uma coleção de atributos que definem um identificador exclusivo para qualquer recurso determinado em um diretório semelhante ao X.500.

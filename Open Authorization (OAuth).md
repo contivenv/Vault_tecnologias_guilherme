@@ -1,0 +1,1 @@
+Um padrão para gerenciamento de identidade federada, permitindo que servidores de recursos ou sites de consumidores funcionem com contas de usuário criadas e gerenciadas em um provedor de identidade separado.

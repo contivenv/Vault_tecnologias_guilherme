@@ -1,0 +1,1 @@
+Estilo de arquitetura padronizado e sem estado usado por aplicativos Web para fins de comunicação e integração.

@@ -1,0 +1,1 @@
+Protocolo de autenticação tipo desafio-resposta criado pela Microsoft para uso em seus produtos.

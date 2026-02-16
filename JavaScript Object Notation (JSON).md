@@ -1,0 +1,1 @@
+Formato de arquivo que usa pares de atributo-valor para definir configurações em uma estrutura que facilita a leitura e o consumo por humanos e máquinas.

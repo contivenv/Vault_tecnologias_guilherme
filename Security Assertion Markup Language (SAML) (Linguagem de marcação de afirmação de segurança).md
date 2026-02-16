@@ -1,0 +1,1 @@
+Formato de dados baseado em XML usado para trocar informações de autenticação entre um cliente e um serviço.

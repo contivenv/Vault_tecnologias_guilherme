@@ -1,0 +1,1 @@
+No Kerberos, um token emitido para uma conta autenticada para permitir o acesso a servidores de aplicativos autorizados.

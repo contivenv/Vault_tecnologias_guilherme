@@ -1,0 +1,1 @@
+Componente do Kerberos que autentica usuários e emite tíquetes (tokens).
