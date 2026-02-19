@@ -1,0 +1,1 @@
+Uma área da rede (ou de uma rede conectada) em que a configuração de segurança é igual para todos os hosts dentro dela. Em segurança física, uma área separada por barreiras que controlam pontos de entrada e saída.

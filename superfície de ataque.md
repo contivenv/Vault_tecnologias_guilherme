@@ -1,0 +1,1 @@
+Os pontos em que uma rede ou aplicativo recebe conexões externas ou entradas/saídas que são vetores potenciais a serem explorados por um ator de ameaça.

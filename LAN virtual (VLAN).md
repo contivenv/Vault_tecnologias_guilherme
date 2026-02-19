@@ -1,0 +1,1 @@
+Segmento de rede lógico que compreende um domínio de transmissão estabelecido usando um recurso de switches gerenciados para atribuir a cada porta um ID de VLAN. Mesmo que os hosts em duas VLANs possam estar conectados fisicamente ao mesmo switch, o tráfego local é isolado para cada VLAN, então elas precisam de um roteador para se comunicar.

@@ -1,0 +1,1 @@
+Topologia de rede imposta pela configuração de switch, roteador e firewall na qual os hosts em um segmento de rede são impedidos ou restritos na comunicação com hosts em outros segmentos.

@@ -1,0 +1,1 @@
+Aplicação de uma lista de controle de acesso a um switch ou ponto de acesso, de modo que apenas clientes com endereços MAC aprovados possam se conectar a ele.

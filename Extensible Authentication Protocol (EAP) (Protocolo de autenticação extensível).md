@@ -1,0 +1,1 @@
+Estrutura para negociar métodos de autenticação que permitem que os sistemas usem identificadores baseados em hardware, como scanners de impressão digital ou leitores de cartões inteligentes, para autenticação e estabeleçam túneis seguros para enviar credenciais.

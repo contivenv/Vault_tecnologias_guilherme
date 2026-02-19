@@ -1,0 +1,1 @@
+Switch ou roteador PNAC que ativa o EAPoL e passa os dados de autenticação de um solicitante a um servidor de autenticação, como um servidor RADIUS.

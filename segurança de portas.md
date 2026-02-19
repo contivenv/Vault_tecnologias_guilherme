@@ -1,0 +1,1 @@
+Impedir que um dispositivo conectado a uma porta de switch se comunique na rede, a menos que corresponda a um determinado endereço MAC ou outro perfil de proteção.
