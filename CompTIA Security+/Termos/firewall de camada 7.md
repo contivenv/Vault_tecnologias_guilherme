@@ -1,0 +1,1 @@
+Firewall de inspeção com monitoração de estado que pode filtrar o tráfego com base em cabeçalhos e dados de protocolos específicos a aplicativos, como dados da Web ou de e-mail.

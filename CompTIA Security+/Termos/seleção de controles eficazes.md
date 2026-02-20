@@ -1,0 +1,1 @@
+O processo de escolher o tipo e o posicionamento de controles de segurança para garantir os objetivos da tríade CIA e o cumprimento de quaisquer requisitos da estrutura.

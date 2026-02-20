@@ -1,0 +1,1 @@
+Informações sobre sessões entre hosts coletadas por um firewall com monitoração de estado.

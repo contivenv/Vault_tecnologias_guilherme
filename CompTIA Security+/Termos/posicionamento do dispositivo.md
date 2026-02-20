@@ -1,0 +1,1 @@
+Considerações a serem feitas para posicionar controles de segurança a fim de proteger zonas de rede e hosts individuais, implementar uma estratégia de defesa em profundidade e atender às metas gerais de segurança.

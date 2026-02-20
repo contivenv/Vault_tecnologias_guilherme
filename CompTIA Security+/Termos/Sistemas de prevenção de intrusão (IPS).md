@@ -1,0 +1,1 @@
+Um software ou dispositivo de segurança que analisa dados de um sniffer de pacotes para identificar o tráfego que viola políticas ou regras. Também chamado de network intrusion detection system (NIDS) (sistema de detecção de intrusão de rede).

@@ -1,0 +1,1 @@
+Estratégia de segurança que posiciona camadas de diversas categorias e funções de controle de segurança ao invés de basear-se apenas em controles de perímetro.

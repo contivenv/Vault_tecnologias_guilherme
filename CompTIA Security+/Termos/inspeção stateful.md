@@ -1,0 +1,1 @@
+Técnica usada em firewalls para analisar pacotes até a camada do aplicativo em vez de filtrar pacotes apenas por informações de cabeçalho, permitindo que o firewall imponha mais segurança.

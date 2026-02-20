@@ -1,0 +1,1 @@
+Capacidade de um sistema de processar uma tarefa ou carga de trabalho em um prazo aceitável.

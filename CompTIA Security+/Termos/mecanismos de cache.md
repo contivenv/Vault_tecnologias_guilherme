@@ -1,0 +1,1 @@
+Um recurso de muitos servidores proxy que permite que os servidores mantenham uma cópia das páginas web solicitadas com frequência.

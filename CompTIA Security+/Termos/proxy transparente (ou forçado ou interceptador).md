@@ -1,0 +1,1 @@
+Um servidor que redireciona solicitações e respostas sem que o cliente seja explicitamente configurado para usá-lo. Também chamado de proxy forçado ou de interceptação.

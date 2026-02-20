@@ -1,0 +1,1 @@
+Dispositivo de hardware que tem a função principal de um roteador, mas também possui funcionalidade de firewall embutida no firmware do roteador.
