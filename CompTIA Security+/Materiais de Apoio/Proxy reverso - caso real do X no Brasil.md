@@ -1,0 +1,1 @@
+https://www.techtudo.com.br/noticias/2024/09/cloudflare-como-funciona-servidor-que-pode-ter-causado-volta-do-x-twitter-edsoftwares.ghtml

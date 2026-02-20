@@ -11,14 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "meld-encrypted-view",
+              "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
+                "file": "CompTIA Security+/Materiais de Apoio/Proxy reverso - caso real do X no Brasil.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roteiro principal com data das semanas e módulos de estudo"
+              "title": "Proxy reverso - caso real do X no Brasil"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
+    "CompTIA Security+/Materiais de Apoio/Proxy reverso - caso real do X no Brasil.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.0 Proteger a arquitetura de rede corporativa.md",
     "CompTIA Security+/Termos/firewall de camada 4.md",
     "CompTIA Security+/Termos/tabela de estado.md",
@@ -221,8 +223,6 @@
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.1 Posicionamento do dispositivo.md",
     "CompTIA Security+/Termos/posicionamento do dispositivo.md",
     "CompTIA Security+/Termos/defesa em profundidade.md",
-    "CompTIA Security+/Termos/seleção de controles eficazes.md",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2 Dispositivos de segurança para redes.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/Sem título",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso",
