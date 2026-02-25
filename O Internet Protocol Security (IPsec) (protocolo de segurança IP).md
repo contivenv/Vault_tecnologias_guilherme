@@ -1,0 +1,1 @@
+Conjunto de protocolos de rede usado para proteger dados por meio de autenticação e criptografia à medida que os dados trafegam pela rede ou pela Internet

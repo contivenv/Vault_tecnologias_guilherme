@@ -1,0 +1,1 @@
+Protocolo de aplicativo que suporta tunelamento seguro, emulação de terminal remoto e cópia de arquivos. O SSH é executado via TCP na porta 22.

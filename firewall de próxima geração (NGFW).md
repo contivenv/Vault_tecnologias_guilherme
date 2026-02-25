@@ -1,0 +1,1 @@
+Avanços na tecnologia de firewall, desde o reconhecimento de aplicativos, filtragem baseada no usuário e prevenção de intrusões (IPS) até a inspeção por nuvem.

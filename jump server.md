@@ -1,0 +1,1 @@
+Servidor reforçado que dá acesso a outros hosts.

@@ -1,0 +1,1 @@
+Subprotocolo IPSec que permite a criptografia e autenticação do cabeçalho e do payload de um pacote de dados.
