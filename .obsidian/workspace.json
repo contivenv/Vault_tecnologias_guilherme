@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/Materiais de Apoio/Proxy reverso - caso real do X no Brasil.md",
+                "file": "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.3 Considerações sobre a infraestrutura de comutação (switching).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxy reverso - caso real do X no Brasil"
+              "title": "5.1.3 Considerações sobre a infraestrutura de comutação (switching)"
+            }
+          },
+          {
+            "id": "5b965397c9d2b927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1 Arquitetura de rede corporativa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.1 Arquitetura de rede corporativa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,44 +209,44 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5b965397c9d2b927",
   "lastOpenFiles": [
-    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
-    "CompTIA Security+/Materiais de Apoio/Proxy reverso - caso real do X no Brasil.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.0 Proteger a arquitetura de rede corporativa.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.1 Conceitos de arquitetura e infraestrutura.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1 Arquitetura de rede corporativa.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.5 Zonas de segurança.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.4 Considerações sobre a infraestrutura de roteamento.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.3 Considerações sobre a infraestrutura de comutação (switching).md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.1.2 Infraestrutura de rede.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.5 proxy server (servidor proxy).md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.4 Firewalls de Camada 4 e Camada 7.md",
+    "CompTIA Security+/Materiais de Apoio/Proxy reverso - caso real do X no Brasil.md",
+    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Termos/firewall de camada 4.md",
     "CompTIA Security+/Termos/tabela de estado.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.6 Sistemas de detecção de intrusão.md",
     "CompTIA Security+/Termos/Sistemas de prevenção de intrusão (IPS).md",
     "CompTIA Security+/Termos/sistema de detecção de intrusão (IDS).md",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.5 proxy server (servidor proxy).md",
     "CompTIA Security+/Termos/proxy reverso.md",
     "CompTIA Security+/Termos/proxy transparente (ou forçado ou interceptador).md",
     "CompTIA Security+/Termos/No caso do proxy não transparente.md",
     "CompTIA Security+/Termos/mecanismos de cache.md",
     "CompTIA Security+/Termos/servidor proxy.md",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.4 Firewalls de Camada 4 e Camada 7.md",
     "CompTIA Security+/Termos/firewall de camada 7.md",
     "CompTIA Security+/Termos/inspeção stateful.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.3 Firewalls.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.2 Atributos do dispositivo.md",
     "CompTIA Security+/Termos/air-gapped.md",
     "CompTIA Security+/Termos/roteador firewall.md",
-    "CompTIA Security+/Termos/firewall de dispositivo.md",
-    "CompTIA Security+/Termos/firewall de filtragem de pacotes.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.1 Posicionamento do dispositivo.md",
-    "CompTIA Security+/Termos/posicionamento do dispositivo.md",
-    "CompTIA Security+/Termos/defesa em profundidade.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/Sem título",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso",
     "criptografia de transporte*",
     "criptografia de transporte",
     "CompTIA Security+/E-book CompTIA Security+/3.0 Explicando as soluções de criptografia",
-    "CompTIA Security+/Dúvidas/Criptografia",
+    "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/E-book CompTIA Security+/2.0 Comparação de Tipos de Ameaças",
-    "Nível de sofisticação",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
