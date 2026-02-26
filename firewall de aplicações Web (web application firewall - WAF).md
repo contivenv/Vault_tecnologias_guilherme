@@ -1,0 +1,1 @@
+Firewall desenvolvido especificamente para proteger o software executado em servidores Web e seus bancos de dados back-end contra ataques de injeção de código e DoS.
