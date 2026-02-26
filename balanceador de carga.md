@@ -1,0 +1,1 @@
+Um tipo de switch, roteador ou software que distribui solicitações de clientes entre diferentes recursos, como links de comunicação ou servidores configurados de forma semelhante. Isso proporciona tolerância a falhas e melhora a taxa de transferência.

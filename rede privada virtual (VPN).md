@@ -1,0 +1,1 @@
+Túnel seguro criado entre dois endpoints conectados via rede de transporte não segura (geralmente a Internet).

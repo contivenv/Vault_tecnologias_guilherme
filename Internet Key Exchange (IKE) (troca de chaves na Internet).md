@@ -1,0 +1,1 @@
+Framework para criar uma associação de segurança (SA) usada com o IPSec. Uma SA estabelece que dois hosts confiam um no outro (ao se autenticarem) e concordam sobre protocolos seguros e pacotes de codificação para usar na troca de dados.

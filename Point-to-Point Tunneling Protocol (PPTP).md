@@ -1,0 +1,1 @@
+Desenvolvido pela Cisco e Microsoft para VPNs por PPP e TCP/IP. O PPTP é altamente vulnerável a ataques de quebra de senha e considerado obsoleto.

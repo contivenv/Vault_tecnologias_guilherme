@@ -1,0 +1,1 @@
+Acesso à interface administrativa de um dispositivo de rede usando uma rede separada da rede de dados habitual. Uma VLAN separada ou um tipo diferente de link podem ser usados, como, por exemplo, um modem dial-up.

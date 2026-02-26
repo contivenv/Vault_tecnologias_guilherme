@@ -1,0 +1,1 @@
+Em balanceamento de carga, a opção de configuração que permite que um cliente mantenha uma conexão com um servidor com carga balanceada durante a sessão. Também chamadas de sticky sessions (sessões persistentes ou fixas).

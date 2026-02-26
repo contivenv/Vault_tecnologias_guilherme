@@ -1,0 +1,1 @@
+Protocolo IPSec que fornece autenticação para a origem dos dados transmitidos, bem como integridade e proteção contra replay attacks.

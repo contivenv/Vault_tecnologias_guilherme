@@ -1,0 +1,1 @@
+Aparelhos e agentes de segurança multifuncionais que combinam as funções de firewall, scanner de malware, detecção de intrusão, scanner de vulnerabilidade, prevenção contra perda de dados, filtragem de conteúdo e assim por diante.

@@ -1,0 +1,1 @@
+Uso de recursos de HTML5 para implementar conexões remotas de área de trabalho/VPN por meio de software de navegador (sem cliente). Também chamado de VPN sem cliente.
