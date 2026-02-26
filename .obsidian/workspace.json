@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.1 Arquitetura de acesso remoto.md",
+                "file": "CompTIA Security+/Dúvidas e revisão de conceitos/Firmware de Firewall vs. PC.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.3.1 Arquitetura de acesso remoto"
+              "title": "Firmware de Firewall vs. PC"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.1 Arquitetura de acesso remoto.md",
+    "CompTIA Security+/Dúvidas e revisão de conceitos/Firmware de Firewall vs. PC.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3 Comunicações seguras.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.9 Firewalls de aplicativos web.md",
     "firewall de aplicações Web (web application firewall - WAF).md",
@@ -221,8 +223,6 @@
     "firewall de próxima geração (NGFW).md",
     "balanceador de carga.md",
     "afinidade de sessão.md",
-    "acesso remoto.md",
-    "Virtual Network Computing (VNC) (Computação em rede virtual).md",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/Dúvidas e revisão de conceitos",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",
