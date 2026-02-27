@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompTIA Security+/Dúvidas e revisão de conceitos/Firmware de Firewall vs. PC.md",
+                "file": "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.7 Gerenciamento fora de banda e servidores jump.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firmware de Firewall vs. PC"
+              "title": "5.3.7 Gerenciamento fora de banda e servidores jump"
             }
           }
         ]
@@ -196,8 +196,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.1 Arquitetura de acesso remoto.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.4 Resumo.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.7 Gerenciamento fora de banda e servidores jump.md",
+    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Firmware de Firewall vs. PC.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.1 Arquitetura de acesso remoto.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3 Comunicações seguras.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.9 Firewalls de aplicativos web.md",
     "firewall de aplicações Web (web application firewall - WAF).md",
@@ -211,9 +214,6 @@
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.1 Posicionamento do dispositivo.md",
     "CompTIA Security+/Termos/posicionamento do dispositivo.md",
     "CompTIA Security+/Termos/seleção de controles eficazes.md",
-    "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.7 Gerenciamento fora de banda e servidores jump.md",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.4 Resumo.md",
     "conflict-files-obsidian-git.md",
     "túnel.md",
     "rede privada virtual (VPN).md",
@@ -222,7 +222,6 @@
     "gerenciamento remoto podem ser in-band ou out-of-band (OOB).md",
     "firewall de próxima geração (NGFW).md",
     "balanceador de carga.md",
-    "afinidade de sessão.md",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/Dúvidas e revisão de conceitos",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",
