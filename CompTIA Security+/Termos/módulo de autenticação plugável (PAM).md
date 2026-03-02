@@ -1,1 +1,0 @@
-Uma estrutura para implementar provedores de autenticação no Linux.

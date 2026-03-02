@@ -1,1 +1,0 @@
-Propriedade pela qual um ambiente de computação consegue atender de forma equilibrada a suas necessidades de recursos cada vez maiores.

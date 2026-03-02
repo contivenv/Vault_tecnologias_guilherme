@@ -1,1 +1,0 @@
-Um tipo de controle de segurança que desencoraja tentativas de intrusão.

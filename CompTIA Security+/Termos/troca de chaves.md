@@ -1,1 +1,0 @@
-Qualquer método pelo qual as chaves criptográficas são transferidas entre os usuários, permitindo assim o uso de um algoritmo criptográfico.

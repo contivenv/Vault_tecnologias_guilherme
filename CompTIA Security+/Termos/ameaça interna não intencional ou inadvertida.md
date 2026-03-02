@@ -1,1 +1,0 @@
-Autor de ameaças que causa uma vulnerabilidade ou expõe um vetor de ataque sem intenção criminosa.

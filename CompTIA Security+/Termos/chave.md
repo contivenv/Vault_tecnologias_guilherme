@@ -1,1 +1,0 @@
-Em criptografia, trata-se de uma informação específica que é usada com um algoritmo para executar a criptografia e descriptografia.

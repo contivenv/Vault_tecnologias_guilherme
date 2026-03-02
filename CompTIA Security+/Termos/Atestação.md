@@ -1,1 +1,0 @@
-Capacidade de um autenticador ou outro módulo criptográfico provar que é autoridade credível e pode fornecer relatórios confiáveis para provar que um dispositivo ou computador é uma plataforma confiável.

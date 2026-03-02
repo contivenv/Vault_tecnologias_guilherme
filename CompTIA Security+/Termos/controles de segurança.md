@@ -1,1 +1,0 @@
-Tecnologia ou procedimento implementado para mitigar vulnerabilidades e riscos e garantir a confidencialidade, integridade e disponibilidade (confidentiality, Integrity, Availability — CIA) das informações.

@@ -1,1 +1,0 @@
-Conjunto de regras que regem as informações de segurança do usuário, como expiração e exclusividade da senha, e que podem ser definidas para ter aplicação global.

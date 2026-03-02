@@ -1,1 +1,0 @@
-Um princípio básico de segurança que define que algo deve receber os direitos, privilégios ou informações mínimos necessários para desempenhar sua função. Também conhecido como princípio do privilégio mínimo.

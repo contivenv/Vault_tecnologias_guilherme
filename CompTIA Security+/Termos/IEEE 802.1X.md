@@ -1,1 +1,0 @@
-Um padrão para encapsular comunicações EAP através de uma LAN (EAPoL) ou WLAN (EAPoW) para implementar autenticação baseada em porta.

@@ -1,1 +1,0 @@
-A prática de encapsular dados de um protocolo para transferência segura através de outra rede, como a Internet.

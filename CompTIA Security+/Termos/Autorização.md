@@ -1,1 +1,0 @@
-O processo de determinar quais direitos e privilégios uma entidade em particular possui.

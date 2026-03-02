@@ -1,1 +1,0 @@
-Um dispositivo de hardware independente que executa apenas a função de um firewall, que é incorporado ao firmware do dispositivo.

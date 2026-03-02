@@ -1,1 +1,0 @@
-Um arquivo Base64 ASCII que um sujeito envia a uma CA para obter um certificado.

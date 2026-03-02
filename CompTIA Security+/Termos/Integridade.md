@@ -1,1 +1,0 @@
-A meta fundamental da segurança, de manter as informações organizacionais precisas, livres de erros e sem modificações não autorizadas.

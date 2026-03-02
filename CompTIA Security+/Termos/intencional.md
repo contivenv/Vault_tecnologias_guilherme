@@ -1,1 +1,0 @@
-Autor de ameaças com um propósito mal-intencionado.

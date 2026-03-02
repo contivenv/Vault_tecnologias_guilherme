@@ -1,1 +1,0 @@
-O valor atribuído a uma conta pelo Windows e usado pelo sistema operacional para identificar essa conta.

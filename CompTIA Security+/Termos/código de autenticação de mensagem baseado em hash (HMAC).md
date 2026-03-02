@@ -1,1 +1,0 @@
-Método usado para verificar a integridade e autenticidade de uma mensagem combinando um hash criptográfico da mensagem com uma chave secreta.

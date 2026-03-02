@@ -1,1 +1,0 @@
-Série de padrões que definem o uso de autoridades de certificação e certificados digitais.

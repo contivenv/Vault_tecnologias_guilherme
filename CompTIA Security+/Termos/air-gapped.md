@@ -1,1 +1,0 @@
-Tipo de isolamento de rede que separa fisicamente um host de outros ou uma rede de todas as outras.

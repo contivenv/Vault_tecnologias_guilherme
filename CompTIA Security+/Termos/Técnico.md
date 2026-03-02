@@ -1,1 +1,0 @@
-Categoria de controle de segurança que é implementada como um sistema (hardware, software ou firmware). Os controles técnicos também podem ser descritos como controles lógicos

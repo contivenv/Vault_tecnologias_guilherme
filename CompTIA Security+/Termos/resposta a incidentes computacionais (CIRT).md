@@ -1,1 +1,0 @@
-Equipe responsável pela resposta a incidentes. O CIRT deve ter experiência em vários domínios de negócios (TI, RH, jurídico e marketing, por exemplo).

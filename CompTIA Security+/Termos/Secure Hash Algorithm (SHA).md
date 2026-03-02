@@ -1,1 +1,0 @@
-Algoritmo hash criptográfico criado para resolver possíveis lacunas no MDA. A versão atual é SHA-2.

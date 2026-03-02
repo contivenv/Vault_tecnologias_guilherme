@@ -1,1 +1,0 @@
-Um servidor que garante as identidades dos sujeitos emitindo invólucros de certificados digitais assinados para suas chaves públicas.

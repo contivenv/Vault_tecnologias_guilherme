@@ -1,1 +1,0 @@
-Forma de phishing que usa mensagens de texto SMS para induzir a vítima a revelar informações.

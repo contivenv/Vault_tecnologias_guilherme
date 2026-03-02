@@ -1,1 +1,0 @@
-Protocolo AAA usado para administrar infraestruturas de autenticação remota e sem fio.

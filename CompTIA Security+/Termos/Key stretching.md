@@ -1,1 +1,0 @@
-Técnica que fortalece informações potencialmente fracas para fins de geração de chaves criptográficas, como senhas ou frases de desbloqueio criadas por pessoas, contra ataques de força bruta.

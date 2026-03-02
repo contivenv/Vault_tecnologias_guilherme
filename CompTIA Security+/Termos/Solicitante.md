@@ -1,1 +1,0 @@
-Na arquitetura EAP, trata-se do dispositivo que está solicitando acesso à rede.

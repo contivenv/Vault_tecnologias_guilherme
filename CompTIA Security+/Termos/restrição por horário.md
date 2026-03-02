@@ -1,1 +1,0 @@
-Políticas ou definições de configuração que limitam o acesso de um usuário a recursos.

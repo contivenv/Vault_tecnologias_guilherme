@@ -1,1 +1,0 @@
-Ciência, arte e prática de decifrar códigos e cifras.

@@ -1,1 +1,0 @@
-Um tipo de servidor proxy que protege os servidores do contato direto com as solicitações do cliente.

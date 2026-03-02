@@ -1,1 +1,0 @@
-Três princípios de controle e gestão de segurança. Também conhecida como tríade de segurança da informação. Na ordem inversa, pode ser mencionada como a tríade AIC.

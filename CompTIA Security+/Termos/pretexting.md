@@ -1,1 +1,0 @@
-Tática de engenharia social em que uma equipe comunica, direta ou indiretamente, uma mentira ou meia-verdade para levar alguém a acreditar em uma falsidade.

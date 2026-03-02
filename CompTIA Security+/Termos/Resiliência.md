@@ -1,1 +1,0 @@
-A capacidade de um sistema ou rede de se recuperar rapidamente de eventos de falha com nenhuma ou mínima intervenção manual.

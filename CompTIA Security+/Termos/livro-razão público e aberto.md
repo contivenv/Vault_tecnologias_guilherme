@@ -1,1 +1,0 @@
-Registro público distribuído de transações que sustenta a integridade das blockchains.

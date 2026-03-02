@@ -1,1 +1,0 @@
-Protocolo da camada de rede (Internet) no conjunto de protocolos TCP/IP fornecendo endereçamento e roteamento de pacotes a todos os protocolos de nível mais alto no conjunto.

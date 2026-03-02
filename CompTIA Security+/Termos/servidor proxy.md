@@ -1,1 +1,0 @@
-Servidor que medeia as comunicações entre um cliente e outro servidor. Pode filtrar e, muitas vezes, modificar as comunicações, além de fornecer serviços de armazenamento em cache para melhorar o desempenho. Também chamado de proxy de encaminhamento.

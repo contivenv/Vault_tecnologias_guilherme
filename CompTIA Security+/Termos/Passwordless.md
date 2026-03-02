@@ -1,1 +1,0 @@
-Esquema de autenticação multifatorial que usa fatores de propriedade e biométricos, mas não fatores de conhecimento.

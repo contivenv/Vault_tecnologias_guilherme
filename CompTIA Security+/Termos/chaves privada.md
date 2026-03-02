@@ -1,1 +1,0 @@
-Na criptografia assimétrica, a chave privada é conhecida apenas pelo titular e está vinculada a uma chave pública (mas não deriva dela) distribuída àqueles com os quais o titular deseja se comunicar com segurança. Uma chave privada pode ser usada para criptografar dados que podem ser descriptografados pela chave pública vinculada ou vice-versa.

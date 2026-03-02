@@ -1,1 +1,0 @@
-Tipo de controle de segurança que atua durante um incidente para identificar ou registrar os acontecimentos.

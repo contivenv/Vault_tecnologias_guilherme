@@ -1,1 +1,0 @@
-Configurações de segurança que controlam o acesso a objetos, incluindo itens do sistema de arquivos e recursos de rede.

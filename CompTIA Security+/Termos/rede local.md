@@ -1,1 +1,0 @@
-Centro de rede privada pertencente e operado por uma organização para uso exclusivo de seus funcionários.

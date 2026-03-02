@@ -1,1 +1,0 @@
-Atores de ameaças com a capacidade de criar novas explorações e técnicas para obter, manter e diversificar o acesso não autorizado a sistemas de rede por um longo período.

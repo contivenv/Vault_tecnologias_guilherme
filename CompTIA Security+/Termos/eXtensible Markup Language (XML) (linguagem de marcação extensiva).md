@@ -1,1 +1,0 @@
-Protocolo de serviços da Web baseado em XML que é usado para trocar mensagens.

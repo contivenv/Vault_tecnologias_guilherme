@@ -1,1 +1,0 @@
-Ataque de engenharia social em que um invasor finge ser alguém que não é.

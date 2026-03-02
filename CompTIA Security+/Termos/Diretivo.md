@@ -1,1 +1,0 @@
-Tipo de controle que impõe uma regra de comportamento por meio de uma política ou contrato.

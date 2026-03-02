@@ -1,1 +1,0 @@
-Mecanismo de autenticação que permite ao usuário realizar uma varredura biométrica para operar um sistema de entrada ou acesso. Características físicas armazenadas como um modelo de dados digitais podem ser usadas para autenticar um usuário. Os recursos típicos usados incluem padrão facial, íris, retina, padrão de impressão digital e reconhecimento de assinatura.

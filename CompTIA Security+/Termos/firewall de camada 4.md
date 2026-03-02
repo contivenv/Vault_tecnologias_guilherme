@@ -1,1 +1,0 @@
-Um firewall de inspeção de estado que pode monitorar sessões TCP e tráfego UDP.

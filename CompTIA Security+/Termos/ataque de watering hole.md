@@ -1,1 +1,0 @@
-Um ataque dirigido a grupos ou organizações específicas, no qual um invasor descobre quais sites o alvo frequenta e injeta código malicioso nesses sites.

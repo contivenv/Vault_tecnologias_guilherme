@@ -1,1 +1,0 @@
-O processo pelo qual uma conta de usuário e suas credenciais são emitidas para a pessoa correta. Às vezes chamado de registro ou inscrição.

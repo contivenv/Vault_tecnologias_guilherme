@@ -1,1 +1,0 @@
-Tipo de controle de segurança que atua antes de um incidente para eliminar ou reduzir a probabilidade de sucesso de um ataque.

@@ -1,1 +1,0 @@
-Um tipo de ataque que compromete a disponibilidade de um ativo ou processo de negócios.

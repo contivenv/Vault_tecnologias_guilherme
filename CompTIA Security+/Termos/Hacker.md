@@ -1,1 +1,0 @@
-Frequentemente usado para se referir a alguém que invade sistemas de computador ou espalha vírus; hackers éticos preferem ser vistos como especialistas e exploradores de sistemas de segurança computacional.

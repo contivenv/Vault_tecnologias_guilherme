@@ -1,1 +1,0 @@
-Em PKI, trata-se de um certificado digital que corresponderá a vários subdomínios de um domínio principal.

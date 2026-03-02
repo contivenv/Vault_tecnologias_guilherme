@@ -1,1 +1,0 @@
-Um tipo de ator de ameaça que tem o suporte de recursos dos serviços militares e de segurança do país host.

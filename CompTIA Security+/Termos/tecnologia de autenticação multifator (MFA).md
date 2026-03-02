@@ -1,1 +1,0 @@
-Esquema de autenticação que exige que o usuário apresente pelo menos dois fatores diferentes como credenciais; por exemplo, algo que ele conhece, algo que ele tem, algo que ele é, algo que ele faz e algum lugar em que ele está. A especificação de dois fatores é conhecida como “2FA”.

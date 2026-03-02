@@ -1,1 +1,0 @@
-Tecnologia de firewall de camada 3 que compara cabeçalhos de pacotes com ACLs para determinar qual tráfego de rede será aceito.

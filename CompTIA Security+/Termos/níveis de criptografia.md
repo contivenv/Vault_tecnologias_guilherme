@@ -1,1 +1,0 @@
-Alvo da criptografia de dados em repouso que varia da granularidade mais detalhada (arquivo ou linha/registro) à menos detalhada (volume/partição/disco ou banco de dados).

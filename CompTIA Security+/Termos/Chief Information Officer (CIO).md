@@ -1,1 +1,0 @@
-Um diretor da empresa que tem como responsabilidade principal a gestão de ativos e procedimentos da tecnologia da informação.

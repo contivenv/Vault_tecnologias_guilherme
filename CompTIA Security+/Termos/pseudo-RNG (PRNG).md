@@ -1,1 +1,0 @@
-O processo pelo qual um algoritmo produz números que se aproximam da aleatoriedade sem serem verdadeiramente aleatórios.

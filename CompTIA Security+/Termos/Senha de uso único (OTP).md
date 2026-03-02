@@ -1,1 +1,0 @@
-Senha gerada para uso em uma sessão específica e que se torna inválida após o término da sessão.

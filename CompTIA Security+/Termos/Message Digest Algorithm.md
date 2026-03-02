@@ -1,1 +1,0 @@
-Uma função de hash criptográfica que produz uma saída de 128 bits.

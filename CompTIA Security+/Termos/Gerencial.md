@@ -1,1 +1,0 @@
-Uma categoria de controle de segurança que supervisiona o sistema de informação.

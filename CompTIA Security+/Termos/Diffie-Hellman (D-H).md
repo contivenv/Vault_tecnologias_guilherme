@@ -1,1 +1,0 @@
-Uma técnica criptográfica que proporciona a troca segura de chaves.

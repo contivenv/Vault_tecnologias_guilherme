@@ -1,1 +1,0 @@
-Um servidor que redireciona solicitações e respostas para clientes configurados com o endereço e a porta do proxy.

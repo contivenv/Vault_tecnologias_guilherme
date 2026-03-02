@@ -1,1 +1,0 @@
-Uma métrica de avaliação biométrica que mede o número de usuários não autorizados a quem o acesso é permitido por engano.

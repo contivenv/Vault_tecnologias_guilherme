@@ -1,1 +1,0 @@
-Tecnologia de autenticação que permite a um usuário se autenticar uma vez e receber autorizações para vários serviços.

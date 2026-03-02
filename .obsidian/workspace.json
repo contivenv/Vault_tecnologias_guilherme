@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CompTIA Security+/Termos/VPN HTML5.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VPN HTML5"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -165,8 +161,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -194,9 +190,12 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.6 Secure Shell.md",
+    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.5 Remote Desktop (Área de trabalho remota).md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.7 Gerenciamento fora de banda e servidores jump.md",
+    "CompTIA Security+/Termos/VPN HTML5.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.4 Resumo.md",
     "CompTIA Security+/Roteiro de estudos/Roteiro principal com data das semanas e módulos de estudo.mdenc",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Firmware de Firewall vs. PC.md",
@@ -220,8 +219,6 @@
     "CompTIA Security+/Termos/persistência.md",
     "CompTIA Security+/Termos/jump server.md",
     "CompTIA Security+/Termos/gerenciamento remoto podem ser in-band ou out-of-band (OOB).md",
-    "CompTIA Security+/Termos/firewall de próxima geração (NGFW).md",
-    "CompTIA Security+/Termos/balanceador de carga.md",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/Dúvidas e revisão de conceitos",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",

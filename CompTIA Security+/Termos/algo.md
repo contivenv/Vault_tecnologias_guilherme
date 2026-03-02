@@ -1,1 +1,0 @@
-Um tipo de ataque que induz a vítima a usar ou abrir um dispositivo removível, documento, imagem ou programa que oculta um malware.

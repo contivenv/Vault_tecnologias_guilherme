@@ -1,1 +1,0 @@
-Em uma rede federada, o serviço que mantém a conta do usuário e executa a autenticação.

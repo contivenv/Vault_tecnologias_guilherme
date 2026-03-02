@@ -1,1 +1,0 @@
-Permite que os clientes solicitem o status de um certificado digital para verificar se ele foi revogado.

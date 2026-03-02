@@ -1,1 +1,0 @@
-Processo de implantação de uma conta, host ou aplicativo em um ambiente de produção-alvo. Isto envolve comprovar a identidade ou integridade do recurso e conceder-lhe credenciais e permissões de acesso.

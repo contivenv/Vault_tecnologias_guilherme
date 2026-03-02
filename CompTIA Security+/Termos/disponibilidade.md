@@ -1,1 +1,0 @@
-A meta fundamental da segurança, de garantir que os sistemas operem continuamente e que indivíduos autorizados possam acessar os dados de que precisam.

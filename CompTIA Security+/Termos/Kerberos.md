@@ -1,1 +1,0 @@
-Serviço de autenticação e autorização de logon único baseado em um sistema de concessão de tíquete temporário.

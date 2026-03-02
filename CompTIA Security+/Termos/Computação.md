@@ -1,1 +1,0 @@
-Recursos de processamento, memória, armazenamento e rede que permitem a um host ou dispositivo de rede lidar com determinada carga de trabalho.

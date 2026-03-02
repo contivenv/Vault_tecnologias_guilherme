@@ -1,1 +1,0 @@
-Uma pessoa ou entidade responsável por um evento identificado como um incidente de segurança ou risco.

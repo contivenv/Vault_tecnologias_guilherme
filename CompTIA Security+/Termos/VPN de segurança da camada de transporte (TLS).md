@@ -1,1 +1,0 @@
-Solução de rede privada virtual que usa certificados digitais para identificar, hospedar e estabelecer túneis seguros para o tráfego de rede.

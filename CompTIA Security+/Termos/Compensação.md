@@ -1,1 +1,0 @@
-Uma medida de segurança que assume a mitigação de riscos quando um controle primário falha ou não consegue atender completamente às expectativas.

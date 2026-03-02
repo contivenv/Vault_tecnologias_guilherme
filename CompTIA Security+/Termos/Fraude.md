@@ -1,1 +1,0 @@
-Falsificação de registros, como uma fraude interna que envolve manipulação de contas.

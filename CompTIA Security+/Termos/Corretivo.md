@@ -1,1 +1,0 @@
-Um tipo de controle de segurança que atua após um incidente para eliminar ou minimizar seu impacto.

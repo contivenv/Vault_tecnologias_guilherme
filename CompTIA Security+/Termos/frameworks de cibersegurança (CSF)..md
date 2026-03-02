@@ -1,1 +1,0 @@
-Padrões, práticas recomendadas e diretrizes para a gestão eficaz de riscos à segurança. Alguns frameworks são de natureza geral, enquanto outros são específicos para certos tipos de indústria ou tecnologia.

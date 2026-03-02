@@ -1,1 +1,0 @@
-Agência governamental não regulatória que desenvolve padrões de segurança de computadores usados por agências federais dos EUA e publica guias e pesquisas de práticas recomendadas de segurança cibernética.

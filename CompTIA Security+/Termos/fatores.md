@@ -1,1 +1,0 @@
-No design de autenticação, diferentes tecnologias para implementar a autenticação, como conhecimento, propriedade/token e biometria/inerência. São caracterizados como algo que você sabe, tem ou é.

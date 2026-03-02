@@ -1,1 +1,0 @@
-Um modelo de controle de acesso em que os recursos são protegidos por regras inflexíveis definidas pelo sistema. Recursos (objetos) e usuários (indivíduos) recebem um nível de autorização (ou rótulo).

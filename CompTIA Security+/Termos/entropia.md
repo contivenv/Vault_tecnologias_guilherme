@@ -1,1 +1,0 @@
-Uma medida de desordem. Os sistemas criptográficos devem exibir alta entropia para resistir melhor aos ataques de força bruta.

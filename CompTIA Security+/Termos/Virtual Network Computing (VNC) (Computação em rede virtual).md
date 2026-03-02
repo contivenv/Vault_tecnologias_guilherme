@@ -1,1 +1,0 @@
-Ferramenta e protocolo de acesso remoto. VNC é a base do compartilhamento de tela do macOS.

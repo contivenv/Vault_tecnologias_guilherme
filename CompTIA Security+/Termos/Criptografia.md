@@ -1,1 +1,0 @@
-Ciência e prática de alterar dados visando torná-los ininteligíveis às partes não autorizadas.

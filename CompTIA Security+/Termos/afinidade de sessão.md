@@ -1,1 +1,0 @@
-Formato de agendamento usado pelos balanceadores de carga para rotear o tráfego para dispositivos que já estabeleceram conexões com o cliente em questão.

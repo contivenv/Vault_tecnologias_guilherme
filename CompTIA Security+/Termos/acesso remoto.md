@@ -1,1 +1,0 @@
-Infraestrutura, protocolos e software que permitem que um host se junte a uma rede local a partir de uma localização física remota ou que permitem que uma sessão em um host seja estabelecida mediante uma rede.
