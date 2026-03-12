@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas operacionais/Linux/Impressoras/Instalação impressora Brother DCP-8112DN no Linux Mint.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Instalação impressora Brother DCP-8112DN no Linux Mint"
             }
           }
         ]
@@ -161,8 +165,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -192,6 +196,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
+    "Sistemas operacionais/Linux/Impressoras/Instalação impressora Brother DCP-8112DN no Linux Mint.md",
+    "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
+    "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.6 Secure Shell.md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.5 Remote Desktop (Área de trabalho remota).md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.3.7 Gerenciamento fora de banda e servidores jump.md",
@@ -215,10 +223,6 @@
     "CompTIA Security+/Termos/seleção de controles eficazes.md",
     "conflict-files-obsidian-git.md",
     "CompTIA Security+/Termos/túnel.md",
-    "CompTIA Security+/Termos/rede privada virtual (VPN).md",
-    "CompTIA Security+/Termos/persistência.md",
-    "CompTIA Security+/Termos/jump server.md",
-    "CompTIA Security+/Termos/gerenciamento remoto podem ser in-band ou out-of-band (OOB).md",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/Dúvidas e revisão de conceitos",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",
