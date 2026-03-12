@@ -5,7 +5,7 @@ tags:
 hora criação: 2026-03-12T10:51:00
 ---
 
-Para instalar sua impressora Brother **DCP-8112DN** no Linux Mint via terminal, você deve utilizar o script instalador oficial da Brother que você forneceu. O Linux Mint é baseado em Ubuntu/Debian, portanto, o script gerenciará os pacotes `.deb` necessários automaticamente.
+Para instalar sua impressora Brother **DCP-8112DN** no Linux Mint via terminal, você deve utilizar o script instalador oficial da Brother que você forneceu, o que baixou pelo site oficial da Brother e já descompactou. O Linux Mint é baseado em Ubuntu/Debian, portanto, o script gerenciará os pacotes `.deb` necessários automaticamente.
 
 Siga os passos abaixo:
 
