@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "video",
               "state": {
-                "file": "Máquinas Virtuais/Configuração KVM + Virtual-manager..md",
-                "mode": "preview",
-                "source": false
+                "file": "Anexos/Vídeos/Windows 11 no KVM.mp4"
               },
               "icon": "lucide-file",
-              "title": "Configuração KVM + Virtual-manager."
+              "title": "Windows 11 no KVM"
             }
           }
         ]
@@ -194,10 +192,11 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "12179b4eabccc517",
   "lastOpenFiles": [
-    "Windows 11 no KVM.mp4",
+    "Anexos/Vídeos",
     "Máquinas Virtuais/Configuração KVM + Virtual-manager..md",
+    "Anexos/Vídeos/Windows 11 no KVM.mp4",
     "Máquinas Virtuais",
     "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
     "Sistemas operacionais/Linux/Impressoras/Instalação impressora Brother DCP-8112DN no Linux Mint.md",
@@ -231,7 +230,6 @@
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso/Sem título",
     "CompTIA Security+/E-book CompTIA Security+/4.0 Implementar o gerenciamento de identidade e acesso",
     "criptografia de transporte*",
-    "criptografia de transporte",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
