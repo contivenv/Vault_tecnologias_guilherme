@@ -3,6 +3,10 @@
 
 >[! info] Documentação: https://documentation.ubuntu.com/server/how-to/virtualisation/
 
+# Vídeo para instalação e configuração base da VM dentro do KVM no Linux.![[Windows 11 no KVM.mp4]]
+
+
+
 # Pré-requisitos e verificação de hardware
 - Habilite virtualização (VT-x / AMD-V) no BIOS/UEFI. (Caso necessário)
 - No terminal, verifique suporte ao KVM:
