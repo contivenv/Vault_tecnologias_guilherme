@@ -121,7 +121,3 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
 ```
-
-### Próximo passo sugerido
-
-**Deseja que eu integre a este script a clonagem automática do seu repositório "our_vault" definindo permissões específicas para os arquivos de sistema do Obsidian?**

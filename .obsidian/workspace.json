@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git e GitHub/Automação de git + ssh + github.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,7 +194,7 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Git e GitHub/aqui.md",
     "Git e GitHub/Automação de git + ssh + github.md",
