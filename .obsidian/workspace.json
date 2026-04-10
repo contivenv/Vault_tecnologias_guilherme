@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git e GitHub/Automação de git + ssh + github.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,8 +196,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Git e GitHub/aqui.md",
+    "Git e GitHub/Edição Void Linux para teste.md",
     "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/aqui.md",
     "Git e GitHub/Curso básico e rápido/13. Chave SSH entre máquina e GitHub.md",
     "Git e GitHub/Curso básico e rápido/12. Iniciando com Github.md",
     "Git e GitHub/Curso básico e rápido/1. Introdução - O que é git.md",
@@ -226,7 +227,6 @@
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.9 Firewalls de aplicativos web.md",
     "CompTIA Security+/Termos/firewall de aplicações Web (web application firewall - WAF).md",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.8 Balanceadores de carga.md",
-    "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/5.2.7 Firewalls de última geração e gerenciamento unificado de ameaças.md",
     "CompTIA Security+/Dúvidas e revisão de conceitos/Criptografia",
     "CompTIA Security+/Dúvidas e revisão de conceitos",
     "CompTIA Security+/E-book CompTIA Security+/5.0 Proteger a arquitetura de rede corporativa/Sem título",
