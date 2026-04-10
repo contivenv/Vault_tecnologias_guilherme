@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git e GitHub/Automação de git + ssh + github.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,7 +194,7 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "070d43ad0f61b9f7",
   "lastOpenFiles": [
     "Git e GitHub/Edição Void Linux para teste.md",
     "Git e GitHub/Automação de git + ssh + github.md",
