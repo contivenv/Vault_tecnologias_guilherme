@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
-                "mode": "preview",
+                "file": "Git e GitHub/Automação de git + ssh + github.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ansible IdM no RHEL 9"
+              "title": "Automação de git + ssh + github"
             }
           }
         ]
@@ -196,6 +196,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Git e GitHub/aqui.md",
+    "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/Edição Void Linux para teste.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Configurações e implementações de sistemas/Instalação de softwares nas máquinas via GPO.md",
     "Configurações e implementações de sistemas/RustDesk .vbs.md",
@@ -213,10 +216,7 @@
     "Git e GitHub/Curso básico e rápido/11. Resolvendo conflitos.md",
     "Git e GitHub/Curso básico e rápido/10. Fundir branches.md",
     "Git e GitHub/Curso básico e rápido/1. Introdução - O que é git.md",
-    "Git e GitHub/aqui.md",
-    "Git e GitHub/Edição Void Linux para teste.md",
     "Git e GitHub/Curso básico e rápido",
-    "Git e GitHub/Automação de git + ssh + github.md",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
     "CURSO - Ninja pfSense v2023/roque_senhas.kdbx",

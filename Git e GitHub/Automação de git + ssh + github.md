@@ -39,56 +39,79 @@ Este script realiza a configuração do escopo global do Git, geração de par d
 Bash
 
 ```bash
-# --- CONFIGURAÇÕES ---
-# Definição de variáveis globais para identidade e caminhos de sistema
+#!/bin/bash
+
+# --- CONFIGURAÇÕES FIXAS ---
 EMAIL="guilhermect@tutanota.com"
 NOME="Guilherme Conti Teixeira"
 KEY_PATH="$HOME/.ssh/id_ed25519"
 
-echo " iniciando configuração do ambiente Git..."
+echo "[INFO] Iniciando provisionamento do ambiente (Debian/Fedora)..."
 
-# 1. Configurar Identidade Global do Git
-# Define quem é o autor dos commits realizados nesta máquina
+# 1. Detecção de SO e Instalação de Dependências
+if command -v apt &> /dev/null; then
+    echo "[INFO] Gerenciador de pacotes APT detectado (Base Debian/Mint/Ubuntu)."
+    echo "[INFO] Atualizando repositórios e instalando dependências..."
+    sudo apt update
+    sudo apt install -y git gh
+elif command -v dnf &> /dev/null; then
+    echo "[INFO] Gerenciador de pacotes DNF detectado (Base Fedora/RHEL)."
+    echo "[INFO] Instalando dependências..."
+    sudo dnf install -y git gh
+else
+    echo "[ERROR] Sistema operacional não suportado por este script (apt/dnf não encontrados)."
+    echo "[ERROR] Instale o git e o gh manualmente e execute o script novamente."
+    exit 1
+fi
+
+# 2. Configuração de Identidade Global
+echo "[INFO] Configurando credenciais locais do Git..."
 git config --global user.name "$NOME"
 git config --global user.email "$EMAIL"
 
-# 2. Gerar chave SSH (se não existir)
-# Utiliza o algoritmo Ed25519 (Curva Elíptica), superior ao RSA em segurança e performance
+# 3. Geração de Par de Chaves SSH Ed25519
 if [ ! -f "$KEY_PATH" ]; then
-    echo "Gerando nova chave SSH..."
-    # -N "" define uma passphrase vazia para evitar prompts manuais durante operações git
+    echo "[INFO] Gerando chave SSH Ed25519..."
     ssh-keygen -t ed25519 -C "$EMAIL" -f "$KEY_PATH" -N "" 
 else
-    echo "Chave SSH já existe."
+    echo "[WARN] Chave SSH já detectada no sistema."
 fi
 
-# 3. Iniciar SSH Agent e adicionar chave à memória
-# O eval garante que o agente SSH esteja rodando no shell atual
+# 4. Agente SSH e Persistência
+echo "[INFO] Inicializando agente SSH..."
 eval "$(ssh-agent -s)"
 ssh-add "$KEY_PATH"
 
-# 4. Integração com GitHub via CLI
-# Se a CLI 'gh' estiver presente, o upload da chave pública é automatizado via API
+# 5. Autenticação GitHub CLI (Fluxo de Terminal)
+echo "[INFO] Iniciando autenticação."
+echo "[INSTRUÇÃO] Siga os passos no terminal e utilize o Device Code gerado."
+echo "------------------------------------------------------"
 if command -v gh &> /dev/null; then
-    echo "GitHub CLI detectada. Autenticando..."
-    # -p ssh força o protocolo SSH; -w abre o navegador para aprovação de token
-    gh auth login -w -p ssh
+    gh auth login -p ssh
 else
-    echo "GitHub CLI (gh) não instalada."
-    echo "Copie sua chave pública abaixo e cole em: https://github.com/settings/keys"
-    cat "${KEY_PATH}.pub"
+    echo "[ERROR] Falha ao detectar a GitHub CLI pós-instalação."
+    exit 1
 fi
 
-# 5. Clonagem de Repositório (Vault de Estudos CompTIA Security+)
-read -p "Deseja clonar o Vault agora? (s/n): " choice
-if [ "$choice" == "s" ]; then
-    mkdir -p ~/Documents/Obsidian
-    cd ~/Documents/Obsidian
-    # Clonagem via SSH para evitar solicitações de usuário/senha
-    git clone git@github.com:contivenv/CompTIA-Security-.git
+# 6. Definição Manual de Caminho e Clonagem
+echo "------------------------------------------------------"
+read -p "[PROMPT] Insira o caminho absoluto para salvar o Vault (ex: /home/usuario/Estudos): " TARGET_PATH
+
+# Expande o til (~) para o caminho absoluto da home do usuário atual
+TARGET_PATH="${TARGET_PATH/#\~/$HOME}"
+
+if [ -d "$TARGET_PATH" ]; then
+    echo "[INFO] Diretório existente detectado. Acessando..."
+else
+    echo "[INFO] Criando novo diretório: $TARGET_PATH"
+    mkdir -p "$TARGET_PATH"
 fi
 
-echo "Processo finalizado"
+cd "$TARGET_PATH" || exit
+echo "[INFO] Clonando repositório em: $(pwd)"
+git clone git@github.com:contivenv/CompTIA-Security-.git .
+
+echo "[SUCCESS] Ambiente provisionado com sucesso."
 ```
 
 Obs: para acessar a primeira versão, clique [[aqui]]
@@ -121,5 +144,3 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
 ```
-
-[[Edição Void Linux para teste]] 
