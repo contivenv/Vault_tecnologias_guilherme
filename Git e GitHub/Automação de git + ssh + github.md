@@ -16,27 +16,7 @@ Abaixo está a documentação técnica e o script refinado.
 # Documentação Técnica: Autenticação Estruturada GitHub (SSH + CLI)
 
 Esta documentação descreve o procedimento de provisionamento de credenciais Git em ambientes Linux baseados em múltiplas distribuições, utilizando o protocolo **Ed25519** para criptografia de chave pública e a **GitHub CLI (`gh`)** para gerenciamento de identidade.
-
-## 1. Requisitos de Sistema
-
-A ferramenta `gh` é essencial para evitar a interação manual com a interface web do GitHub.
-
-### Instalação por Gerenciador de Pacotes
-
-|**Distribuição**|**Comando**|
-|---|---|
-|**Debian/Ubuntu/Pop!_OS**|`sudo apt update && sudo apt install gh git -y`|
-|**Fedora/RHEL**|`sudo dnf install gh git -y`|
-|**Arch Linux**|`sudo pacman -S github-cli git --noconfirm`|
-|**openSUSE**|`sudo zypper install github-cli git`|
-
----
-
-## 2. Script de Automação de Ambiente (`setup-env.sh`)
-
-Este script realiza a configuração do escopo global do Git, geração de par de chaves assíncronas e vinculação automática ao perfil do GitHub via socket seguro.
-
-Bash
+## Script Universal (Debian/Mint e Fedora)
 
 ```bash
 #!/bin/bash
@@ -117,30 +97,8 @@ echo "[SUCCESS] Ambiente provisionado com sucesso."
 Obs: para acessar a primeira versão, clique [[aqui]]
 
 ---
+### Detalhes da Estrutura de Detecção
 
-## 3. Fluxo de Operação Técnico
+A lógica utilizada no Bloco 1 (`command -v apt` e `command -v dnf`) é a abordagem mais segura em scripts Bash. Em vez de ler arquivos de texto do sistema (como o `/etc/os-release`, que pode ter variações de sintaxe dependendo da distro derivada), o script verifica diretamente se o binário do gerenciador de pacotes existe na variável de ambiente `$PATH`.
 
-Ao executar o script em uma nova distribuição, o processo segue a seguinte lógica:
-
-1. **Idempotência:** O script verifica a existência de chaves prévias para evitar sobrescrita de acessos antigos.
-    
-2. **Segurança de Algoritmo:** Utiliza-se **Ed25519** em detrimento do RSA legatário, oferecendo chaves menores e maior resistência a ataques de força bruta.
-    
-3. **Abstração de API:** O comando `gh auth login -p ssh` executa internamente o `POST /user/keys` na API do GitHub, enviando o conteúdo de `id_ed25519.pub` sem intervenção manual de "copiar e colar".
-    
-4. **Persistência de Sessão:** O agente SSH é invocado para manter a chave em memória, evitando prompts de senha durante operações de `git push` ou `git pull` no Vault do Obsidian.
-    
-
----
-
-## 4. Troubleshooting e Permissões
-
-Caso ocorram erros de permissão após a migração de arquivos de backup de chaves, aplique o endurecimento de diretório:
-
-Bash
-
-```
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/id_ed25519
-chmod 644 ~/.ssh/id_ed25519.pub
-```
+Isso garante que, independentemente da variação específica da distribuição que você estiver testando, desde que ela utilize os repositórios padrões APT ou DNF, as ferramentas essenciais de versionamento serão instaladas sem interromper a execução da automação.
