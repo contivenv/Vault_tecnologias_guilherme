@@ -9,8 +9,6 @@ situação: validado
 ---
 Para um ambiente técnico e focado em automação de infraestrutura (IaC), a melhor abordagem é utilizar scripts idempotentes (que podem ser executados várias vezes sem causar erros) e a CLI oficial do GitHub para manipulação de chaves via API.
 
-Abaixo está a documentação técnica e o script refinado.
-
 ---
 
 # Documentação Técnica: Autenticação Estruturada GitHub (SSH + CLI)
