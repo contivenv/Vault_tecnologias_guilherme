@@ -9,28 +9,19 @@ tags:
   - DNS
   - Ansible
 ---
-
 IdM com Ansible como configurar no RHEL 9 ? Me faça um tutorial. Eu estou uma máquina virtualizada para rodar o RHEL 9. Ela está dentro de um Proxmox e quero que ela seja um domínio na minha empresa, quero fazer um teste primeiro. O nome do domínio vai ser "teste", o IP do servidor RHEL é 192.168.2.255 e estou fazendo a conexão via ssh por ele.
 
-  
-
+```bash
 guilherme.teixeira@guilherme-ti:~$ ssh gteixeira@192.168.2.255
-
 gteixeira@192.168.2.255's password: 
 
 Activate the web console with: systemctl enable --now cockpit.socket
 
-  
-
 Register this system with Red Hat Insights: rhc connect
-
-  
 
 Example:
 
 # rhc connect --activation-key <key> --organization <org>
-
-  
 
 The rhc client and Red Hat Insights will enable analytics and additional
 
@@ -38,14 +29,16 @@ management capabilities on your system.
 
 View your connected systems at https://console.redhat.com/insights
 
-  
-
 You can learn more about how to register your system 
 
 using rhc at https://red.ht/registration
 
 Last login: Sat Apr 18 09:41:55 2026
+```
 
+#### Informações da rede
+
+```bash
 [gteixeira@localhost ~]$ ip a
 
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -71,6 +64,8 @@ Last login: Sat Apr 18 09:41:55 2026
     inet6 fe80::be24:11ff:fef5:aa3e/64 scope link noprefixroute 
 
        valid_lft forever preferred_lft forever
+```
+
 
 Olá, Guilherme! Excelente iniciativa usar o Proxmox para criar esse laboratório com o RHEL 9. Automatizar a instalação do Red Hat Identity Management (IdM) com o Ansible é a melhor forma de garantir que o ambiente seja replicável no futuro.
 
@@ -93,17 +88,15 @@ O IdM é extremamente sensível à resolução de nomes. O próprio servidor pre
 
 **1. Defina o hostname correto:**
 
-Bash
-
-```
+```bash
 sudo hostnamectl set-hostname idm.teste.local
 ```
 
 **2. Edite o arquivo `/etc/hosts`:** Abra o arquivo com seu editor favorito (ex: `sudo nano /etc/hosts` ou `sudo vi /etc/hosts`) e adicione o IP e o FQDN. Ele deve ficar parecido com isso:
 
-Plaintext
 
-```
+
+```Plaintext
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 
@@ -119,7 +112,7 @@ Execute o comando abaixo para instalar o motor do Ansible e a coleção do FreeI
 
 Bash
 
-```
+```bash
 sudo dnf install ansible-core ansible-freeipa -y
 ```
 
@@ -127,17 +120,13 @@ sudo dnf install ansible-core ansible-freeipa -y
 
 Crie um diretório para organizar seus arquivos de configuração:
 
-Bash
-
-```
+```bash
 mkdir ~/idm-ansible && cd ~/idm-ansible
 ```
 
 **1. Crie o arquivo de inventário (`inventory.ini`):** Crie um arquivo chamado `inventory.ini` e adicione o conteúdo abaixo. A instrução `ansible_connection=local` avisa ao Ansible para rodar os comandos na própria máquina, sem tentar abrir uma nova conexão SSH.
 
-Ini, TOML
-
-```
+```toml
 [ipaserver]
 idm.teste.local ansible_connection=local
 ```
@@ -146,9 +135,7 @@ idm.teste.local ansible_connection=local
 
 _Atenção: Substitua as senhas por senhas seguras, pois o IdM falhará na instalação se você usar senhas muito fracas (como "123456")._
 
-YAML
-
-```
+```yaml
 ---
 - name: Playbook para configurar o Servidor IdM
   hosts: ipaserver
@@ -179,9 +166,7 @@ Agora que tudo está preparado, basta mandar o Ansible executar o playbook. Como
 
 Execute:
 
-Bash
-
-```
+```bash
 ansible-playbook -i inventory.ini install-idm.yml -K
 ```
 
@@ -198,9 +183,10 @@ Assim que o Ansible terminar e a tela mostrar tudo com status verde e amarelo (o
 - **Acesso no Terminal:** Para começar a administrar o domínio pelo terminal do RHEL, você precisa obter um ticket Kerberos. Basta rodar: `kinit admin` (e inserir a senha).
     
 
-Porque ele deu esse erro no final ?
 
-  
+### Erro na ativação do domínio
+**Minha resposta**: Porque ele deu esse erro no final ?
+
 
 ```bash
 [root@idm idm-ansible]# ansible-playbook -i inventory.ini install-idm.yml -K
@@ -364,14 +350,11 @@ Como o Ansible falhou no meio do processo, o RHEL ficou em um estado "meio insta
 
 Rode o comando de desinstalação manual direto no terminal do servidor:
 
-Bash
-
-```
+```bash
 sudo ipa-server-install --uninstall -U
 ```
 
 _(Ele vai limpar os diretórios, remover os certificados gerados na primeira tentativa e voltar a máquina ao estado original)._
-
 ### Passo 2: Atualizar o Playbook
 
 Abra o seu arquivo `install-idm.yml` e modifique a seção `vars`. Vamos remover o `ipaserver_auto_forwarders: yes` e colocar endereços manuais, além de desligar a validação de DNSSEC (que também costuma dar dor de cabeça em laboratórios atrás de NAT).
@@ -405,23 +388,17 @@ Deixe a seção de variáveis do seu playbook exatamente assim:
 
 Agora, com o ambiente limpo e o playbook apontando para os DNS do Google/Cloudflare para resolver endereços externos, rode novamente a instalação:
 
-Bash
-
-```
+```bash
 ansible-playbook -i inventory.ini install-idm.yml -K
 ```
 
-Meu resolv.conf está assim:
-
-  
-
+**Minha resposta**: Meu resolv.conf está assim:
+```bash
 # Generated by NetworkManager
-
 search teste.local
-
 nameserver 192.168.2.55
-
 nameserver 192.168.2.10
+```
 
 Exatamente! Esse arquivo confirma o nosso diagnóstico.
 
@@ -435,7 +412,7 @@ Porém, há um detalhe importante para o futuro: como o seu IP é dinâmico (DHC
 
 Você prefere que eu te mostre como fixar esse IP e o DNS permanentemente no RHEL usando o `nmcli` antes de rodarmos o playbook novamente, ou prefere rodar a instalação do Ansible primeiro e ajustar a rede depois?
 
-Agora deu certo.
+**Minha resposta**: Agora deu certo.
 
 Excelente notícia, Guilherme! Ver esse `failed=0` no log do Ansible é sempre uma satisfação e confirma que a instalação ocorreu perfeitamente.
 
@@ -449,9 +426,7 @@ Como vimos no seu comando `ip a` lá no início, sua interface de rede se chama 
 
 **1. Configure o IP como estático (manual):**
 
-Bash
-
-```
+```bash
 sudo nmcli con modify "enp6s18" ipv4.method manual ipv4.addresses 192.168.2.255/22
 ```
 
@@ -459,17 +434,13 @@ _(Nota: Se o seu RHEL precisar de acesso à internet e o roteador da sua rede fo
 
 **2. Defina o próprio servidor como DNS primário:** Isso garante que o RHEL sempre pergunte ao serviço de DNS interno do IdM na hora de resolver nomes.
 
-Bash
-
-```
+```bash
 sudo nmcli con modify "enp6s18" ipv4.dns "127.0.0.1" ipv4.dns-search "teste.local"
 ```
 
 **3. Reinicie a conexão de rede para aplicar:**
 
-Bash
-
-```
+```bash
 sudo nmcli con up "enp6s18"
 ```
 
@@ -484,9 +455,7 @@ Agora o ambiente está sólido e pronto para uso! Você tem duas formas principa
 
 Qual vai ser o próximo passo do nosso laboratório: quer explorar a criação de usuários e políticas de senha, ou prefere já tentar ingressar uma outra máquina cliente nesse novo domínio?
 
-Consegui criar um usuário pelo terminal !
-
-  
+**Minha resposta**: Consegui criar um usuário pelo terminal !
 
 ```bash
 [root@idm etc]# ipa user-add
@@ -537,15 +506,15 @@ Added user "guilhermect"
 
   Kerberos keys available: False
 
-Boa, Guilherme! Mandou muito bem. A criação foi um sucesso.
+```
+
+**Resposta Gemini**: Boa, Guilherme! Mandou muito bem. A criação foi um sucesso.
 
 Se você observar com atenção a saída do comando, vai notar dois detalhes importantes no final:
 
 - `Password: False`
     
 - `Kerberos keys available: False`
-```
-    
 
 Isso significa que a conta existe, mas o usuário ainda não pode fazer login em lugar nenhum porque não tem uma credencial válida. Esse comportamento de criar a conta desativada/sem chaves por padrão é um ótimo exemplo prático do princípio de _Secure by Default_, um conceito de Identity and Access Management (IAM) que é essencial dominar para a prova do Security+.
 
@@ -557,7 +526,7 @@ Ainda no terminal, execute o comando abaixo:
 
 Bash
 
-```
+```bash
 ipa passwd guilhermect
 ```
 

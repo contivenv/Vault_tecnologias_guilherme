@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git e GitHub/Automação de git + ssh + github.md",
-                "mode": "preview",
+                "file": "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automação de git + ssh + github"
+              "title": "Ansible IdM no RHEL 9"
             }
           }
         ]
@@ -196,10 +196,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Git e GitHub/aqui.md",
-    "Git e GitHub/Automação de git + ssh + github.md",
-    "Git e GitHub/Edição Void Linux para teste.md",
+    "Sistemas operacionais/Linux/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
+    "Syncthing/4. Personalização do Syncthing.md",
+    "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
+    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
+    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
+    "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/aqui.md",
+    "Git e GitHub/Edição Void Linux para teste.md",
     "Configurações e implementações de sistemas/Instalação de softwares nas máquinas via GPO.md",
     "Configurações e implementações de sistemas/RustDesk .vbs.md",
     "conflict-files-obsidian-git.md",
@@ -223,11 +228,6 @@
     "CURSO - Ninja pfSense v2023/Pietro.kdbx",
     "CURSO - Ninja pfSense v2023/Guilherme Conti Teixeira.kdbx",
     "Sistemas operacionais/Linux/Impressoras/Instalação impressora Brother DCP-8112DN no Linux Mint.md",
-    "Sistemas operacionais/Linux/Impressoras/Instalação de um impressora Brother no Fedora.md",
-    "Sistemas operacionais/Linux/Fedora/Games/Versões do Proton.md",
-    "Sistemas operacionais/Linux/Fedora/Games/Otimização para games no Fedora.md",
-    "Sistemas operacionais/Linux/Fedora/Games/GE Proton Fedora.md",
-    "Sistemas operacionais/Linux/Bash/Personalização do terminal no Linux.md",
     "Anexos/Vídeos/Windows 11 no KVM.mp4",
     "Anexos/Vídeos",
     "Máquinas Virtuais",
