@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot"
             }
           }
         ]
@@ -192,13 +196,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
+    "Sistemas operacionais/Linux/Distros",
     "Scrips/Script Ubuntu Converte DOCX para MD.md",
     "Scrips",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Sistemas operacionais/Linux/Montagem automática de discos.md",
     "Sistemas operacionais/Linux/Linux vs Windows - segurança do sistema operacional.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
-    "Sistemas operacionais/Linux/Distribuições Linux.md",
+    "Sistemas operacionais/Linux/Distros/Distribuições Linux.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Syncthing/4. Personalização do Syncthing.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
@@ -218,7 +224,6 @@
     "Git e GitHub/Curso básico e rápido/4. Criando repositórios.md",
     "Git e GitHub/Curso básico e rápido/3. Instalação e configuração.md",
     "Git e GitHub/Curso básico e rápido/2. Conceitos básicos do git.md",
-    "Git e GitHub/Curso básico e rápido/13. Chave SSH entre máquina e GitHub.md",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
@@ -227,7 +232,6 @@
     "CURSO - Ninja pfSense v2023/Guilherme Conti Teixeira.kdbx",
     "Anexos/Vídeos/Windows 11 no KVM.mp4",
     "Anexos/Vídeos",
-    "Máquinas Virtuais",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
