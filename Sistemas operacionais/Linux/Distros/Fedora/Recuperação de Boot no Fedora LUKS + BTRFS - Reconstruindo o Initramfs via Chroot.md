@@ -17,9 +17,8 @@ Após uma atualização de rotina do sistema (kernel), o Fedora falhou ao inicia
 
 Dê boot no computador pelo pendrive e abra o terminal. O primeiro passo é mapear a estrutura do disco para encontrar a partição criptografada.
 
-Bash
 
-```
+```Bash
 # Lista todos os discos e partições
 lsblk
 
@@ -33,9 +32,8 @@ _Procure pela partição com a tag `TYPE="crypto_LUKS"`. Neste exemplo, assumire
 
 Para acessar os arquivos do sistema quebrado, precisamos destrancar o disco mapeando-o com um nome virtual (aqui chamaremos de `cryptroot`).
 
-Bash
 
-```
+```Bash
 sudo cryptsetup open /dev/sdc3 cryptroot
 ```
 
@@ -45,9 +43,8 @@ _O sistema solicitará a senha do LUKS. Ao digitar corretamente, o terminal não
 
 Com o disco aberto, montamos o sistema de arquivos no diretório temporário `/mnt`. O Fedora utiliza BTRFS por padrão, então precisamos especificar o subvolume raiz.
 
-Bash
 
-```
+```Bash
 # Monta a partição raiz
 sudo mount -o subvol=root /dev/mapper/cryptroot /mnt
 
@@ -62,9 +59,8 @@ sudo mount /dev/sdc1 /mnt/boot/efi
 
 Para que os comandos executados afetem o sistema no SSD (e não o Live USB), precisamos vincular os diretórios de hardware e processos virtuais do Live USB para dentro do sistema montado.
 
-Bash
 
-```
+```Bash
 for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
 ```
 
@@ -72,9 +68,8 @@ for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
 
 Este comando muda o diretório raiz do terminal atual. A partir deste momento, o terminal age como se o sistema principal estivesse rodando nativamente como root.
 
-Bash
 
-```
+```Bash
 sudo chroot /mnt
 ```
 
@@ -82,9 +77,8 @@ sudo chroot /mnt
 
 Antes de reconstruir o boot, é boa prática garantir que os UUIDs nos arquivos de configuração do sistema correspondem ao UUID real da partição LUKS encontrado no passo 1.
 
-Bash
 
-```
+```Bash
 # Verifique o arquivo crypttab
 cat /etc/crypttab
 
@@ -98,9 +92,8 @@ _A linha `GRUB_CMDLINE_LINUX` deve conter `rd.luks.uuid=luks-<SEU-UUID-CORRETO>`
 
 Este é o passo que efetivamente resolve o problema. Vamos forçar o `dracut` a gerar um novo `initramfs` saudável e atualizar as configurações do GRUB. A compilação costuma ser rápida (especialmente em setups modernos, como um Ryzen 5 9600X).
 
-Bash
 
-```
+```Bash
 # Regera o initramfs para todos os kernels instalados
 dracut --regenerate-all --force
 
@@ -112,9 +105,8 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 
 Com o sistema corrigido, saia do ambiente chroot e desmonte tudo com segurança para evitar corrupção de dados.
 
-Bash
 
-```
+```Bash
 # Sai do ambiente chroot
 exit
 
