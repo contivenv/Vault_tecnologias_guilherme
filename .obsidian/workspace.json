@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
-                "mode": "source",
+                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot"
+              "title": "backup_whatsapp.sh"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Firewall/PfSense/Funcionalidades firewall PfSense.md",
     "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
     "Sistemas operacionais/Linux/Distros",
     "Scrips/Script Ubuntu Converte DOCX para MD.md",
@@ -223,7 +224,6 @@
     "Git e GitHub/Curso básico e rápido/5. Colocando arquivos no staging.md",
     "Git e GitHub/Curso básico e rápido/4. Criando repositórios.md",
     "Git e GitHub/Curso básico e rápido/3. Instalação e configuração.md",
-    "Git e GitHub/Curso básico e rápido/2. Conceitos básicos do git.md",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
