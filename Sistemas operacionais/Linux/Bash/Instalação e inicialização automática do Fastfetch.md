@@ -26,8 +26,8 @@ echo $SHELL
 
 2. Use o comando `nano ${HOME}/.bashrc` para editar o arquivo do seu shell. No meu caso eu estou usando bash, então pra mim é .bash.
 3. Após abrir, adicione na última linha de comando o nome `fastfetch`.
-4. A inicialização automática irá ocorrer agora.![[Pasted image 20251125095415.png]]
-
+4. Salve o arquivo que acabou de edita com o comando `Ctrl + O` se estiver usando `nano`.
+5. A inicialização automática irá ocorrer agora.![[Pasted image 20251125095415.png]]
 ### **Fontes**
 
 **Fastfetch**; acessado na data de 25/11/2025 em https://github.com/fastfetch-cli/fastfetch
