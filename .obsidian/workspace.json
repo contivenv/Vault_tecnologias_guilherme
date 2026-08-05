@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WhatsApp - backup local/backup_whatsapp.sh.md",
-                "mode": "preview",
+                "file": "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backup_whatsapp.sh"
+              "title": "Instalação e inicialização automática do Fastfetch"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fastfetch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +76,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,7 +189,6 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
       "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false,
       "meld-encrypt:New encrypted note": false,
       "meld-encrypt:Lock and Close all open encrypted notes": false,
       "meld-encrypt:Convert to or from an Encrypted note": false,
@@ -196,13 +198,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Montagem automática de discos.md",
+    "Firewall/PfSense/Defesa do TCC sobre a implementação do firewall pfSense.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "Firewall/PfSense/Funcionalidades firewall PfSense.md",
     "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
     "Sistemas operacionais/Linux/Distros",
     "Scrips/Script Ubuntu Converte DOCX para MD.md",
     "Scrips",
     "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
-    "Sistemas operacionais/Linux/Montagem automática de discos.md",
     "Sistemas operacionais/Linux/Linux vs Windows - segurança do sistema operacional.md",
     "Sistemas operacionais/Linux/Interfaces gráficas do Linux.md",
     "Sistemas operacionais/Linux/Distros/Distribuições Linux.md",
@@ -222,8 +226,6 @@
     "Git e GitHub/Curso básico e rápido/7. Desfazendo commit.md",
     "Git e GitHub/Curso básico e rápido/6. Fazendo commits.md",
     "Git e GitHub/Curso básico e rápido/5. Colocando arquivos no staging.md",
-    "Git e GitHub/Curso básico e rápido/4. Criando repositórios.md",
-    "Git e GitHub/Curso básico e rápido/3. Instalação e configuração.md",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",

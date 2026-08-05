@@ -15,7 +15,7 @@ O Fastfetch é uma ferramenta semelhante ao [neofetch](https://github.com/dylana
 
 Eu poderia descrever todo o processo aqui para cada distribuição, mas seria trabalho demais sendo que a documentação oficial é muito rica, detalhada e de fácil interpretação. Então deixarei o link [oficial](https://github.com/fastfetch-cli/fastfetch) deles aqui para mais consulta se for necessário.
 
-### 3. Inicialização automática no termianl do Fastfetch
+### 3. Inicialização automática no termianal do Fastfetch
 
 1. Para saber qual shell você usa, primeiro acesse o terminal com o atalho `Ctrl + Alt + T` ou apanas `Terminal` na barra de pesquisa e digite `echo $SHELL`. Ele ira exibir na linha seguinte algo como:
 
