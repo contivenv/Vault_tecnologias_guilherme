@@ -1,3 +1,11 @@
+---
+tags:
+  - flathub
+  - flatseal
+  - discos
+  - mapeamento_de_discos
+data criação: 2026-08-27T13:02:00
+---
 (https://flathub.org/pt-BR/apps/com.github.tchx84.Flatseal)
 
 [https://www.youtube.com/watch?v=1Tp-ALKgzyU](https://www.youtube.com/watch?v=1Tp-ALKgzyU)
