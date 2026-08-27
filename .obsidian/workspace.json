@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de discos com Flatseal.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -195,7 +195,7 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "070d43ad0f61b9f7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de discos com Flatseal.md",

@@ -1,6 +1,4 @@
-[https://flathub.org/pt-BR/apps/com.github.tchx84.Flatseal  
-  
-](https://flathub.org/pt-BR/apps/com.github.tchx84.Flatseal)
+(https://flathub.org/pt-BR/apps/com.github.tchx84.Flatseal)
 
 [https://www.youtube.com/watch?v=1Tp-ALKgzyU](https://www.youtube.com/watch?v=1Tp-ALKgzyU)
 
