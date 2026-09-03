@@ -137,7 +137,7 @@ mount | grep xray
 Após ajustar o fstab, faça:
 ```bash
 sudo umount /mnt/xray
-sudo mount -a
+sudo systemctl daemon-reload
 sudo chown seu_usuario:seu_usuario /mnt/xray
 ```
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas operacionais/Linux/Distros/Ubuntu/Games/Otimização para Ubuntu.md",
-                "mode": "preview",
+                "file": "Sistemas operacionais/Linux/Montagem automática de discos.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Otimização para Ubuntu"
+              "title": "Montagem automática de discos"
             }
           }
         ]
@@ -167,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -197,6 +197,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemas operacionais/Linux/Distros/Ubuntu/Games/Otimização para Ubuntu.md",
     "Sistemas operacionais/Linux/Distros/Ubuntu/Games/Tutorial de instalação da Steam no Ubuntu.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de Discos na Steam.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de discos com Flatseal.md",
@@ -225,7 +226,6 @@
     "Configurações e implementações de sistemas/Instalação de softwares nas máquinas via GPO.md",
     "Configurações e implementações de sistemas/RustDesk .vbs.md",
     "conflict-files-obsidian-git.md",
-    "Git e GitHub/Curso básico e rápido/9. Criando branches.md",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
