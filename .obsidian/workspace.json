@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
-                "mode": "source",
+                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Configuração avançada da interface gráfica aliases"
+              "title": "Syncthing - O que é e principais funcionalidades"
             }
           }
         ]
@@ -87,8 +87,43 @@
     "type": "split",
     "children": [
       {
+        "id": "9096cc99aa55d4e6",
+        "type": "tabs",
+        "dimension": 30.27698185291309,
+        "children": [
+          {
+            "id": "8195b88638aa116f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "01d962d74dc09612",
+        "type": "tabs",
+        "dimension": 27.602674307545367,
+        "children": [
+          {
+            "id": "070d43ad0f61b9f7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      },
+      {
         "id": "b7f5bd06d4a5501f",
         "type": "tabs",
+        "dimension": 42.12034383954155,
         "children": [
           {
             "id": "75e35bdb82155943",
@@ -106,19 +141,6 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
-            }
-          },
-          {
-            "id": "2e2ee4af071fb36f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links de saída"
             }
           },
           {
@@ -142,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
+                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -152,27 +174,21 @@
             }
           },
           {
-            "id": "070d43ad0f61b9f7",
+            "id": "2e2ee4af071fb36f",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "8195b88638aa116f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "type": "outgoing-link",
+              "state": {
+                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,12 +213,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
+    "Syncthing/Syncthing - O que é e principais funcionalidades.md",
     "REST API do Syncthing.md",
-    "Syncthing.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
