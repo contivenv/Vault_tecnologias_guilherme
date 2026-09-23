@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
-                "mode": "preview",
-                "source": true
+                "file": "Anexos/PNG e JPG/Pasted image 20260923153542.png"
               },
-              "icon": "lucide-file",
-              "title": "Syncthing - O que é e suas principais funcionalidades"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260923153542"
             }
           }
         ]
@@ -164,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+                "file": "Anexos/PNG e JPG/Pasted image 20260923153542.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -211,14 +209,14 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "12179b4eabccc517",
   "lastOpenFiles": [
-    "Pasted image 20260923153636.png",
-    "Pasted image 20260923153621.png",
-    "Pasted image 20260923153542.png",
-    "Syncthing/4. Configuração avançada da interface gráfica.md",
     "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
-    "sinc_tipo.jpeg",
+    "Anexos/PNG e JPG/Pasted image 20260923153636.png",
+    "Anexos/PNG e JPG/Pasted image 20260923153621.png",
+    "Anexos/PNG e JPG/Pasted image 20260923153542.png",
+    "Syncthing/4. Configuração avançada da interface gráfica.md",
+    "Anexos/PNG e JPG/sinc_tipo.jpeg",
     "Anexos/PNG e JPG/indenti_disp_pc.png",
     "Anexos/PNG e JPG/indenti_disp.png",
     "Git e GitHub/Automação de git + ssh + github.md",
@@ -257,7 +255,6 @@
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162957.png",
-    "Anexos/PNG e JPG/Pasted image 20251125095415.png"
+    "Anexos/PNG e JPG/Pasted image 20251106162957.png"
   ]
 }
