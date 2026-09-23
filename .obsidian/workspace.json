@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
+                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syncthing - O que é e principais funcionalidades"
+              "title": "Syncthing - O que é e suas principais funcionalidades"
             }
           }
         ]
@@ -89,7 +89,7 @@
       {
         "id": "9096cc99aa55d4e6",
         "type": "tabs",
-        "dimension": 30.27698185291309,
+        "dimension": 30.276981852913092,
         "children": [
           {
             "id": "8195b88638aa116f",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
+                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e principais funcionalidades.md",
+                "file": "Git e GitHub/Automação de git + ssh + github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -213,11 +213,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/aqui.md",
+    "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
     "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Syncthing/1. Sincronização de arquivos via Syncthing.md",
-    "Syncthing/Syncthing - O que é e principais funcionalidades.md",
     "REST API do Syncthing.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
@@ -239,9 +241,7 @@
     "Firewall/PfSense/Funcionalidades firewall PfSense.md",
     "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
     "Sistemas operacionais/Linux/Distros",
-    "Scrips/Script Ubuntu Converte DOCX para MD.md",
     "Scrips",
-    "Sistemas operacionais/Linux/Sistema de arquivos Linux.md",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
