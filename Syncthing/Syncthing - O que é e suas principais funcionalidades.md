@@ -12,7 +12,7 @@ tags:
 
 > [!quote] Em uma frase Você escolhe pastas, escolhe os dispositivos que devem ter essas pastas, e o Syncthing mantém tudo igual entre eles, sem intermediário.
 
-Nota relacionada: [[4. Configuração avançada da interface gráfica aliases]]
+Nota relacionada: [[4. Configuração avançada da interface gráfica]]
 
 ---
 
@@ -51,7 +51,7 @@ flowchart LR
     end
 ```
 
-> [!info] Consequência prática Seus dados só existem nos dispositivos que você autorizou. Nenhum terceiro armazena ou tem acesso ao conteúdo.
+> [!info] Consequência prática seus dados só existem nos dispositivos que você autorizou. Nenhum terceiro armazena ou tem acesso ao conteúdo.
 
 ---
 
@@ -64,6 +64,8 @@ Na primeira execução, cada instalação gera um par de chaves e um certificado
 - Para dois dispositivos se conectarem, **cada lado precisa aceitar explicitamente o ID do outro**.
 - Isso funciona como **autenticação mútua**: ninguém entra na sua rede de sincronização sem sua aprovação.
 
+![[indenti_disp.png]]
+![[indenti_disp_pc.png]]
 ### Protocolo e criptografia
 
 - A comunicação usa o **BEP (Block Exchange Protocol)** sobre **TLS**, com sigilo perfeito de encaminhamento.
@@ -95,7 +97,7 @@ O monitor do sistema de arquivos detecta alterações quase instantaneamente. Va
 |**Send Only**|O dispositivo só envia; alterações remotas não chegam nele|
 |**Receive Only**|O dispositivo só recebe; alterações locais não são propagadas|
 |**Receive Encrypted**|Guarda os dados **criptografados**, para dispositivos não confiáveis (ex.: um VPS); armazena, mas não lê o conteúdo|
-
+![[sinc_tipo.jpeg]]
 ### 3. Versionamento de arquivos
 
 Antes de um arquivo ser sobrescrito ou apagado por uma sincronização, o Syncthing pode guardar a versão antiga:
@@ -105,6 +107,7 @@ Antes de um arquivo ser sobrescrito ou apagado por uma sincronização, o Syncth
 - **Staggered**: versões mais densas no passado recente e mais espaçadas no antigo.
 - **External**: executa um comando seu.
 
+![[Pasted image 20260923153636.png]]
 ### 4. Padrões de ignorar (`.stignore`)
 
 Um arquivo de texto define o que **não** deve ser sincronizado, com sintaxe parecida com a do `.gitignore`.
@@ -121,10 +124,10 @@ node_modules
 Se o mesmo arquivo é editado em dois lugares antes de sincronizar, o Syncthing mantém a versão vencedora e salva a outra como:
 
 ```text
-arquivo.sync-conflict-AAAAMMDD-HHMMSSS-IDDISPOSITIVO.ext
+arquivo.sync-conflict-AAAAMMDD-HHMMSS-IDDISPOSITIVO.ext
 ```
 
-> [!success] Nada é perdido silenciosamente Você decide manualmente qual versão manter.
+> [!success] Nada é perdido silenciosamente. Você decide manualmente qual versão manter.
 
 ### 6. Introducers e aceitação automática
 
@@ -136,7 +139,7 @@ Um dispositivo pode ser marcado como _introducer_: ele apresenta automaticamente
 - A mesma funcionalidade fica exposta por **API REST**, autenticada por API Key, útil para scripts e integrações.
 - Existe também um endpoint de métricas no formato **Prometheus**.
 
-Detalhes das opções da GUI em [[Syncthing - Configuração avançada da GUI]].
+Detalhes das opções da GUI em [[4. Configuração avançada da interface gráfica]].
 
 ### 8. Multiplataforma
 
@@ -198,13 +201,13 @@ Detalhes das opções da GUI em [[Syncthing - Configuração avançada da GUI]].
 - **Não há arquivos sob demanda** (como os _placeholders_ do OneDrive): cada dispositivo guarda uma cópia completa das pastas compartilhadas.
 - **Não é para edição colaborativa simultânea** do mesmo arquivo.
 - **Sem links de compartilhamento:** só compartilha com dispositivos que você adicionou.
-- **Interface web exposta:** mantenha a GUI em `127.0.0.1` ou proteja com usuário, senha e TLS (ver [[Syncthing - Configuração avançada da GUI]]).
+- **Interface web exposta:** mantenha a GUI em `127.0.0.1` ou proteja com usuário, senha e TLS (ver [[4. Configuração avançada da interface gráfica]]).
 
 ---
 
 ## Comparação rápida
 
-||Syncthing|Dropbox / Drive|Nextcloud|rsync|
+|Syncthing|Dropbox|Drive|Nextcloud|rsync|
 |---|---|---|---|---|
 |Servidor central|Não|Sim (do provedor)|Sim (seu)|Não|
 |Contínuo / tempo real|Sim|Sim|Sim|Não (manual/cron)|

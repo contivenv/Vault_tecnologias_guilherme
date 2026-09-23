@@ -15,7 +15,7 @@
               "state": {
                 "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Syncthing - O que é e suas principais funcionalidades"
@@ -213,10 +213,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Git e GitHub/Automação de git + ssh + github.md",
-    "Git e GitHub/aqui.md",
+    "Pasted image 20260923153636.png",
+    "Pasted image 20260923153621.png",
+    "Pasted image 20260923153542.png",
+    "Syncthing/4. Configuração avançada da interface gráfica.md",
     "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
-    "Syncthing/4. Configuração avançada da interface gráfica aliases.md",
+    "sinc_tipo.jpeg",
+    "Anexos/PNG e JPG/indenti_disp_pc.png",
+    "Anexos/PNG e JPG/indenti_disp.png",
+    "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
+    "Git e GitHub/aqui.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Syncthing/1. Sincronização de arquivos via Syncthing.md",
@@ -238,8 +245,6 @@
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Firewall/PfSense/Defesa do TCC sobre a implementação do firewall pfSense.md",
     "WhatsApp - backup local/backup_whatsapp.sh.md",
-    "Firewall/PfSense/Funcionalidades firewall PfSense.md",
-    "Sistemas operacionais/Linux/Distros/Fedora/Recuperação de Boot no Fedora LUKS + BTRFS - Reconstruindo o Initramfs via Chroot.md",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
     "Git e GitHub/Curso básico e rápido",
@@ -253,11 +258,6 @@
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
     "Anexos/PNG e JPG/Pasted image 20251106162957.png",
-    "Anexos/PNG e JPG/Pasted image 20251125095415.png",
-    "Anexos/PNG e JPG/Pasted image 20251125092504.png",
-    "Anexos/Captura de tela de 2025-11-05 11-41-01.png",
-    "Anexos/PNG e JPG/Pasted image 20251106164355.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162940.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162920.png"
+    "Anexos/PNG e JPG/Pasted image 20251125095415.png"
   ]
 }
