@@ -121,7 +121,7 @@ node_modules
 Se o mesmo arquivo é editado em dois lugares antes de sincronizar, o Syncthing mantém a versão vencedora e salva a outra como:
 
 ```text
-arquivo.sync-conflict-AAAAMMDD-HHMMSS-IDDISPOSITIVO.ext
+arquivo.sync-conflict-AAAAMMDD-HHMMSSS-IDDISPOSITIVO.ext
 ```
 
 > [!success] Nada é perdido silenciosamente Você decide manualmente qual versão manter.
