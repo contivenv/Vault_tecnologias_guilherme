@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudo de casos/SolarWinds.md",
+                "file": "Estudo de caso/SolarWinds.md",
                 "mode": "preview",
                 "source": false
               },
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudo de casos/SolarWinds.md",
+                "file": "Estudo de caso/SolarWinds.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -226,11 +226,11 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "b08f11e6c5e984e7",
+  "active": "12179b4eabccc517",
   "lastOpenFiles": [
     "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
-    "Estudo de casos/SolarWinds.md",
-    "Estudo de casos",
+    "Estudo de caso/SolarWinds.md",
+    "Estudo de caso",
     "Syncthing/4. Configuração avançada da interface gráfica.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "3. Sessão.md",
