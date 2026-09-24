@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+                "file": "Estudo de casos/SolarWinds.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syncthing - O que é e suas principais funcionalidades"
+              "title": "SolarWinds"
             }
           }
         ],
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+                "file": "Estudo de casos/SolarWinds.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,10 +228,12 @@
   },
   "active": "b08f11e6c5e984e7",
   "lastOpenFiles": [
+    "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+    "Estudo de casos/SolarWinds.md",
+    "Estudo de casos",
     "Syncthing/4. Configuração avançada da interface gráfica.md",
     "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "3. Sessão.md",
-    "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
     "Syncthing - Configuração avançada da GUI.md",
     "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Syncthing/1. Sincronização de arquivos via Syncthing.md",
@@ -259,7 +261,6 @@
     "REST API do Syncthing.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
-    "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
@@ -269,7 +270,6 @@
     "CURSO - Ninja pfSense v2023/roque_senhas.kdbx",
     "CURSO - Ninja pfSense v2023/Pietro.kdbx",
     "CURSO - Ninja pfSense v2023/Guilherme Conti Teixeira.kdbx",
-    "Anexos/Vídeos/Windows 11 no KVM.mp4",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
     "Anexos/PNG e JPG/Pasted image 20250321164055.png",
