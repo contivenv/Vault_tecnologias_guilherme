@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Anexos/PNG e JPG/Pasted image 20260923153542.png"
+                "file": "Git e GitHub/Automação de git + ssh + github.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260923153542"
+              "icon": "lucide-file",
+              "title": "Automação de git + ssh + github"
             }
           }
         ]
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anexos/PNG e JPG/Pasted image 20260923153542.png",
+                "file": "Git e GitHub/Automação de git + ssh + github.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,40 +211,41 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
+    "Git e GitHub/Automação de git + ssh + github.md",
     "Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+    "Syncthing/4. Configuração avançada da interface gráfica.md",
+    "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
+    "Protocolos de rede/MPLS (Multiprotocol Label Switching).md",
+    "Protocolos de rede/NAT (Network Address Translation).md",
+    "Protocolos de rede/5. Protocolo de rede e internet.md",
+    "Protocolos de rede/6. Modelo OSI.md",
+    "Nextcloud/Tutorial de implementação.md",
+    "criptografia de transporte/comunicação.md",
+    "criptografia de transporte*/*comunicação.md",
+    "Cabeamento de redes/NIC.md",
+    "Cabeamento de redes/Fibra óptica.md",
+    "Cabeamento de redes/Cabo coaxial.md",
+    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
+    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
+    "WhatsApp - backup local/restore_whatsapp.sh.md",
+    "WhatsApp - backup local/backup_whatsapp.sh.md",
+    "Anexos/PNG e JPG/Pasted image 20260923153542.png",
     "Anexos/PNG e JPG/Pasted image 20260923153636.png",
     "Anexos/PNG e JPG/Pasted image 20260923153621.png",
-    "Anexos/PNG e JPG/Pasted image 20260923153542.png",
-    "Syncthing/4. Configuração avançada da interface gráfica.md",
     "Anexos/PNG e JPG/sinc_tipo.jpeg",
     "Anexos/PNG e JPG/indenti_disp_pc.png",
     "Anexos/PNG e JPG/indenti_disp.png",
-    "Git e GitHub/Automação de git + ssh + github.md",
-    "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
     "Git e GitHub/aqui.md",
-    "Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
-    "Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
-    "Syncthing/1. Sincronização de arquivos via Syncthing.md",
     "REST API do Syncthing.md",
     "Sistemas operacionais/Linux/Ansible IdM no RHEL 9.md",
     "Sistemas operacionais/Linux/Virtualização/Relatos do dia 14-11-2025.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox como servidor NTP para VMs.md",
     "Sistemas operacionais/Linux/Virtualização/Proxmox com NTP e DNS.md",
     "Sistemas operacionais/Linux/Virtualização/Como configurar o KVM de forma simples - Debian e Slackware distribuições.md",
-    "Sistemas operacionais/Linux/Bash/Comando intermediários.md",
-    "Sistemas operacionais/Linux/Bash/Bash Shell.md",
-    "Sistemas operacionais/Linux/Bash/Consultas de dúvidas com IA/Me explique o que o comando grep no Linux faz e suas variáveis, por exemplo -E. Eu estou lendo um livro sobre Linux e não estou entendendo o que o autor que dizer, mas pela explicação parece ser algo complexo e bem importante..md",
-    "Sistemas operacionais/Linux/Montagem automática de discos.md",
-    "Sistemas operacionais/Linux/Distros/Ubuntu/Games/Otimização para Ubuntu.md",
-    "Sistemas operacionais/Linux/Distros/Ubuntu/Games/Tutorial de instalação da Steam no Ubuntu.md",
-    "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de Discos na Steam.md",
-    "Sistemas operacionais/Linux/Gerenciamento de discos/Mapeamento de discos com Flatseal.md",
-    "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
-    "Firewall/PfSense/Defesa do TCC sobre a implementação do firewall pfSense.md",
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
     "Git e GitHub/Curso básico e rápido",

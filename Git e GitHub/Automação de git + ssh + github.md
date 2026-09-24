@@ -92,7 +92,7 @@ git clone git@github.com:contivenv/CompTIA-Security-.git .
 echo "[SUCCESS] Ambiente provisionado com sucesso."
 ```
 
-Obs: para acessar a primeira versão, clique [[aqui]]
+Obs: para acessar a primeira versão 1.0, clique [[aqui]]
 
 ---
 ### Detalhes da Estrutura de Detecção
