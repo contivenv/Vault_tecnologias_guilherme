@@ -173,16 +173,16 @@ Detalhes das opções da GUI em [[4. Configuração avançada da interface gráf
 - **Grupos** de dispositivos e pastas na GUI.
 - Suporte a **proxies HTTP/HTTPS** com CONNECT, além de SOCKS.
 - Possibilidade de **desligar a indexação de blocos** por pasta.
-- **Duração de sessão** e caminho do cookie configuráveis (ver [[Syncthing - Configuração avançada da GUI#3. Sessão]]).
+- **Duração de sessão** e caminho do cookie configuráveis (ver 3. sessão na nota [[4. Configuração avançada da interface gráfica]]).
 
 ---
 
 ## Casos de uso comuns
 
-- [x] Sincronizar um **vault do Obsidian** (ou qualquer pasta de notas) entre PC, notebook e celular.
-- [x] **Backup** de fotos e documentos para um servidor doméstico ou NAS.
-- [x] Manter **configurações e dotfiles** iguais entre máquinas.
-- [x] Compartilhar pastas entre pessoas de confiança, sem depender de provedor.
+- [ ] Sincronizar um **vault do Obsidian** (ou qualquer pasta de notas) entre PC, notebook e celular.
+- [ ] **Backup** de fotos e documentos para um servidor doméstico ou NAS.
+- [ ] Manter **configurações e dotfiles** iguais entre máquinas.
+- [ ] Compartilhar pastas entre pessoas de confiança, sem depender de provedor.
 
 > [!tip] Dica para vaults do Obsidian Arquivos como `.obsidian/workspace.json` mudam a cada uso e podem gerar conflitos entre dispositivos. Vale ignorá-los no `.stignore` da pasta.
 > 
