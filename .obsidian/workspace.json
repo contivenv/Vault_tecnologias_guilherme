@@ -220,10 +220,11 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "b08f11e6c5e984e7",
   "lastOpenFiles": [
-    "Softwares open-sources/Sem título.md",
+    "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
     "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
+    "Softwares open-sources/Sem título.md",
     "Softwares open-sources/Protocolo Matrix",
     "Estudo de caso/SolarWinds.md",
     "Softwares open-sources",
@@ -256,7 +257,6 @@
     "Anexos/PNG e JPG/indenti_disp_pc.png",
     "Anexos/PNG e JPG/indenti_disp.png",
     "Git e GitHub/aqui.md",
-    "REST API do Syncthing.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
