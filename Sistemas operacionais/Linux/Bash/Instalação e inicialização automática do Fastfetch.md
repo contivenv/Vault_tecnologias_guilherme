@@ -28,6 +28,53 @@ echo $SHELL
 3. Após abrir, adicione na última linha de comando o nome `fastfetch`.
 4. Salve o arquivo que acabou de edita com o comando `Ctrl + O` se estiver usando `nano`.
 5. A inicialização automática irá ocorrer agora.![[Pasted image 20251125095415.png]]
+
+### **Bônus**
+
+Em abientes somente com terminal (CLI), execute os seguintes comandos para que ele seja exibido a cada limpeza de terminal com o coamndo Ctrl + L:
+
+**1.Instalar o fastfetch: Pule este passo se o pacote já estiver instalado.
+
+
+```bash
+sudo apt update && sudo apt install fastfetch -y
+```
+
+**2.Editar o arquivo de configuração do Bash:**
+
+Abra o arquivo `.bashrc` usando o editor de texto `nano`:
+
+```bash
+nano ~/.bashrc
+```
+
+**3.Adicionar os comandos de automação:**
+
+Navegue até a última linha do arquivo (usando a seta para baixo) e adicione o seguinte bloco:
+
+```bash
+# (Opcional) Executa o fastfetch assim que você fizer login na máquina
+fastfetch
+
+# Executa o fastfetch ao digitar o comando 'clear'
+alias clear='command clear && fastfetch'
+
+# Executa o fastfetch ao usar o atalho do teclado Ctrl+L
+bind -x '"\C-l": command clear; fastfetch'
+```
+
+**4.Salvar o arquivo e fechar o editor:**
+
+Pressione `Ctrl+O` e depois `Enter` para salvar as alterações. Em seguida, pressione `Ctrl+X` para sair do `nano`.
+
+**5.Aplicar as alterações:**
+
+Recarregue as configurações do Bash para que os atalhos e comandos funcionem imediatamente, sem precisar reiniciar a máquina virtual:
+
+```bash
+source ~/.bashrc
+```
+
 ### **Fontes**
 
 **Fastfetch**; acessado na data de 25/11/2025 em https://github.com/fastfetch-cli/fastfetch

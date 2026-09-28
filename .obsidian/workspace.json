@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
-                "mode": "source",
+                "file": "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Implementação do Matrix Synapse local"
+              "title": "Instalação e inicialização automática do Fastfetch"
             }
           }
         ],
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+                "file": "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -222,8 +222,12 @@
   },
   "active": "b08f11e6c5e984e7",
   "lastOpenFiles": [
-    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
+    "Sistemas operacionais/Linux/Permissões/Colocando usuário padrão dentro do grupo de sudo.md",
+    "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+    "Sistemas operacionais/Linux/Permissões",
     "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+    "Anexos/PNG e JPG/Pasted image 20260928114159.png",
+    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
     "Softwares open-sources/Sem título.md",
     "Softwares open-sources/Protocolo Matrix",
     "Estudo de caso/SolarWinds.md",
@@ -249,24 +253,20 @@
     "Cabeamento de redes/Fibra óptica.md",
     "Cabeamento de redes/Cabo coaxial.md",
     "WhatsApp - backup local/restore_whatsapp.sh.md",
-    "WhatsApp - backup local/backup_whatsapp.sh.md",
     "Anexos/PNG e JPG/Pasted image 20260923153542.png",
     "Anexos/PNG e JPG/Pasted image 20260923153636.png",
     "Anexos/PNG e JPG/Pasted image 20260923153621.png",
     "Anexos/PNG e JPG/sinc_tipo.jpeg",
     "Anexos/PNG e JPG/indenti_disp_pc.png",
     "Anexos/PNG e JPG/indenti_disp.png",
-    "Git e GitHub/aqui.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
     "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
-    "CURSO - Ninja pfSense v2023/roque_senhas.kdbx",
     "Anexos/PNG e JPG/Pasted image 20260121110705.png",
     "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
-    "Anexos/PNG e JPG/Pasted image 20250321164055.png",
-    "Anexos/PNG e JPG/Pasted image 20251106162957.png"
+    "Anexos/PNG e JPG/Pasted image 20250321164055.png"
   ]
 }
