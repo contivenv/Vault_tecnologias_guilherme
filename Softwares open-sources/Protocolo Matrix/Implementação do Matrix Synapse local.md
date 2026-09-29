@@ -16,7 +16,7 @@ Em primeiro lugar, precisamos antes de tudo ter um sistema operacional instalado
 Nesse caso, estaremos utilizando uma máquina virtual no ***Boxes*** que é o software de virtualização que já vem direto na instalação do Fedora Workstation como padrão. Você pode usar qualquer outro programa de virtualização como VirtualBox, o próprio KVM do Linux que é nativo (mas vai precisar do virt-manager para facilitar as coisas caso nunca tenha tido a experiência de mexer e outra interface), VMWare, entre outros. E claro, existe a possibilidade de querer rodar isso em uma máquina dedicada para fazer esse tutorial, esse é somente nosso laboratório de testes para mostrarmos a vocês.
 
 ![[Pasted image 20260928114159.png|Sistema Debian 13 já instalado e pronto para uso no Boxes]]
-![[ssh para server virtualizado.png]]
+![[ssh para server virtualizado.png|ssh para servidor local virtualizado]]
 
 Para mais informações de forma detalhada e ajuda para usar o Boxes, consulte a [documentação oficial](https://help.gnome.org/gnome-boxes/index.html.pt_BR).
 
