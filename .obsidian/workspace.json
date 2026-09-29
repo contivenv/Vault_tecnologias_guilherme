@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syncthing/4. Configuração avançada da interface gráfica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Configuração avançada da interface gráfica"
-            }
-          },
-          {
-            "id": "b08f11e6c5e984e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Instalação e inicialização automática do Fastfetch"
+              "title": "Implementação do Matrix Synapse local"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,19 +205,29 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "b08f11e6c5e984e7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Permissões/Colocando usuário padrão dentro do grupo de sudo.md",
+    "ssh para server virtualizado.png",
+    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
+    "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
+    "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
+    "Sistemas operacionais/Linux/ssh/Como instalar e habilitar o serviço de ssh no Debian.md",
+    "Anexos/PNG e JPG/ssh para server virtualizado.png",
+    "ssh para server virtualizado 1.png",
+    "Sistemas operacionais/Linux/Distros/Ubuntu Server/Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH.md",
+    "Sistemas operacionais/Linux/ssh",
+    "Softwares open-sources/Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
+    "Conceitos rede/O que é SSH.md",
+    "Sistemas operacionais/Linux/Bash/Comandos básicos.md",
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
+    "Sistemas operacionais/Linux/Permissões/Colocando usuário padrão dentro do grupo de sudo.md",
     "Sistemas operacionais/Linux/Permissões",
     "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
     "Anexos/PNG e JPG/Pasted image 20260928114159.png",
-    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
     "Softwares open-sources/Sem título.md",
     "Softwares open-sources/Protocolo Matrix",
     "Estudo de caso/SolarWinds.md",
     "Softwares open-sources",
-    "Softwares open-sources/Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
     "Estudo de caso",
     "Softwares open-sources/Syncthing/4. Configuração avançada da interface gráfica.md",
     "Softwares open-sources/Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
@@ -246,13 +241,6 @@
     "Protocolos de rede/NAT (Network Address Translation).md",
     "Protocolos de rede/5. Protocolo de rede e internet.md",
     "Protocolos de rede/6. Modelo OSI.md",
-    "Nextcloud/Tutorial de implementação.md",
-    "criptografia de transporte/comunicação.md",
-    "criptografia de transporte*/*comunicação.md",
-    "Cabeamento de redes/NIC.md",
-    "Cabeamento de redes/Fibra óptica.md",
-    "Cabeamento de redes/Cabo coaxial.md",
-    "WhatsApp - backup local/restore_whatsapp.sh.md",
     "Anexos/PNG e JPG/Pasted image 20260923153542.png",
     "Anexos/PNG e JPG/Pasted image 20260923153636.png",
     "Anexos/PNG e JPG/Pasted image 20260923153621.png",
@@ -264,9 +252,6 @@
     "Scrips",
     "Git e GitHub/Curso básico e rápido",
     "Git e GitHub",
-    "CURSO - Ninja pfSense v2023/SenhasTeste.kdbx",
-    "Anexos/PNG e JPG/Pasted image 20260121110705.png",
-    "Anexos/PNG e JPG/Captura de tela de 2025-11-05 11-41-01.png",
-    "Anexos/PNG e JPG/Pasted image 20250321164055.png"
+    "Anexos/PNG e JPG/Pasted image 20260121110705.png"
   ]
 }
