@@ -238,3 +238,6 @@ O assistente no terminal solicitará:
 3. Altere o endereço padrão (`matrix.org`) para o IP local do seu servidor: `[http://192.168.122.138:8008](http://192.168.122.138:8008)`
     
 4. Faça login usando as credenciais criadas no Passo 6.
+
+![[Captura de tela de 2026-10-01 00-12-21.png|acessando servidor local e usando nossas credenciais]]
+![[Pasted image 20261001001253.png|tela inicial do client Element no Fedora com nosso servidor local]]
