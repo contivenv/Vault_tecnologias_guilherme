@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -207,9 +207,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
-    "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
     "README.md",
+    "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
     "ssh para server virtualizado.png",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",

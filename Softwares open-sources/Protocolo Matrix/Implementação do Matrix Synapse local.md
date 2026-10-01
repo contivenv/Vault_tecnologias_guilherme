@@ -1,12 +1,21 @@
 ---
-tags: [cibersegurança, protocolos, comunicacao, matrix, descentralizacao]
+tags:
+  - cibersegurança
+  - self-hosted
+  - matrix
+  - synapse
+  - docker
+  - redes
+  - protocolos
+  - comunicação
+  - descentralização
 ---
 ### Requisitos básicos para o funcionamento do Synapse
 
 Iremos precisar de:
 
 - Uma máquina virtual ou física para a instalação do sistema operacional
-- Instalação do Docker e seus plugins para funcionar
+- Instalação do Docker e seus plugins para funcionar.
 - Configurações de arquivos via terminal dentro do nosso sistema.
 
 ### Local da instalação
@@ -97,3 +106,104 @@ Este comando baixa uma imagem de teste e a executa em um contêiner. Quando o co
 ## Atualizar o Docker Engine
 
 Para atualizar o Docker Engine, basta rodar o `sudo apt update` e seguir o **Passo 2** das instruções de instalação, escolhendo a nova versão que deseja instalar
+
+---
+### Colocando a mão na massa
+
+Agora com os pré requisitos feitos, vamos agora começar a passar os comandos ao nosso terminal para começar a realizar as configurações iniciais do Synapse no nosso servidor local.
+
+Markdown
+
+````
+---
+tags:
+  - self-hosted
+  - matrix
+  - synapse
+  - docker
+  - redes
+---
+
+# Como auto-hospedar um servidor Matrix local
+
+Para auto-hospedar um servidor Matrix local, o método mais prático é utilizar o Docker e o Matrix Synapse (o servidor de referência oficial) junto com o Docker Compose.
+
+## O que você vai precisar
+
+- Um computador ou mini PC (como um Raspberry Pi ou servidor dedicado) rodando Linux.
+- O **Docker** e o **Docker Compose** instalados.
+- Um domínio ou subdomínio (ex: `https://seudominio.com`) apontando para o seu IP (ou um IP local, se for apenas para a rede interna).
+
+---
+
+## Passo a passo para a instalação
+
+### 1. Criar a pasta do projeto
+Abra o terminal do seu servidor e crie um diretório para organizar os arquivos do Matrix:
+
+```bash
+mkdir -p ~/matrix-synapse
+cd ~/matrix-synapse
+````
+
+### 2. Criar o arquivo de configuração inicial
+
+Gere o arquivo de configuração padrão do Synapse rodando o container em modo de geração:
+
+```bash
+docker run -it --rm \
+  -v ~/matrix-synapse:/data \
+  -e SYNAPSE_SERVER_NAME=seudominio.com \
+  -e SYNAPSE_REPORT_STATS=no \
+  matrixdotorg/synapse:latest generate
+```
+
+> [!info] Dica de Configuração Substitua `seudominio.com` pelo seu domínio configurado ou endereço de IP local.
+
+### 3. Criar o arquivo docker-compose.yml
+
+Crie um arquivo chamado `docker-compose.yml` na mesma pasta com o seguinte conteúdo básico:
+
+```yaml
+version: '3'
+services:
+  synapse:
+    image: matrixdotorg/synapse:latest
+    container_name: matrix-synapse
+    restart: unless-stopped
+    ports:
+      - 8008:8008
+    volumes:
+      - ~/matrix-synapse:/data
+    environment:
+      - UID=1000
+      - GID=1000
+```
+
+### 4. Iniciar o servidor
+
+Execute o container em segundo plano:
+
+Bash
+
+```
+docker compose up -d
+```
+
+### 5. Criar um usuário administrador
+
+Com o servidor rodando, crie a sua conta de administrador executando:
+
+Bash
+
+```
+docker exec -it matrix-synapse register_new_matrix_user \
+  -c /data/homeserver.yaml \
+  http://localhost:8008
+```
+
+> [!tip] Próximos Passos Siga as instruções no terminal para definir o nome de usuário, a senha e confirmar se a conta terá privilégios de administrador.
+
+### 6. Conectar um cliente
+
+Baixe um aplicativo cliente compatível com o Matrix, como o **Element** (disponível para celular, computador ou navegador). Na tela de login, mude o campo do servidor (_homeserver_) para o endereço do seu servidor local (ex: `http://192.168.X.X:8008` ou o seu domínio configurado com HTTPS via proxy reverso) e entre com a sua nova conta.
