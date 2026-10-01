@@ -70,4 +70,4 @@ ssh -p porta usuario@ip_do_servidor
 
 - **Insira a senha**: Digite a senha do usuário remoto. Por segurança, os caracteres não aparecerão na tela enquanto você digita. Pressione **Enter** ao terminar.
 
-- **Encerrar a sessão**: Para sair do servidor remoto e voltar ao seu computador local, digite `exit`.![[ssh para server virtualizado.png]]
+- **Encerrar a sessão**: Para sair do servidor remoto e voltar ao seu computador local, digite `exit`.![[ssh para server virtualizado 1.png]]
