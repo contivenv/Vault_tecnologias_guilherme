@@ -15,7 +15,8 @@ tags:
 Iremos precisar de:
 
 - Uma máquina virtual ou física para a instalação do sistema operacional
-- Instalação do Docker e seus plugins para funcionar.
+- Instalação do [Docker](https://www.docker.com/) e seus plugins para funcionar.
+- Um banco de dados (de preferência [PostgreSQL](https://www.postgresql.org/))
 - Configurações de arquivos via terminal dentro do nosso sistema.
 
 ### Local da instalação
