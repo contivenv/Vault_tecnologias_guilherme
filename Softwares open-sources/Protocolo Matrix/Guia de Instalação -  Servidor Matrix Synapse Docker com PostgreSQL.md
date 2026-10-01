@@ -112,98 +112,129 @@ Para atualizar o Docker Engine, basta rodar o `sudo apt update` e seguir o **Pas
 
 Agora com os pré requisitos feitos, vamos agora começar a passar os comandos ao nosso terminal para começar a realizar as configurações iniciais do Synapse no nosso servidor local.
 
-Markdown
+**Contexto do ambiente até agora:**
 
-````
----
-tags:
-  - self-hosted
-  - matrix
-  - synapse
-  - docker
-  - redes
----
+- **Sistema Operacional:** Debian 13 (Trixie) virtualizado via Fedora Boxes
+    
+- **IP da Máquina Virtual:** `192.168.122.138`
+    
+- **Dependências:** Docker instalado, acesso via SSH
+    
 
-# Como auto-hospedar um servidor Matrix local
+## Passo 1: Criar o diretório de persistência de dados
 
-Para auto-hospedar um servidor Matrix local, o método mais prático é utilizar o Docker e o Matrix Synapse (o servidor de referência oficial) junto com o Docker Compose.
-
-## O que você vai precisar
-
-- Um computador ou mini PC (como um Raspberry Pi ou servidor dedicado) rodando Linux.
-- O **Docker** e o **Docker Compose** instalados.
-- Um domínio ou subdomínio (ex: `https://seudominio.com`) apontando para o seu IP (ou um IP local, se for apenas para a rede interna).
-
----
-
-## Passo a passo para a instalação
-
-### 1. Criar a pasta do projeto
-Abra o terminal do seu servidor e crie um diretório para organizar os arquivos do Matrix:
+O Synapse precisa de um diretório persistente no host para armazenar o arquivo de configuração, chaves e arquivos de mídia.
 
 ```bash
-mkdir -p ~/matrix-synapse
-cd ~/matrix-synapse
-````
-
-### 2. Criar o arquivo de configuração inicial
-
-Gere o arquivo de configuração padrão do Synapse rodando o container em modo de geração:
-
-```bash
-docker run -it --rm \
-  -v ~/matrix-synapse:/data \
-  -e SYNAPSE_SERVER_NAME=seudominio.com \
-  -e SYNAPSE_REPORT_STATS=no \
-  matrixdotorg/synapse:latest generate
+mkdir -p ~/synapse/data
 ```
 
-> [!info] Dica de Configuração Substitua `seudominio.com` pelo seu domínio configurado ou endereço de IP local.
+## Passo 2: Gerar os arquivos de configuração e chaves
 
-### 3. Criar o arquivo docker-compose.yml
+Antes de subir o serviço, é necessário gerar o `homeserver.yaml` e as chaves de assinatura do servidor. _Nota: O nome do servidor (`SYNAPSE_SERVER_NAME`) deve ser o IP ou domínio definitivo, pois não pode ser alterado posteriormente e define a estrutura dos usuários (ex: `@usuario:192.168.122.138`)_.
 
-Crie um arquivo chamado `docker-compose.yml` na mesma pasta com o seguinte conteúdo básico:
+```bash
+sudo docker run -it --rm \
+    -v ~/synapse/data:/data \
+    -e SYNAPSE_SERVER_NAME=192.168.122.138 \
+    -e SYNAPSE_REPORT_STATS=no \
+    matrixdotorg/synapse:latest generate
+```
+
+## Passo 3: Iniciar o Banco de Dados (PostgreSQL)
+
+O Synapse utiliza SQLite por padrão, mas ele tem sérios problemas de performance em salas grandes. O recomendado é usar o PostgreSQL.
+
+Inicie o container do Postgres:
+
+```bash
+sudo docker run -d --name synapse-postgres \
+    -e POSTGRES_PASSWORD=mysecretpassword \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_DB=postgres \
+    -p 5432:5432 \
+    postgres:14
+```
+
+## Passo 4: Configurar o Synapse para usar o PostgreSQL
+
+Edite o arquivo de configuração recém-gerado:
+
+```bash
+nano ~/synapse/data/homeserver.yaml
+```
+
+Encontre a seção `database:` (que estará preenchida com configurações do `sqlite3`) e substitua **todo o bloco** pelo conteúdo abaixo, respeitando a indentação.
+
+> **Importante:** A flag `allow_unsafe_locale: true` é obrigatória nesse ambiente de testes. O container padrão do Postgres inicia com o locale do sistema (`en_US.utf8`), mas o Synapse exige o locale `C` por segurança de codificação UTF-8. Essa flag desabilita a trava que impede a inicialização do Synapse.
 
 ```yaml
-version: '3'
-services:
-  synapse:
-    image: matrixdotorg/synapse:latest
-    container_name: matrix-synapse
-    restart: unless-stopped
-    ports:
-      - 8008:8008
-    volumes:
-      - ~/matrix-synapse:/data
-    environment:
-      - UID=1000
-      - GID=1000
+database:
+  name: psycopg2
+  allow_unsafe_locale: true
+  args:
+    user: postgres
+    password: mysecretpassword
+    dbname: postgres
+    host: 192.168.122.138
+    port: 5432
+    cp_min: 5
+    cp_max: 10
 ```
 
-### 4. Iniciar o servidor
+Salve o arquivo (`Ctrl+O`, `Enter`) e saia (`Ctrl+X`).
 
-Execute o container em segundo plano:
+## Passo 5: Iniciar o servidor Synapse
 
-Bash
+Inicie o container principal do Synapse mapeando a porta HTTP padrão `8008`:
 
-```
-docker compose up -d
-```
-
-### 5. Criar um usuário administrador
-
-Com o servidor rodando, crie a sua conta de administrador executando:
-
-Bash
-
-```
-docker exec -it matrix-synapse register_new_matrix_user \
-  -c /data/homeserver.yaml \
-  http://localhost:8008
+```bash
+sudo docker run -d --name synapse \
+    -p 8008:8008 \
+    -v ~/synapse/data:/data \
+    matrixdotorg/synapse:latest
 ```
 
-> [!tip] Próximos Passos Siga as instruções no terminal para definir o nome de usuário, a senha e confirmar se a conta terá privilégios de administrador.
+_Nota: Aguarde de 15 a 30 segundos após executar este comando. O Synapse estará criando dezenas de tabelas vazias no PostgreSQL antes de liberar o acesso à rede._
 
-### 6. Conectar um cliente
+### Teste de Conexão
 
-Baixe um aplicativo cliente compatível com o Matrix, como o **Element** (disponível para celular, computador ou navegador). Na tela de login, mude o campo do servidor (_homeserver_) para o endereço do seu servidor local (ex: `http://192.168.X.X:8008` ou o seu domínio configurado com HTTPS via proxy reverso) e entre com a sua nova conta.
+Verifique se a API subiu corretamente:
+
+```bash
+curl http://localhost:8008/_matrix/client/versions
+```
+
+_(O retorno deve ser um objeto JSON detalhando as versões da API Matrix suportadas)._
+
+## Passo 6: Registrar o primeiro usuário administrador
+
+Com o servidor rodando, crie a sua conta administrativa utilizando o script interno do Synapse (`register_new_matrix_user`).
+
+Execute dentro do container:
+
+
+```bash
+sudo docker exec -it synapse register_new_matrix_user -c /data/homeserver.yaml http://localhost:8008
+```
+
+O assistente no terminal solicitará:
+
+1. **New user localpart:** (seu nome de usuário, ex: `admin`)
+    
+2. **Password:** (sua senha)
+    
+3. **Confirm password:** (repita a senha)
+    
+4. **Make admin [no]:** Digite `yes` e pressione Enter.
+    
+
+## Passo 7: Acessando via Cliente (Element)
+
+1. Baixe e abra um cliente Matrix (como o aplicativo Element Web ou Desktop).
+    
+2. Na tela de login, selecione a opção para **Editar** ou **Mudar de provedor** (Homeserver).
+    
+3. Altere o endereço padrão (`matrix.org`) para o IP local do seu servidor: `[http://192.168.122.138:8008](http://192.168.122.138:8008)`
+    
+4. Faça login usando as credenciais criadas no Passo 6.

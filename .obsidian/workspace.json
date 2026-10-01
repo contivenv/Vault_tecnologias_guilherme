@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+                "file": "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Implementação do Matrix Synapse local"
+              "title": "Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+                "file": "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,7 +208,7 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "README.md",
-    "Softwares open-sources/Protocolo Matrix/Implementação do Matrix Synapse local.md",
+    "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
     "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
     "ssh para server virtualizado.png",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
