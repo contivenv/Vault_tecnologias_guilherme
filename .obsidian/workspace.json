@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -207,12 +207,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Softwares open-sources/Protocolo Matrix/Clients para se utilizar na Matrix.md",
+    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix - O que é.md",
+    "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
     "Anexos/PNG e JPG/Pasted image 20261001001253.png",
     "README.md",
     "Anexos/PNG e JPG/Captura de tela de 2026-10-01 00-12-21.png",
     "Anexos/PNG e JPG/ssh para server virtualizado 1.png",
-    "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
-    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
     "Sistemas operacionais/Linux/ssh/Como instalar e habilitar o serviço de ssh no Debian.md",

@@ -242,3 +242,11 @@ O assistente no terminal solicitará:
 
 ![[Captura de tela de 2026-10-01 00-12-21.png|acessando servidor local e usando nossas credenciais]]
 ![[Pasted image 20261001001253.png|tela inicial do client Element no Fedora com nosso servidor local]]
+
+### Fontes
+
+[Synapse documentação oficial](https://element-hq.github.io/synapse/latest/welcome_and_overview.html)
+
+[Docker documentação oficial para intalação usando pacote apt](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+
+[Installing Element Server Suite](https://docs.element.io/latest/element-server-suite-classic/introduction-to-element-server-suite/)

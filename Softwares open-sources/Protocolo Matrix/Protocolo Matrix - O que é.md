@@ -60,3 +60,13 @@ Se você deseja iniciar agora, siga este fluxo prático:
 
 > [!tip] Dica
 > Caso mude de ideia e queira hospedar seu próprio servidor no futuro, o Matrix permite que especialistas configurem provedores próprios. No entanto, fique atento: embora seja possível migrar a propriedade de salas de chat usando ferramentas de terceiros, migrar Mensagens Diretas (DMs) do provedor original para o novo ainda é um processo trabalhoso.
+
+### Fontes
+
+[Matrix for Instant Messaging](https://matrix.org/docs/chat_basics/matrix-for-im/)
+
+[Matrix hits 115 million users, as founders look to add OpenID Connect, enterprise features](https://www.thestack.technology/matrix-protocol-users-2023/)
+
+[Matrix is quietly becoming the chat layer for governments chasing digital sovereignty](https://www.theregister.com/on-prem/2026/02/09/matrix-messaging-gaining-ground-in-government-it/4663932)
+
+['Matrix' Network Hits 60 Million Users, Improving the Demand for Decentralized Communication](https://itsfoss.com/news/matrix-sixty-million-users/)
