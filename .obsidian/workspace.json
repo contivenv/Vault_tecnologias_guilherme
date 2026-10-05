@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
+                "file": "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL"
+              "title": "1. Protocolo Matrix - O que é"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
+                "file": "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,18 +207,23 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Softwares open-sources/Protocolo Matrix/Clients para se utilizar na Matrix.md",
-    "Softwares open-sources/Protocolo Matrix/Protocolo Matrix - O que é.md",
-    "Softwares open-sources/Protocolo Matrix/Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
-    "Anexos/PNG e JPG/Pasted image 20261001001253.png",
-    "README.md",
-    "Anexos/PNG e JPG/Captura de tela de 2026-10-01 00-12-21.png",
-    "Anexos/PNG e JPG/ssh para server virtualizado 1.png",
+    "Softwares open-sources/Protocolo Matrix/2. Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
+    "Softwares open-sources/Protocolo Matrix/3. Clientes do Protocolo Matrix - Versatilidade e Funcionamento.md",
+    "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
+    "Anexos/PNG e JPG/application.png",
+    "Anexos/PNG e JPG/Pasted image 20261005192920.png",
+    "Anexos/PNG e JPG/reXDIlXtderWuQKbpDlAoVyl.png",
+    "Anexos/PNG e JPG/Fractal-Matrix.png",
+    "Anexos/PNG e JPG/im.nheko 1.png",
+    "Anexos/PNG e JPG/im.nheko.png",
+    "Anexos/PNG e JPG/image 1.jpg",
+    "Anexos/PNG e JPG/unnamed1.png",
+    "Anexos/PNG e JPG/sddefault.jpg",
+    "Anexos/PNG e JPG/im-element-pt.jpg",
+    "Anexos/PNG e JPG/README.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
     "Sistemas operacionais/Linux/ssh/Como instalar e habilitar o serviço de ssh no Debian.md",
-    "Anexos/PNG e JPG/ssh para server virtualizado.png",
-    "ssh para server virtualizado 1.png",
     "Sistemas operacionais/Linux/Distros/Ubuntu Server/Transferência de arquivos de máquinas para servidores linux baseados em Debian via SSH.md",
     "Sistemas operacionais/Linux/ssh",
     "Softwares open-sources/Syncthing/Syncthing - O que é e suas principais funcionalidades.md",
@@ -227,7 +232,6 @@
     "Sistemas operacionais/Linux/Bash/Instalação e inicialização automática do Fastfetch.md",
     "Sistemas operacionais/Linux/Permissões/Colocando usuário padrão dentro do grupo de sudo.md",
     "Sistemas operacionais/Linux/Permissões",
-    "Anexos/PNG e JPG/Pasted image 20260928114159.png",
     "Softwares open-sources/Sem título.md",
     "Softwares open-sources/Protocolo Matrix",
     "Estudo de caso/SolarWinds.md",
@@ -243,11 +247,6 @@
     "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
     "Protocolos de rede/MPLS (Multiprotocol Label Switching).md",
     "Protocolos de rede/NAT (Network Address Translation).md",
-    "Protocolos de rede/5. Protocolo de rede e internet.md",
-    "Anexos/PNG e JPG/Pasted image 20260923153542.png",
-    "Anexos/PNG e JPG/Pasted image 20260923153636.png",
-    "Anexos/PNG e JPG/Pasted image 20260923153621.png",
-    "Anexos/PNG e JPG/sinc_tipo.jpeg",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
