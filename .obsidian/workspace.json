@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Estudo de caso/The Fish Tank Heist.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -207,6 +207,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudo de caso/SolarWinds.md",
     "Estudo de caso/The Fish Tank Heist.md",
     "Estudo de caso/The Fish Tank Heist.md.md",
     "Estudo de caso/o_assalto_do_aqu_rio_the_fish_tank_heist.md",
@@ -237,7 +238,6 @@
     "Sistemas operacionais/Linux/Permissões",
     "Softwares open-sources/Sem título.md",
     "Softwares open-sources/Protocolo Matrix",
-    "Estudo de caso/SolarWinds.md",
     "Softwares open-sources",
     "Estudo de caso",
     "Softwares open-sources/Syncthing/4. Configuração avançada da interface gráfica.md",

@@ -31,7 +31,8 @@ Para evitar que "termômetros" vazem dados críticos, empresas devem adotar as s
 
 ---
 
-### 📎 Referências e Documentos Relacionados
-- Arquivo interno: [[The Fish Tank Heist - ataque hacker ao casino]]
+### Fontes
+
 - [Forbes: Criminals Hacked A Fish Tank To Steal Data From A Casino](https://www.forbes.com/sites/leemathews/2017/07/27/criminals-hacked-a-fish-tank-to-steal-data-from-a-casino/)
-- Pesquisa Acadêmica: *The hackers, the fish tank and the casino* - Lancaster University
+- [The hackers, the fish tank and the casino* - Lancaster University](https://www.lancaster.ac.uk/lums/business/business-insights/the-hackers-the-fish-tank-and-the-casino-how-smart-devices-could-be-a-hidden-flaw-in-your-businesss-cyber-security-measures)
+- [How a fish tank helped hack a casino](https://www.washingtonpost.com/news/innovations/wp/2017/07/21/how-a-fish-tank-helped-hack-a-casino/)
