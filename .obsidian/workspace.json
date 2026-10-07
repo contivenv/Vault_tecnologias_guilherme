@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudo de caso/The Fish Tank Heist.md",
+                "file": "Estudo de caso/SolarWinds.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Fish Tank Heist"
+              "title": "SolarWinds"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudo de caso/The Fish Tank Heist.md",
+                "file": "Estudo de caso/SolarWinds.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,8 +207,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Estudo de caso/SolarWinds.md",
     "Estudo de caso/The Fish Tank Heist.md",
+    "Estudo de caso/SolarWinds.md",
+    "Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png",
+    "Pasted image 20261007143523.png",
     "Estudo de caso/The Fish Tank Heist.md.md",
     "Estudo de caso/o_assalto_do_aqu_rio_the_fish_tank_heist.md",
     "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
@@ -222,8 +224,6 @@
     "Anexos/PNG e JPG/im.nheko.png",
     "Anexos/PNG e JPG/image 1.jpg",
     "Anexos/PNG e JPG/unnamed1.png",
-    "Anexos/PNG e JPG/sddefault.jpg",
-    "Anexos/PNG e JPG/im-element-pt.jpg",
     "Anexos/PNG e JPG/README.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
@@ -247,7 +247,6 @@
     "Softwares open-sources/Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
     "Softwares open-sources/Syncthing/1. Sincronização de arquivos via Syncthing.md",
     "Git e GitHub/Automação de git + ssh + github.md",
-    "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",

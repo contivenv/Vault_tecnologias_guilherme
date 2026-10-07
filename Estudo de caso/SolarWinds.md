@@ -13,7 +13,7 @@ tags:
 
 > [!warning] Resumo do Incidente
 > O ataque à SolarWinds foi uma violação de alto perfil que ocorreu no ano de 2020. Mais de 18.000 clientes da SolarWinds acabaram instalando atualizações que continham código malicioso. Atores APT (Ameaças Persistentes Avançadas) infiltraram-se na cadeia de suprimentos da SolarWinds e inseriram um backdoor no software chamado "Orion". 
-
+![[Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png]]
 ## O que foi o Ataque?
 
 O incidente da SolarWinds foi um ataque típico à cadeia de suprimentos. 
