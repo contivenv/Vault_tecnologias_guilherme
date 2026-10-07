@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
+                "file": "Estudo de caso/The Fish Tank Heist.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Protocolo Matrix - O que é"
+              "title": "The Fish Tank Heist"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
+                "file": "Estudo de caso/The Fish Tank Heist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,9 +207,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudo de caso/The Fish Tank Heist.md",
+    "Estudo de caso/The Fish Tank Heist.md.md",
+    "Estudo de caso/o_assalto_do_aqu_rio_the_fish_tank_heist.md",
+    "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
     "Softwares open-sources/Protocolo Matrix/2. Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
     "Softwares open-sources/Protocolo Matrix/3. Clientes do Protocolo Matrix - Versatilidade e Funcionamento.md",
-    "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
     "Anexos/PNG e JPG/application.png",
     "Anexos/PNG e JPG/Pasted image 20261005192920.png",
     "Anexos/PNG e JPG/reXDIlXtderWuQKbpDlAoVyl.png",
@@ -245,8 +248,6 @@
     "Softwares open-sources/Syncthing/1. Sincronização de arquivos via Syncthing.md",
     "Git e GitHub/Automação de git + ssh + github.md",
     "Git e GitHub/Automação git + github +ssh exclusivo e otimizado para Debian.md",
-    "Protocolos de rede/MPLS (Multiprotocol Label Switching).md",
-    "Protocolos de rede/NAT (Network Address Translation).md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
     "Scrips",
