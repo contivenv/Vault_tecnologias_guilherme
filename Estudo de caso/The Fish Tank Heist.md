@@ -1,9 +1,7 @@
 ---
 aliases: [Fish Tank Hack, Casino Fish Tank, Ataque ao Termômetro IoT]
 tags: [cibersegurança, iot, vulnerabilidade, estudo-de-caso, hacking]
-data_do_incidente: 2017
 ---
-
 # The Fish Tank Heist: Como um aquário comprometeu um cassino
 
 O **"Fish Tank Heist"** (O Assalto do Aquário) é um dos estudos de caso mais famosos e curiosos do mundo da Segurança da Informação, ocorrido em 2017. Ele ilustra perfeitamente os perigos ocultos trazidos pela Internet das Coisas (IoT) em redes corporativas.
