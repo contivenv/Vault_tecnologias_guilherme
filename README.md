@@ -1,0 +1,1 @@
+Os textos, diagramas e anotações em Markdown deste repositório estão licenciados sob a CC BY-SA 4.0. Os scripts, blocos de código e arquivos de configuração incluídos nas anotações estão disponíveis sob a Licença MIT, permitindo que você os copie e utilize livremente em seus próprios ambientes e servidores.
