@@ -205,8 +205,10 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "12179b4eabccc517",
+  "active": "070d43ad0f61b9f7",
   "lastOpenFiles": [
+    "README.md",
+    "LICENSE",
     "Softwares open-sources/Syncthing/4. Configuração avançada da interface gráfica.md",
     "Softwares open-sources/Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
     "Softwares open-sources/Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
@@ -250,7 +252,6 @@
     "Git e GitHub/Automação de git + ssh + github.md",
     "Sistemas operacionais/Linux/Gerenciamento de discos",
     "Sistemas operacionais/Linux/Distros",
-    "Scrips",
-    "Git e GitHub/Curso básico e rápido"
+    "Scrips"
   ]
 }
