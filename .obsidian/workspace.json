@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Softwares open-sources/Wine/3. Utilização e configurações básicas a avançadas.md",
+                "file": "Estudo de caso/Lazarus Group.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "3. Utilização e configurações básicas a avançadas"
+              "title": "Lazarus Group"
+            }
+          },
+          {
+            "id": "3cede6f9f07fb848",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudo de caso/WannaCry.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "WannaCry"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Softwares open-sources/Wine/3. Utilização e configurações básicas a avançadas.md",
+                "file": "Estudo de caso/WannaCry.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,17 +220,23 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3cede6f9f07fb848",
   "lastOpenFiles": [
-    "Softwares open-sources/Wine/2. Instalação e configuração de ambiente.md",
+    "Estudo de caso/EternalBlue.md",
+    "Estudo de caso/Lazarus Group.md",
+    "Estudo de caso/Shadow Brokers.md",
+    "Estudo de caso/WannaCry.md",
+    "Estudo de caso/NotPetya.md",
+    "Estudo de caso/Ransomware.md",
+    "README.md",
     "Softwares open-sources/Wine/3. Utilização e configurações básicas a avançadas.md",
+    "Softwares open-sources/Wine/2. Instalação e configuração de ambiente.md",
     "Protocolos de rede/6. Modelo OSI.md",
     "Protocolos de rede/5. Protocolo de rede e internet.md",
     "Nível de sofisticação/capacidade.md",
     "Nextcloud/Tutorial de implementação.md",
     "WhatsApp - backup local/restore_whatsapp.sh.md",
     "WhatsApp - backup local/backup_whatsapp.sh.md",
-    "README.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Evolução dos sistemas integrados de gestão.md",
     "Sistemas de Gestão de Negócios e Apoio a Decisão/Banco de dados.md",
     "Softwares open-sources/Wine/1. O que é o Wine.md",
@@ -231,10 +252,6 @@
     "Estudo de caso/SolarWinds.md",
     "Estudo de caso/The Fish Tank Heist.md",
     "Estudo de caso/The Fish Tank Heist.md.md",
-    "Estudo de caso/o_assalto_do_aqu_rio_the_fish_tank_heist.md",
-    "Softwares open-sources/Protocolo Matrix/1. Protocolo Matrix - O que é.md",
-    "Softwares open-sources/Protocolo Matrix/2. Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
-    "Softwares open-sources/Protocolo Matrix/3. Clientes do Protocolo Matrix - Versatilidade e Funcionamento.md",
     "Anexos/PNG e JPG/application.png",
     "Anexos/PNG e JPG/Pasted image 20261005192920.png",
     "Anexos/PNG e JPG/reXDIlXtderWuQKbpDlAoVyl.png",
@@ -243,8 +260,6 @@
     "Anexos/PNG e JPG/im.nheko.png",
     "Anexos/PNG e JPG/image 1.jpg",
     "Anexos/PNG e JPG/unnamed1.png",
-    "Anexos/PNG e JPG/README.md",
-    "Sistemas operacionais/Linux/ssh/Como instalar e habilitar o serviço de ssh no Debian.md",
     "Sistemas operacionais/Linux/ssh",
     "Sistemas operacionais/Linux/Permissões",
     "Softwares open-sources/Protocolo Matrix",
