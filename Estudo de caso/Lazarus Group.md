@@ -10,9 +10,7 @@ tags:
   - APT
   - grupo
   - coreia_do_norte
-criado: 2026-10-14
 ---
-
 # Lazarus Group
 
 ## Resumo
