@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudo de caso/WannaCry.md",
+                "file": "Estudo de caso/Lazarus Group.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "WannaCry"
+              "title": "Lazarus Group"
             }
           }
         ],
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudo de caso/WannaCry.md",
+                "file": "Estudo de caso/Lazarus Group.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,8 +224,10 @@
   "lastOpenFiles": [
     "Estudo de caso/EternalBlue.md",
     "Estudo de caso/Lazarus Group.md",
-    "Estudo de caso/Shadow Brokers.md",
+    "file:/home/guilhermect/Downloads/wannacry-notas/EternalBlue.md",
+    "Estudo de caso/SolarWinds.md",
     "Estudo de caso/WannaCry.md",
+    "Estudo de caso/Shadow Brokers.md",
     "Estudo de caso/NotPetya.md",
     "Estudo de caso/Ransomware.md",
     "README.md",
@@ -249,9 +251,7 @@
     "Softwares open-sources/Syncthing/1. Syncthing - O que é e suas principais funcionalidades.md",
     "Anexos/PNG e JPG/Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png",
     "Anexos/PNG e JPG/Pasted image 20261007143523.png",
-    "Estudo de caso/SolarWinds.md",
     "Estudo de caso/The Fish Tank Heist.md",
-    "Estudo de caso/The Fish Tank Heist.md.md",
     "Anexos/PNG e JPG/application.png",
     "Anexos/PNG e JPG/Pasted image 20261005192920.png",
     "Anexos/PNG e JPG/reXDIlXtderWuQKbpDlAoVyl.png",

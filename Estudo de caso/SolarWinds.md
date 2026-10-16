@@ -1,72 +1,76 @@
 ---
-tags:
-  - Solar_Winds
-  - ataque_de_cadeia_de_suprimentos
-  - CVE-2020-10148
-  - ciberseguranca
-  - supply-chain-attack
-  - solarwinds
-  - cve
-  - incidentes
+tags: [segurança, supply-chain, malware, incidentes, SolarWinds, APT]
+data-incidente: 2020-03-26
+tipo: ataque à cadeia de suprimentos (backdoor)
+cve: CVE-2020-10148
 ---
-# Estudo de Caso: Ataque à Cadeia de Suprimentos da SolarWinds (2020)
 
-> [!warning] Resumo do Incidente
-> O ataque à SolarWinds foi uma violação de alto perfil que ocorreu no ano de 2020. Mais de 18.000 clientes da SolarWinds acabaram instalando atualizações que continham código malicioso. Atores APT (Ameaças Persistentes Avançadas) infiltraram-se na cadeia de suprimentos da SolarWinds e inseriram um backdoor no software chamado "Orion". 
+## Resumo
+Ataque à cadeia de suprimentos de software descoberto em dezembro de 2020. Atores APT comprometeram o processo de build do **SolarWinds Orion** e inseriram o backdoor **Sunburst** em atualizações legítimas e assinadas. Mais de 18.000 clientes instalaram a atualização trojanizada, mas apenas cerca de uma centena de organizações foram de fato exploradas em uma segunda fase.
+
 ![[Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png]]
-## O que foi o Ataque?
 
-O incidente da SolarWinds foi um ataque típico à cadeia de suprimentos. 
-* Nesses tipos de invasões, os cibercriminosos não atacam diretamente as redes de suas vítimas. 
-* Em vez disso, eles penetram no sistema de um fornecedor terceirizado que tenha acesso aos ativos de rede de seus alvos.
-* Os invasores conseguiram modificar o código dentro do pacote de software da SolarWinds.
-* Eles convenceram as vítimas a instalá-lo como parte de uma atualização de software legítima.
-* O código malicioso inserido no Orion é chamado de "Sunburst".
-* Uma vez no sistema de uma vítima, o malware deu aos hackers acesso aos sistemas de TI dos clientes.
-* O backdoor inserido foi utilizado para roubar dados de clientes e, em seguida, espionar outras organizações.
-* Isso forneceu aos invasores acesso interno a organizações que, por si só, poderiam ser impenetráveis.
+## Como funcionava
+1. **Acesso inicial:** em setembro de 2019, os invasores entraram na rede da SolarWinds.
+2. **Teste:** em outubro de 2019, testaram a injeção de código no Orion.
+3. **Comprometimento do build:** em fevereiro de 2020, o código Sunburst foi inserido na DLL do Orion durante o processo de compilação.
+4. **Distribuição:** em 26/03/2020, a SolarWinds começou a distribuir as atualizações infectadas como patches legítimos.
+5. **Dormência e C2:** após instalado, o Sunburst ficava inativo por um período e então se comunicava via DNS/HTTPS com um domínio de comando e controle.
+6. **Segunda fase:** nos alvos de interesse, os invasores implantavam outras ferramentas, roubavam credenciais e se moviam lateralmente na rede e na nuvem.
 
-## Linha do Tempo do Ataque
+## Origem e atribuição
+* O malware foi inserido na cadeia de build, não explorando uma falha do produto.
+* EUA e Reino Unido atribuíram o ataque ao **APT29** (SVR, Rússia), também chamado de Cozy Bear ou UNC2452.
+* A descoberta foi feita pela **FireEye** em dezembro de 2020, ao investigar a própria invasão.
 
-O ataque não aconteceu de um dia para o outro e seguiu um cronograma de infiltração planejado:
-* **Setembro de 2019:** Os hackers conseguiram acessar a rede da SolarWinds.
-* **Outubro de 2019:** Os invasores começaram a testar a injeção de código no software Orion.
-* **Fevereiro de 2020:** Cerca de quatro meses após os testes, os cibercriminosos injetaram o código malicioso Sunburst no Orion.
-* **26 de Março de 2020:** A SolarWinds começou a distribuir as atualizações do Orion que continham o código malicioso dos hackers.
+## Vulnerabilidade associada (CVE-2020-10148)
+* Bypass de autenticação na API do Orion, por meio de parâmetros específicos em uma solicitação de URI.
+* Permite que um invasor não autenticado execute comandos de API.
+* **Não é o vetor do Sunburst.** Foi explorada em um incidente separado para instalar o malware **Supernova** (web shell).
 
-## O Impacto
+## Impacto
+* Custo médio de cerca de 11% da receita anual das empresas afetadas (14% nos EUA, 8,6% no Reino Unido).
+* Cerca de US$ 90 milhões em perdas seguradas, principalmente com resposta a incidentes e forense.
+* Custo médio de cerca de US$ 12 milhões por organização, por tempo de inatividade e atualizações de segurança.
+* O incidente expôs fraquezas na segurança da cadeia de suprimentos e reforçou padrões de gestão de risco de terceiros.
 
-O impacto financeiro e operacional da violação foi massivo a nível global.
-* O ataque custou às empresas afetadas, em média, 11% de sua receita anual.
-* Nos Estados Unidos, o impacto médio foi ainda mais dramático, representando 14% da receita anual das empresas, enquanto as empresas do Reino Unido sofreram perdas de 8,6%.
-* O ataque levou a cerca de 90 milhões de dólares em perdas seguradas, voltadas principalmente para resposta a incidentes e investigações forenses.
-* Organizações impactadas relataram custos médios de cerca de 12 milhões de dólares cada, impulsionados por tempo de inatividade e atualizações de segurança.
-* Este incidente evidenciou fraquezas na segurança da cadeia de suprimentos de software, levando as organizações a reforçarem padrões para gerenciamento de risco de terceiros.
+## Kill switch
+* Em dezembro de 2020, o domínio de C2 do Sunburst foi neutralizado (sinkhole) por FireEye, Microsoft e GoDaddy.
+* O sinkhole fez o malware se desativar nos hosts que consultavam o domínio.
+* Isso não removeu o acesso já obtido pelos invasores, que usavam outros implantes.
 
-## Vulnerabilidade Associada (CVE-2020-10148)
+## Principais vítimas
+* Agências dos EUA: Tesouro, Comércio, DHS, Departamento de Estado, entre outras.
+* Empresas de tecnologia: Microsoft, FireEye, Cisco, Intel, Nvidia.
+* Organizações que, por si só, poderiam ser difíceis de invadir, mas foram atingidas via fornecedor confiável.
 
-O ataque à SolarWinds foi associado à vulnerabilidade **CVE-2020-10148**. 
-* Esta é uma vulnerabilidade que permite que os invasores ignorem a autenticação da API.
-* A evasão de autenticação ocorre pela inclusão de parâmetros específicos em uma solicitação de URI.
-* Isso poderia permitir que um invasor não autenticado executasse comandos de API.
+## Indicadores úteis (IOCs)
+* DLL comprometida: `SolarWinds.Orion.Core.BusinessLayer.dll`
+* Versões afetadas do Orion: 2019.4 HF5, 2020.2 e 2020.2 HF1
+* Domínio de C2: `avsvmcloud[.]com`
+* Tráfego DNS anômalo saindo de servidores Orion
+* Criação de contas ou tokens SAML suspeitos no Active Directory
 
-## Mitigação e Defesa
+## Mitigação / lições aprendidas
+* Atualizar o Orion para a versão corrigida (2020.2.1 HF2 ou superior)
+* Isolar servidores Orion e bloquear acesso direto à internet
+* Redefinir credenciais, certificados e tokens potencialmente expostos
+* Auditar alterações no Active Directory
+* Centralizar logs em um SIEM para detectar mudanças de comportamento e movimentação incomum de dados
+* Reforçar prevenção contra perda de dados (DLP)
+* Realizar testes de penetração regulares
+* Proteger o pipeline de build (assinatura de código, SBOM, ambientes isolados)
+* Aplicar privilégio mínimo em contas de serviço de ferramentas de gestão
 
-A SolarWinds lançou patches de segurança para eliminar a possibilidade de o Orion ser usado para espalhar malware e para afetar diretamente a falha. 
-
-> [!info] Recomendações de Segurança
-> Se for determinado que sua infraestrutura tem exposição à SolarWinds, é sugerido confirmar se o software foi corrigido e atualizado para a versão mais recente.
-
-Para reforçar a segurança e detectar atividades anômalas ligadas a ataques à cadeia de suprimentos, as organizações podem seguir as seguintes recomendações:
-* Implementar o gerenciamento de logs e o gerenciamento de eventos e informações de segurança (SIEM).
-* Auditar as *Active Directories* em busca de alterações.
-* Realizar testes de penetração regulares.
-* Reforçar o seu sistema de prevenção contra perda de dados.
-* Ao alimentar logs do sistema no SIEM, ele pode identificar mudanças na forma como a rede opera e movimentações incomuns de dados.
-* O SIEM também ajuda a identificar comportamentos inseguros do usuário e a presença de usuários não autorizados.
+## Relacionado
+* Supply chain attack
+* Sunburst
+* Supernova
+* APT29
+* [[WannaCry]] (outro incidente de grande escala, mas com vetor diferente)
 
 ## Referências
-
-- [Ataque cibernético à Solar Winds](https://www.fortinet.com/br/resources/cyberglossary/solarwinds-cyber-attack)
-- [SolarWinds Orion (CVE-2020-10148)](https://www.ibm.com/docs/en/randori?topic=2022-solarwinds-orion-cve-2020-10148)
-- [SolarWinds Cyberattack Demands Significant Federal and Private-Sector Response (infographic)](https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic)
+* [Ataque cibernético à Solar Winds](https://www.fortinet.com/br/resources/cyberglossary/solarwinds-cyber-attack)
+* [SolarWinds Orion (CVE-2020-10148)](https://www.ibm.com/docs/en/randori?topic=2022-solarwinds-orion-cve-2020-10148)
+* [SolarWinds Cyberattack Demands Significant Federal and Private-Sector Response](https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic)
+* CISA Alert AA20-352A
