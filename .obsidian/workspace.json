@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudo de caso/EternalBlue.md",
+                "file": "Estudo de caso/NotPetya.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EternalBlue"
+              "title": "NotPetya"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudo de caso/EternalBlue.md",
+                "file": "Estudo de caso/NotPetya.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,10 +207,10 @@
   },
   "active": "3cede6f9f07fb848",
   "lastOpenFiles": [
+    "Estudo de caso/EternalBlue.md",
     "Estudo de caso/WannaCry.md",
     "Estudo de caso/Shadow Brokers.md",
     "Estudo de caso/Lazarus Group.md",
-    "Estudo de caso/EternalBlue.md",
     "file:/home/guilhermect/Downloads/wannacry-notas/EternalBlue.md",
     "Estudo de caso/SolarWinds.md",
     "Estudo de caso/NotPetya.md",
