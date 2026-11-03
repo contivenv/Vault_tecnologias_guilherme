@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Procedimentos de segurança/3-2-1.md",
+                "file": "Estudo de caso/DoublePulsar.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "3-2-1"
+              "title": "DoublePulsar"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "backup",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Procedimentos de segurança/3-2-1.md",
+                "file": "Estudo de caso/DoublePulsar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,35 +207,35 @@
   },
   "active": "d765520b9583415e",
   "lastOpenFiles": [
-    "Sistemas operacionais/Linux/Backups/Pika.md",
-    "Procedimentos de segurança/Sem título.md",
-    "Procedimentos de segurança/3-2-1.md",
-    "Procedimentos de segurança",
-    "Manuais e procedimentos/Instalação e configuração do RustDesk no Ubuntu server.md",
-    "Infraestrutura de redes/Fita Ultrium.md",
-    "LDAP/O que é.md",
-    "LDAP/Implementação no firewall pfSense.md",
-    "Interno/externo.md",
-    "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
-    "Infraestrutura de redes/Ferramentas de exploração/nmap/Conceitos básicos.md",
-    "Softwares open-sources/Protocolo Matrix/2. Guia de Instalação -  Servidor Matrix Synapse Docker com PostgreSQL.md",
-    "Softwares open-sources/Syncthing/1. Syncthing - O que é e suas principais funcionalidades.md",
-    "file:/home/guilhermect/Downloads/wannacry-notas/DoublePulsar.md",
-    "Estudo de caso/Ransomware.md",
-    "Estudo de caso/NotPetya.md",
-    "Softwares open-sources/Syncthing/4. Configuração avançada da interface gráfica.md",
-    "Softwares open-sources/Syncthing/3. Funcionalidades básicas do Syncthing na prática.md",
-    "Softwares open-sources/Syncthing/2. Instalação do Syncthing na sua máquina Windows e Linux.md",
-    "Softwares open-sources/Syncthing/1.1 Sincronização de arquivos via Syncthing.md",
     "Estudo de caso/Lazarus Group.md",
-    "Estudo de caso/Shadow Brokers.md",
-    "Estudo de caso/SolarWinds.md",
-    "Estudo de caso/The Fish Tank Heist.md",
+    "Estudo de caso/NotPetya.md",
+    "Estudo de caso/DoublePulsar.md",
+    "file:/home/guilhermect/Downloads/wannacry-notas/DoublePulsar.md",
     "Estudo de caso/WannaCry.md",
-    "Conceitos rede/Criptografia VPN.md",
-    "Cibersegurança/Fundamentos da segurança de rede.md",
+    "Estudo de caso/The Fish Tank Heist.md",
+    "Estudo de caso/SolarWinds.md",
+    "Estudo de caso/Shadow Brokers.md",
+    "Estudo de caso/Ransomware.md",
+    "Estudo de caso/EternalBlue.md",
+    "Git e GitHub/Automação de git + ssh + github.md",
+    "Git e GitHub/Curso básico e rápido/13. Chave SSH entre máquina e GitHub.md",
+    "Git e GitHub/Curso básico e rápido/3. Instalação e configuração.md",
+    "Git e GitHub/Curso básico e rápido/4. Criando repositórios.md",
+    "Git e GitHub/Curso básico e rápido/5. Colocando arquivos no staging.md",
+    "Git e GitHub/Curso básico e rápido/6. Fazendo commits.md",
+    "Git e GitHub/Curso básico e rápido/7. Desfazendo commit.md",
+    "Git e GitHub/Curso básico e rápido/8. Ignorando arquivos.md",
+    "Git e GitHub/Curso básico e rápido/9. Criando branches.md",
+    "Git e GitHub/Curso básico e rápido/10. Fundir branches.md",
+    "Git e GitHub/Curso básico e rápido/12. Iniciando com Github.md",
+    "Git e GitHub/Curso básico e rápido/1. Introdução - O que é git.md",
+    "Git e GitHub/aqui.md",
+    "Git e GitHub/Curso básico e rápido/2. Conceitos básicos do git.md",
+    "Procedimentos de segurança/3-2-1.md",
+    "Sistemas operacionais/Linux/Backups/Pika.md",
+    "Procedimentos de segurança",
+    "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.mdenc",
-    "Cabeamento de redes/Cabo coaxial.md",
     "LICENSE",
     "Softwares open-sources/Wine",
     "Anexos/PNG e JPG/Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png",
