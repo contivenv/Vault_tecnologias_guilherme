@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52d4f59aff8be7d3",
+        "id": "8c1623a59dfde539",
         "type": "tabs",
         "children": [
           {
-            "id": "d765520b9583415e",
+            "id": "9870c85b39067bc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudo de caso/DoublePulsar.md",
-                "mode": "preview",
-                "source": true
+                "file": "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "DoublePulsar"
+              "title": "Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real"
             }
           }
         ]
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudo de caso/DoublePulsar.md",
+                "file": "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,18 +205,25 @@
       "meld-encrypt:Decrypt at Cursor": false
     }
   },
-  "active": "d765520b9583415e",
+  "active": "9870c85b39067bc5",
   "lastOpenFiles": [
-    "Estudo de caso/Lazarus Group.md",
-    "Estudo de caso/NotPetya.md",
-    "Estudo de caso/DoublePulsar.md",
+    "Cibersegurança/Estudo de caso/DoublePulsar.md",
+    "Cibersegurança/Estudo de caso/WannaCry.md",
+    "Cibersegurança/Estudo de caso/Ciberguerra",
+    "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
+    "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.mdenc",
+    "Cibersegurança/Fundamentos da segurança de rede.md",
+    "Cibersegurança/Princípios da básicos de segurança.md",
+    "Cibersegurança/Sem título",
+    "README.md",
+    "Cibersegurança/Estudo de caso/Ransomware.md",
+    "Cibersegurança/Estudo de caso/Lazarus Group.md",
+    "Cibersegurança/Estudo de caso/NotPetya.md",
     "file:/home/guilhermect/Downloads/wannacry-notas/DoublePulsar.md",
-    "Estudo de caso/WannaCry.md",
-    "Estudo de caso/The Fish Tank Heist.md",
-    "Estudo de caso/SolarWinds.md",
-    "Estudo de caso/Shadow Brokers.md",
-    "Estudo de caso/Ransomware.md",
-    "Estudo de caso/EternalBlue.md",
+    "Cibersegurança/Estudo de caso/The Fish Tank Heist.md",
+    "Cibersegurança/Estudo de caso/SolarWinds.md",
+    "Cibersegurança/Estudo de caso/Shadow Brokers.md",
+    "Cibersegurança/Estudo de caso/EternalBlue.md",
     "Git e GitHub/Automação de git + ssh + github.md",
     "Git e GitHub/Curso básico e rápido/13. Chave SSH entre máquina e GitHub.md",
     "Git e GitHub/Curso básico e rápido/3. Instalação e configuração.md",
@@ -228,14 +235,8 @@
     "Git e GitHub/Curso básico e rápido/9. Criando branches.md",
     "Git e GitHub/Curso básico e rápido/10. Fundir branches.md",
     "Git e GitHub/Curso básico e rápido/12. Iniciando com Github.md",
-    "Git e GitHub/Curso básico e rápido/1. Introdução - O que é git.md",
-    "Git e GitHub/aqui.md",
-    "Git e GitHub/Curso básico e rápido/2. Conceitos básicos do git.md",
-    "Procedimentos de segurança/3-2-1.md",
-    "Sistemas operacionais/Linux/Backups/Pika.md",
     "Procedimentos de segurança",
     "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
-    "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.mdenc",
     "LICENSE",
     "Softwares open-sources/Wine",
     "Anexos/PNG e JPG/Screenshot 2026-10-07 at 14-36-04 Hackers da SolarWinds lançaram novo ataque segundo a Microsoft.png",
@@ -250,8 +251,6 @@
     "Anexos/PNG e JPG/unnamed1.png",
     "Sistemas operacionais/Linux/ssh",
     "Sistemas operacionais/Linux/Permissões",
-    "Softwares open-sources/Protocolo Matrix",
-    "Softwares open-sources",
-    "Estudo de caso"
+    "Softwares open-sources/Protocolo Matrix"
   ]
 }
