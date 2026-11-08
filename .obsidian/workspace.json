@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
-                "mode": "source",
+                "file": "Máquinas Virtuais/Configuração KVM + Virtual-manager..md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real"
+              "title": "Configuração KVM + Virtual-manager."
             }
           }
         ]
@@ -97,8 +97,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
+                "file": "Máquinas Virtuais/Configuração KVM + Virtual-manager..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -207,15 +207,21 @@
   },
   "active": "9870c85b39067bc5",
   "lastOpenFiles": [
+    "Manuais e procedimentos/Servidor Debian - Samba.md",
+    "Manuais e procedimentos/Problemas do chamado sobre o Java.md",
+    "Manuais e procedimentos/Como instalar o Active Directory no Windows 11.md",
+    "Manuais e procedimentos/Como configurar o Smart Connection no Obsidian.md",
+    "IA/Assistente pessoal e API ChatGPT.md",
+    "Git e GitHub/aqui.md",
+    "README.md",
+    "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
     "Cibersegurança/Estudo de caso/DoublePulsar.md",
     "Cibersegurança/Estudo de caso/WannaCry.md",
     "Cibersegurança/Estudo de caso/Ciberguerra",
-    "Cibersegurança/Estudo de caso/Ciberguerra/Ciberguerra Rússia × Ucrânia como o campo digital influencia o combate real.md",
     "Cibersegurança/Estudo de caso de melhoria em empresa fictícia.mdenc",
     "Cibersegurança/Fundamentos da segurança de rede.md",
     "Cibersegurança/Princípios da básicos de segurança.md",
     "Cibersegurança/Sem título",
-    "README.md",
     "Cibersegurança/Estudo de caso/Ransomware.md",
     "Cibersegurança/Estudo de caso/Lazarus Group.md",
     "Cibersegurança/Estudo de caso/NotPetya.md",
@@ -230,11 +236,6 @@
     "Git e GitHub/Curso básico e rápido/4. Criando repositórios.md",
     "Git e GitHub/Curso básico e rápido/5. Colocando arquivos no staging.md",
     "Git e GitHub/Curso básico e rápido/6. Fazendo commits.md",
-    "Git e GitHub/Curso básico e rápido/7. Desfazendo commit.md",
-    "Git e GitHub/Curso básico e rápido/8. Ignorando arquivos.md",
-    "Git e GitHub/Curso básico e rápido/9. Criando branches.md",
-    "Git e GitHub/Curso básico e rápido/10. Fundir branches.md",
-    "Git e GitHub/Curso básico e rápido/12. Iniciando com Github.md",
     "Procedimentos de segurança",
     "ideias de projetos/Login de computadores por autenticação no celular.mdenc",
     "LICENSE",
